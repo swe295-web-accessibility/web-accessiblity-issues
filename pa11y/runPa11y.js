@@ -19,10 +19,13 @@ const desktopEnv = {
         isMobile: false
     }
 }
+const urlToFileName = (url) => {
+    return url.replaceAll("://", "-").replaceAll("/", "-").replaceAll(".", "-");
+}
 
 async function runPa11y(url, isMobile) {
     try {
-        const replacedURL = url.replaceAll("://", "-").replace("/", "-").replaceAll(".", "-");
+        const replacedURL = urlToFileName(url);
         var screenshotPath = "";
         var csvFilePath = "";
         var viewport = null;
@@ -92,7 +95,7 @@ async function writeIOUCSV(targetPageURL, isIntersection, resultContainer, issue
     result.issues = issues;
 
     const csvResult = await csv.results(result);
-    const replacedURL = targetPageURL.replaceAll("://", "-").replace("/", "-").replaceAll(".", "-");
+    const replacedURL = urlToFileName(url);
     var filePath = ""
     if (isIntersection) {
         filePath = `csv/${replacedURL}-intersection.csv`

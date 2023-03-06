@@ -155,7 +155,9 @@ class AnalysisResult {
 async function main() {
     targetURLs = [
         "https://nytimes.com",
-        "https://usability.yale.edu/web-accessibility"
+        "https://usability.yale.edu/web-accessibility",
+        "https://www.adobe.com/",
+        "https://www.ikea.com"
     ]
     
     analysisResults = []

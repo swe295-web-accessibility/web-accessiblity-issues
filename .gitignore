@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 *.json
 *.csv
+temp/
+!url_list.json

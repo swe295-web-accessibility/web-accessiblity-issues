@@ -1,4 +1,7 @@
 import json
+from typing import Dict, List
+
+import pandas as pd
 
 import requests
 import base64
@@ -14,14 +17,74 @@ def test_api(url: str, path: str, strategy="mobile"):
         json.dump(r.json(), f, indent=4)
 
 
-def calculate_overall(path: str):
+def get_info_website(url: str):
+    print(f"===========================================" + "=" * (len(url) + 4))
+    print(f"|                                          " + " " * (len(url) + 3) + "|")
+    print(f"|   Summary of the accessibility issues in {url}   |")
+    print(f"|                                          " + " " * (len(url) + 3) + "|")
+    print(f"===========================================" + "=" * (len(url) + 4))
+    file_name = url.replace(".", "-").replace("://", "-").replace("/", "-")
+    test_api(url, f'./metadata/{file_name}-mobile_meta.json')
+    test_api(url, f'./metadata/{file_name}-desktop_meta.json', 'desktop')
+    calculate_overall(f'./metadata/{file_name}-mobile_meta.json', f'./processed/{file_name}-mobile_processed.json')
+    calculate_overall(f'./metadata/{file_name}-desktop_meta.json', f'./processed/{file_name}-desktop_processed.json')
+    # type,code,message,context,selector
+    print("Storing results as csv files")
+    json2csv(f'./processed/{file_name}-desktop_processed.json', f'./csv/{file_name}-desktop.csv')
+    json2csv(f'./processed/{file_name}-mobile_processed.json', f'./csv/{file_name}-mobile.csv')
+    print("Comparing Results")
+    compare_mobile_desktop(f'./csv/{file_name}-desktop.csv', f'./csv/{file_name}-mobile.csv', url)
+
+
+def json2csv(file_path: str, csv_file: str):
+    df_data = {
+        "type": [],
+        "code": [],
+        "message": [],
+        "context": [],
+        "selector": []
+    }
+    problem = json.load(open(file_path, 'r'))['problem']
+    for k, v in problem.items():
+        impact = k
+        for k1, v1 in v.items():
+            tags: List[str] = v1['details']['debugData']['tags']
+            except_set = {"ACT", "wcag2a", "wcag2aa", "section508"}
+            code = ','.join(c for c in tags if not (c.startswith("cat") or c in except_set))
+            items: List = v1['details']['items']
+            for it in items:
+                if it.__contains__('node'):
+                    df_data['type'].append(impact)
+                    df_data['code'].append(code)
+                    df_data['message'].append(it['node']['explanation'])
+                    df_data['context'].append(it['node']['snippet'])
+                    df_data['selector'].append(path2XPath(it['node']['path']))
+                else:
+                    ittems = it['subItems']['items']
+                    for i in ittems:
+                        df_data['type'].append(impact)
+                        df_data['code'].append(code)
+                        df_data['message'].append(i['relatedNode']['nodeLabel'])
+                        df_data['context'].append(i['relatedNode']['snippet'])
+                        df_data['selector'].append(path2XPath(it['relatedNode']['path']))
+
+    df = pd.DataFrame(df_data)
+    df.to_csv(csv_file, index=False)
+
+
+def calculate_overall(path: str, store_path: str):
     with open(path, 'r') as f:
         tmp = json.load(f)
     audits = tmp['lighthouseResult']['audits']
     score = float(tmp['lighthouseResult']['categories']["accessibility"]['score'])
+    audit_refs: List[Dict] = tmp['lighthouseResult']['categories']["accessibility"]['auditRefs']
+    audit_refs_dict = {}
+    for a in audit_refs:
+        audit_refs_dict[a['id']] = {'weight': a['weight'], 'group': a['group'] if a.__contains__('group') else None}
     not_applicable = {}
     manual = {}
     binary_0 = {}
+    fail = 0
     binary_1 = {}
     error = {}
 
@@ -30,6 +93,8 @@ def calculate_overall(path: str):
         if v['scoreDisplayMode'] == 'notApplicable':
             del v['scoreDisplayMode']
             del v['score']
+            v['weight'] = audit_refs_dict[v['id']]['weight']
+            v['group'] = audit_refs_dict[v['id']]['group']
             not_applicable[k] = v
         elif k == 'full-page-screenshot' and v['scoreDisplayMode'] == 'informative':
             data = None
@@ -37,9 +102,7 @@ def calculate_overall(path: str):
                 if k1 == 'details':
                     data = v1['screenshot']['data'].split("base64,")[1]
                     break
-            with open(
-                    f"./{hash(tmp['id'])}_{tmp['lighthouseResult']['configSettings']['emulatedFormFactor']}_screenshot.jpg",
-                    'wb') as fp:
+            with open(f"{store_path.replace('json', 'jpg').replace('processed', 'screenshot')}", 'wb') as fp:
                 fp.write(base64_to_image(data))
         elif v['scoreDisplayMode'] == "SCORE_DISPLAY_MODE_UNSPECIFIED":
             raise Exception("score unspecified")
@@ -48,20 +111,29 @@ def calculate_overall(path: str):
                 impact = v['details']['debugData']['impact']
                 del v['scoreDisplayMode']
                 del v['score']
+                v['weight'] = audit_refs_dict[v['id']]['weight']
+                v['group'] = audit_refs_dict[v['id']]['group']
                 if not binary_0.__contains__(impact):
                     binary_0[impact] = {}
                 binary_0[impact][k] = v
+                fail += 1
             elif v['score'] == 1:
                 del v['scoreDisplayMode']
                 del v['score']
+                v['weight'] = audit_refs_dict[v['id']]['weight']
+                v['group'] = audit_refs_dict[v['id']]['group']
                 binary_1[k] = v
         elif v['scoreDisplayMode'] == 'error':
             del v['scoreDisplayMode']
             del v['score']
+            v['weight'] = audit_refs_dict[v['id']]['weight']
+            v['group'] = audit_refs_dict[v['id']]['group']
             error[k] = v
         elif v['scoreDisplayMode'] == 'manual':
             del v['scoreDisplayMode']
             del v['score']
+            v['weight'] = audit_refs_dict[v['id']]['weight']
+            v['group'] = audit_refs_dict[v['id']]['group']
             manual[k] = v
         elif v['scoreDisplayMode'] == 'numeric':
             print('====numeric===')
@@ -75,26 +147,35 @@ def calculate_overall(path: str):
         "manual": manual,
         "not_applicable": not_applicable
     }
-    with open(f"./{hash(tmp['id'])}_{tmp['lighthouseResult']['configSettings']['emulatedFormFactor']}_meta_data.json",
-              'w') as fp:
+    print(f"{tmp['lighthouseResult']['configSettings']['formFactor']}: ")
+    print(f"\t\tPass: {len(binary_1)}")
+    print(f"\t\tFail: {fail}")
+    with open(store_path, 'w') as fp:
         json.dump(meta_data, fp, indent=4)
 
 
-def compare_mobile_desktop(pth1: str, pth2: str):
-    json1 = json.load(open(pth1))
-    json2 = json.load(open(pth2))
-    problem1 = json1['problem']
-    problem2 = json2['problem']
-    problem1_ = {}
-    problem2_ = {}
-    for k, v in problem1.items():
-        for k1, v1 in v.items():
-            problem1_[k1] = v1
-    for k, v in problem2.items():
-        for k1, v1 in v.items():
-            problem2_[k1] = v1
-    print(sorted(problem1_.items()))
-    print(sorted(problem2_.items()))
+def path2XPath(pth_str: str):
+    split_str = pth_str.split(",")
+    xpath = ""
+    for i in range(0, len(split_str), 2):
+        xpath = f'{xpath}/{split_str[i + 1]}[{split_str[i]}]'
+    return xpath.lower()
+
+
+def compare_mobile_desktop(mobile: str, desktop: str, url: str):
+    df1 = pd.read_csv(mobile)
+    df2 = pd.read_csv(desktop)
+    df_inter = pd.merge(df1, df2, how='inner', on=['type', 'code', 'message', 'context', 'selector'])
+    df_union = pd.concat([df1, df2])
+    print(f"====================================================")
+    print(f"|                                                  |")
+    print(f"|   Comparing results between Desktop and Mobile   |")
+    print(f"|                                                  |")
+    print(f"====================================================")
+    print(f"The number of the intersection: {df_inter.shape[0]}")
+    print(f"The number of the union: {df_union.shape[0]}")
+    print(f"The number of the problems that are unique in mobile: {df1.shape[0] - df_inter.shape[0]}")
+    print(f"The number of the problems that are unique in desktop: {df2.shape[0] - df_inter.shape[0]}")
 
 
 def base64_to_image(base64_string: str):
@@ -103,9 +184,7 @@ def base64_to_image(base64_string: str):
 
 
 if __name__ == '__main__':
-    # calculate_overall(r'D:\Projects\web-accessiblity-issues\googlelighthouse\adobe_google_lh_mobile.json')
-    # calculate_overall(r'D:\Projects\web-accessiblity-issues\googlelighthouse\adobe_google_lh_desktop.json')
-    # test_api("https://www.adobe.com/", "./adobe_google_lh_mobile.json")
-    # test_api("https://www.adobe.com/", "./adobe_google_lh_desktop.json", "desktop")
-    compare_mobile_desktop("./5662459776350690832_desktop_meta_data.json",
-                           "./5662459776350690832_mobile_meta_data.json")
+    with open("../url_list.json", 'r') as f:
+        url_list = json.load(f)
+    for u in url_list:
+        get_info_website(u)

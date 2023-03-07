@@ -44,16 +44,15 @@ async function runPa11y(url, isMobile) {
         const results = await pa11y(url, {
             viewport: viewport,
             screenCapture: screenshotPath,
-            includeNotices: true,
             includeWarnings: true,
-            wait: 1000,
             log: {
                 debug: console.log,
                 error: console.error,
                 info: console.info
             }
-        })
-        
+        });
+
+        results.issues.sort((a, b) => a.typeCode - b.typeCode);
         const csvResult = await csv.results(results);
 
         fs.writeFile(csvFilePath, csvResult, err => {
@@ -90,10 +89,9 @@ const union = (arr1, arr2) => {
     return onlyInArr1.concat(arr2);
 };
 
-async function writeIOUCSV(targetPageURL, isIntersection, resultContainer, issues) {
-    var result = resultContainer;
-    result.issues = issues;
+async function writeIOUCSV(targetPageURL, isIntersection, result) {
 
+    result.issues.sort((a, b) => a.typeCode - b.typeCode);
     const csvResult = await csv.results(result);
     const replacedURL = urlToFileName(url);
     var filePath = ""
@@ -114,14 +112,13 @@ async function run(url) {
     mobileResult = await runPa11y(url, true);
     desktopResult = await runPa11y(url, false);
 
-    let i = intersect(mobileResult.issues, desktopResult.issues);
-    let u = union(mobileResult.issues, desktopResult.issues);
-    
     let intersectionResult = Object.assign({}, mobileResult);
     let unionResult = Object.assign({}, mobileResult);
+    intersectionResult.issues = intersect(mobileResult.issues, desktopResult.issues);;
+    unionResult.issues = union(mobileResult.issues, desktopResult.issues);
 
-    await writeIOUCSV(url, true, intersectionResult, i);
-    await writeIOUCSV(url, false, unionResult, u);
+    await writeIOUCSV(url, true, intersectionResult);
+    await writeIOUCSV(url, false, unionResult);
 
     return [url, desktopResult, mobileResult, intersectionResult, unionResult];
 }
@@ -136,14 +133,16 @@ class AnalysisResult {
     }
 
     description() {
-        console.log("Analysis for ", this.url);
-        console.log("Number of Desktop issues : " + this.desktop.issues.length);
-        console.log("Number of Mobile issues : " + this.mobile.issues.length);
-        console.log("Number of intersection issues : " + this.intersection.issues.length);
-        console.log("Number of union issues : " + this.union.issues.length);
-        console.log("Number of issues that appear only on Desktop : " + (this.desktop.issues.length - this.intersection.issues.length));
-        console.log("Number of issues that appear only on Mobile : " + (this.mobile.issues.length - this.intersection.issues.length));
-        console.log("Intersection over Union : " + this.intersectionOverUnion());
+        return {
+            "URL": this.url,
+            "Number of Desktop issues" : this.desktop.issues.length,
+            "Number of Mobile issues" : this.mobile.issues.length,
+            "Number of Intersection issues" : this.intersection.issues.length,
+            "Number of Union issues" : this.union.issues.length,
+            "Number of issues that appear only on Desktop" : this.desktop.issues.length - this.intersection.issues.length,
+            "Number of issues that appear only on Mobile" : this.mobile.issues.length - this.intersection.issues.length,
+            "Intersection over Union" : this.intersectionOverUnion()
+        }
     }
 
     intersectionOverUnion() {
@@ -157,7 +156,12 @@ async function main() {
         "https://nytimes.com",
         "https://usability.yale.edu/web-accessibility",
         "https://www.adobe.com/",
-        "https://www.ikea.com"
+        "https://www.ikea.com",
+        "https://www.geeksforgeeks.org/",
+        "https://www.traderjoes.com/home",
+        "https://developer.mozilla.org/en-US/",
+        "https://www.etsy.com/",
+        "https://www.ics.uci.edu/"
     ]
     
     analysisResults = []
@@ -166,8 +170,18 @@ async function main() {
         analysisRes = new AnalysisResult(res[0], res[1], res[2], res[3], res[4]);
         analysisResults.push(analysisRes);
     }
+    
+    desc = []
     for (res of analysisResults) {
-        res.description();
-    }  
+        console.log(res.description());
+        desc.push(res.description());
+    } 
+
+    jsonDesc = JSON.stringify(desc, null, 4);
+    fs.writeFile("./report.json", jsonDesc, err => {
+        if (err) {
+            console.error(err);
+        }
+    });
 }
 main();

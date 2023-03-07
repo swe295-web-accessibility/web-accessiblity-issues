@@ -1,0 +1,92 @@
+[
+    {
+        "URL": "https://nytimes.com",
+        "Number of Desktop issues": 78,
+        "Number of Mobile issues": 30,
+        "Number of Intersection issues": 5,
+        "Number of Union issues": 103,
+        "Number of issues that appear only on Desktop": 73,
+        "Number of issues that appear only on Mobile": 25,
+        "Intersection over Union": 0.04854368932038835
+    },
+    {
+        "URL": "https://usability.yale.edu/web-accessibility",
+        "Number of Desktop issues": 25,
+        "Number of Mobile issues": 26,
+        "Number of Intersection issues": 25,
+        "Number of Union issues": 26,
+        "Number of issues that appear only on Desktop": 0,
+        "Number of issues that appear only on Mobile": 1,
+        "Intersection over Union": 0.9615384615384616
+    },
+    {
+        "URL": "https://www.adobe.com/",
+        "Number of Desktop issues": 131,
+        "Number of Mobile issues": 82,
+        "Number of Intersection issues": 51,
+        "Number of Union issues": 162,
+        "Number of issues that appear only on Desktop": 80,
+        "Number of issues that appear only on Mobile": 31,
+        "Intersection over Union": 0.3148148148148148
+    },
+    {
+        "URL": "https://www.ikea.com",
+        "Number of Desktop issues": 168,
+        "Number of Mobile issues": 167,
+        "Number of Intersection issues": 154,
+        "Number of Union issues": 181,
+        "Number of issues that appear only on Desktop": 14,
+        "Number of issues that appear only on Mobile": 13,
+        "Intersection over Union": 0.850828729281768
+    },
+    {
+        "URL": "https://www.geeksforgeeks.org/",
+        "Number of Desktop issues": 248,
+        "Number of Mobile issues": 247,
+        "Number of Intersection issues": 239,
+        "Number of Union issues": 256,
+        "Number of issues that appear only on Desktop": 9,
+        "Number of issues that appear only on Mobile": 8,
+        "Intersection over Union": 0.93359375
+    },
+    {
+        "URL": "https://www.traderjoes.com/home",
+        "Number of Desktop issues": 30,
+        "Number of Mobile issues": 33,
+        "Number of Intersection issues": 11,
+        "Number of Union issues": 52,
+        "Number of issues that appear only on Desktop": 19,
+        "Number of issues that appear only on Mobile": 22,
+        "Intersection over Union": 0.21153846153846154
+    },
+    {
+        "URL": "https://developer.mozilla.org/en-US/",
+        "Number of Desktop issues": 233,
+        "Number of Mobile issues": 232,
+        "Number of Intersection issues": 231,
+        "Number of Union issues": 234,
+        "Number of issues that appear only on Desktop": 2,
+        "Number of issues that appear only on Mobile": 1,
+        "Intersection over Union": 0.9871794871794872
+    },
+    {
+        "URL": "https://www.etsy.com/",
+        "Number of Desktop issues": 59,
+        "Number of Mobile issues": 61,
+        "Number of Intersection issues": 44,
+        "Number of Union issues": 76,
+        "Number of issues that appear only on Desktop": 15,
+        "Number of issues that appear only on Mobile": 17,
+        "Intersection over Union": 0.5789473684210527
+    },
+    {
+        "URL": "https://www.ics.uci.edu/",
+        "Number of Desktop issues": 37,
+        "Number of Mobile issues": 37,
+        "Number of Intersection issues": 36,
+        "Number of Union issues": 38,
+        "Number of issues that appear only on Desktop": 1,
+        "Number of issues that appear only on Mobile": 1,
+        "Intersection over Union": 0.9473684210526315
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "pa11y": "^6.2.3",
+    "pa11y-reporter-json": "^2.0.1"
+  },
+  "name": "pa11y",
+  "version": "1.0.0",
+  "main": "runPa11y.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

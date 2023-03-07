@@ -114,13 +114,39 @@ async function run(url) {
 
     let intersectionResult = Object.assign({}, mobileResult);
     let unionResult = Object.assign({}, mobileResult);
-    intersectionResult.issues = intersect(mobileResult.issues, desktopResult.issues);;
+    intersectionResult.issues = intersect(mobileResult.issues, desktopResult.issues);
     unionResult.issues = union(mobileResult.issues, desktopResult.issues);
 
     await writeIOUCSV(url, true, intersectionResult);
     await writeIOUCSV(url, false, unionResult);
 
     return [url, desktopResult, mobileResult, intersectionResult, unionResult];
+}
+
+class AnalysisResultContainer {
+    constructor(results) {
+        this.results = results
+    }
+
+    metadata() {
+        return {
+            "Desktop": desktopEnv,
+            "Mobile": iphone12PrEnv,
+            "Included Type": "Error, Warning"
+        }
+    }
+
+    jsonReport() {
+        var desc = []
+        for (res of this.results) {
+            desc.push(res.description());
+        }
+        let container = {
+            "Metadata": this.metadata(),
+            "Web Pages": desc
+        }
+        return JSON.stringify(container, null, 4);
+    }
 }
 
 class AnalysisResult {
@@ -161,7 +187,11 @@ async function main() {
         "https://www.traderjoes.com/home",
         "https://developer.mozilla.org/en-US/",
         "https://www.etsy.com/",
-        "https://www.ics.uci.edu/"
+        "https://www.ics.uci.edu/",
+        "https://www.united.com/en/us",
+        "https://www.expedia.com",
+        "https://www.wikipedia.org",
+        "https://www.costco.com/"
     ]
     
     analysisResults = []
@@ -171,14 +201,12 @@ async function main() {
         analysisResults.push(analysisRes);
     }
     
-    desc = []
     for (res of analysisResults) {
         console.log(res.description());
-        desc.push(res.description());
     } 
 
-    jsonDesc = JSON.stringify(desc, null, 4);
-    fs.writeFile("./report.json", jsonDesc, err => {
+    resultContainer = new AnalysisResultContainer(analysisResults);
+    fs.writeFile("./report.json", resultContainer.jsonReport(), err => {
         if (err) {
             console.error(err);
         }

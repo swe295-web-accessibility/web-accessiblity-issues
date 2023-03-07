@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 temp/
 !url_list.json
+.DS_Store
 !googlelighthouse/report-gl.json

@@ -13,8 +13,8 @@ def test_api(url: str, path: str, strategy="mobile"):
         headers={
             'content-type': 'application/json',
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78"})
-    with open(path, 'w') as f:
-        json.dump(r.json(), f, indent=4)
+    with open(path, 'w') as f1:
+        json.dump(r.json(), f1, indent=4)
 
 
 def get_info_website(url: str):
@@ -49,8 +49,9 @@ def json2csv(file_path: str, csv_file: str):
         impact = k
         for k1, v1 in v.items():
             tags: List[str] = v1['details']['debugData']['tags']
-            except_set = {"ACT", "wcag2a", "wcag2aa", "section508"}
-            code = ','.join(c for c in tags if not (c.startswith("cat") or c in except_set))
+            except_set = {"ACT", "wcag2a", "wcag2aa"}
+            code = ','.join(
+                c for c in tags if not (c.startswith("cat") or c.startswith("section508") or c in except_set))
             items: List = v1['details']['items']
             for it in items:
                 if it.__contains__('node'):
@@ -148,8 +149,9 @@ def calculate_overall(path: str, store_path: str):
         "not_applicable": not_applicable
     }
     print(f"{tmp['lighthouseResult']['configSettings']['formFactor']}: ")
-    print(f"\t\tPass: {len(binary_1)}")
-    print(f"\t\tFail: {fail}")
+    print(f"\t\tPass  : {len(binary_1)}")
+    print(f"\t\tFail  : {fail}")
+    print(f"\t\tManual: {len(manual)}")
     with open(store_path, 'w') as fp:
         json.dump(meta_data, fp, indent=4)
 
@@ -173,7 +175,9 @@ def compare_mobile_desktop(mobile: str, desktop: str, url: str):
     print(f"|                                                  |")
     print(f"====================================================")
     print(f"The number of the intersection: {df_inter.shape[0]}")
+    df_inter.to_csv(f"./processed/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-intersection.csv", index=False)
     print(f"The number of the union: {df_union.shape[0]}")
+    df_union.to_csv(f"./processed/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-union.csv", index=False)
     print(f"The number of the problems that are unique in mobile: {df1.shape[0] - df_inter.shape[0]}")
     print(f"The number of the problems that are unique in desktop: {df2.shape[0] - df_inter.shape[0]}")
 

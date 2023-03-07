@@ -33,7 +33,7 @@ def get_info_website(url: str):
     json2csv(f'./processed/{file_name}-desktop_processed.json', f'./csv/{file_name}-desktop.csv')
     json2csv(f'./processed/{file_name}-mobile_processed.json', f'./csv/{file_name}-mobile.csv')
     print("Comparing Results")
-    compare_mobile_desktop(f'./csv/{file_name}-desktop.csv', f'./csv/{file_name}-mobile.csv', url)
+    compare_mobile_desktop(f'./csv/{file_name}-mobile.csv', f'./csv/{file_name}-desktop.csv', url)
 
 
 def json2csv(file_path: str, csv_file: str):
@@ -174,12 +174,20 @@ def compare_mobile_desktop(mobile: str, desktop: str, url: str):
     print(f"|   Comparing results between Desktop and Mobile   |")
     print(f"|                                                  |")
     print(f"====================================================")
+    report['Number of Desktop issues'] = df2.shape[0]
+    report['Number of Mobile issues'] = df1.shape[0]
     print(f"The number of the intersection: {df_inter.shape[0]}")
-    df_inter.to_csv(f"./processed/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-intersection.csv", index=False)
+    report['Number of Intersection issues'] = df_inter.shape[0]
+    df_inter.to_csv(f"./processed/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-intersection.csv",
+                    index=False)
     print(f"The number of the union: {df_union.shape[0]}")
+    report['Number of Union issues'] = df_union.shape[0]
     df_union.to_csv(f"./processed/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-union.csv", index=False)
     print(f"The number of the problems that are unique in mobile: {df1.shape[0] - df_inter.shape[0]}")
+    report['Number of issues that appear only on Mobile'] = df1.shape[0] - df_inter.shape[0]
     print(f"The number of the problems that are unique in desktop: {df2.shape[0] - df_inter.shape[0]}")
+    report['Number of issues that appear only on Desktop'] = df2.shape[0] - df_inter.shape[0]
+    report['Intersection over Union'] = 0 if df_union.shape[0] == 0 else df_inter.shape[0] * 1.0 / df_union.shape[0]
 
 
 def base64_to_image(base64_string: str):
@@ -188,7 +196,20 @@ def base64_to_image(base64_string: str):
 
 
 if __name__ == '__main__':
+    reports = []
     with open("../url_list.json", 'r') as f:
         url_list = json.load(f)
     for u in url_list:
+        report = {
+            "URL": u,
+            "Number of Desktop issues": 0,
+            "Number of Mobile issues": 0,
+            "Number of Intersection issues": 0,
+            "Number of Union issues": 0,
+            "Number of issues that appear only on Desktop": 0,
+            "Number of issues that appear only on Mobile": 0,
+            "Intersection over Union": 0
+        }
         get_info_website(u)
+        reports.append(report)
+    json.dump({"Web Pages": reports}, open("./report-gl.json", 'w'), indent=4)

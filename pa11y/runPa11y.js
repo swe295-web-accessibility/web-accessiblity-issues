@@ -189,7 +189,9 @@ async function main() {
         "https://www.etsy.com/",
         "https://www.ics.uci.edu/",
         "https://www.united.com/en/us",
-        "https://www.chase.com/"
+        "https://www.expedia.com",
+        "https://www.wikipedia.org",
+        "https://www.costco.com/"
     ]
     
     analysisResults = []

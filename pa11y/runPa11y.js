@@ -187,7 +187,9 @@ async function main() {
         "https://www.traderjoes.com/home",
         "https://developer.mozilla.org/en-US/",
         "https://www.etsy.com/",
-        "https://www.ics.uci.edu/"
+        "https://www.ics.uci.edu/",
+        "https://www.united.com/en/us",
+        "https://www.chase.com/"
     ]
     
     analysisResults = []

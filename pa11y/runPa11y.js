@@ -179,7 +179,6 @@ class AnalysisResult {
 // Usage
 async function main() {
     targetURLs = [
-        "https://nytimes.com",
         "https://usability.yale.edu/web-accessibility",
         "https://www.adobe.com/",
         "https://www.ikea.com",
@@ -189,8 +188,6 @@ async function main() {
         "https://www.etsy.com/",
         "https://www.ics.uci.edu/",
         "https://www.united.com/en/us",
-        "https://www.expedia.com",
-        "https://www.wikipedia.org",
         "https://www.costco.com/"
     ]
     
@@ -207,6 +204,12 @@ async function main() {
 
     resultContainer = new AnalysisResultContainer(analysisResults);
     fs.writeFile("./report.json", resultContainer.jsonReport(), err => {
+        if (err) {
+            console.error(err);
+        }
+    });
+
+    fs.writeFile("./pa11yResult.json", JSON.stringify(resultContainer, null, 4), err => {
         if (err) {
             console.error(err);
         }

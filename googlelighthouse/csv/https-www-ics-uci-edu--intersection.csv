@@ -1,3 +1,5 @@
 type,code,message,context,selector
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.36 (foreground color: #337ab7, background color: #fafafa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a aria-pressed=""true"" class=""btn btn-outline-primary btn-sm"" href=""//campusgroups.uci.edu/events?group_ids=54818"" target=""_blank"" rel=""noopener nofollow"" role=""button"">",section#rss-events > div.container > p > a.btn
 serious,wcag311,"Fix any of the following:
-  The <html> element does not have a lang attribute","<html xmlns=""http://www.w3.org/1999/xhtml"" data-uw-w-loader="""">",/html[1]
+  The <html> element does not have a lang attribute","<html xmlns=""http://www.w3.org/1999/xhtml"" data-uw-w-loader="""">",html

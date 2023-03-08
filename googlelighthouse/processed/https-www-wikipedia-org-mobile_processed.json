@@ -1,0 +1,524 @@
+{
+    "score": 0.89,
+    "problem": {
+        "critical": {
+            "label": {
+                "id": "label",
+                "title": "Form elements do not have associated labels",
+                "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+                "details": {
+                    "headings": [
+                        {
+                            "itemType": "node",
+                            "key": "node",
+                            "subItemsHeading": {
+                                "key": "relatedNode",
+                                "itemType": "node"
+                            },
+                            "text": "Failing Elements"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "node": {
+                                "type": "node",
+                                "boundingRect": {
+                                    "left": 10,
+                                    "width": 284,
+                                    "height": 44,
+                                    "right": 294,
+                                    "top": 102,
+                                    "bottom": 146
+                                },
+                                "lhId": "6-0-INPUT",
+                                "selector": "form#search-form > fieldset > div#search-input > input#searchInput",
+                                "snippet": "<input id=\"searchInput\" name=\"search\" type=\"search\" size=\"20\" autofocus=\"autofocus\" accesskey=\"F\" dir=\"auto\" autocomplete=\"off\" style=\"padding-right: 64px;\">",
+                                "path": "1,HTML,1,BODY,2,DIV,0,FORM,0,FIELDSET,2,DIV,1,INPUT",
+                                "nodeLabel": "form#search-form > fieldset > div#search-input > input#searchInput",
+                                "explanation": "Fix all of the following:\n  Form element has explicit <label> that is hidden"
+                            }
+                        }
+                    ],
+                    "type": "table",
+                    "debugData": {
+                        "impact": "critical",
+                        "type": "debugdata",
+                        "tags": [
+                            "cat.forms",
+                            "wcag2a",
+                            "wcag412",
+                            "wcag131",
+                            "section508",
+                            "section508.22.n",
+                            "ACT"
+                        ]
+                    }
+                },
+                "weight": 10,
+                "group": "a11y-names-labels"
+            }
+        }
+    },
+    "pass": {
+        "color-contrast": {
+            "id": "color-contrast",
+            "title": "Background and foreground colors have a sufficient contrast ratio",
+            "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-color-contrast"
+        },
+        "html-lang-valid": {
+            "id": "html-lang-valid",
+            "title": "`<html>` element has a valid value for its `[lang]` attribute",
+            "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-language"
+        },
+        "listitem": {
+            "id": "listitem",
+            "title": "List items (`<li>`) are contained within `<ul>` or `<ol>` parent elements",
+            "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-tables-lists"
+        },
+        "list": {
+            "id": "list",
+            "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+            "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-tables-lists"
+        },
+        "accesskeys": {
+            "id": "accesskeys",
+            "title": "`[accesskey]` values are unique",
+            "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "html-has-lang": {
+            "id": "html-has-lang",
+            "title": "`<html>` element has a `[lang]` attribute",
+            "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-language"
+        },
+        "button-name": {
+            "id": "button-name",
+            "title": "Buttons have an accessible name",
+            "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        },
+        "document-title": {
+            "id": "document-title",
+            "title": "Document has a `<title>` element",
+            "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+            "details": {
+                "type": "table",
+                "items": [],
+                "headings": []
+            },
+            "weight": 3,
+            "group": "a11y-names-labels"
+        },
+        "duplicate-id-active": {
+            "id": "duplicate-id-active",
+            "title": "`[id]` attributes on active, focusable elements are unique",
+            "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "duplicate-id-aria": {
+            "id": "duplicate-id-aria",
+            "title": "ARIA IDs are unique",
+            "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "aria-hidden-body": {
+            "id": "aria-hidden-body",
+            "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+            "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "image-alt": {
+            "id": "image-alt",
+            "title": "Image elements have `[alt]` attributes",
+            "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        },
+        "link-name": {
+            "id": "link-name",
+            "title": "Links have a discernible name",
+            "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+            "details": {
+                "type": "table",
+                "items": [],
+                "headings": []
+            },
+            "weight": 3,
+            "group": "a11y-names-labels"
+        },
+        "heading-order": {
+            "id": "heading-order",
+            "title": "Heading elements appear in a sequentially-descending order",
+            "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 2,
+            "group": "a11y-navigation"
+        },
+        "bypass": {
+            "id": "bypass",
+            "title": "The page contains a heading, skip link, or landmark region",
+            "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "meta-viewport": {
+            "id": "meta-viewport",
+            "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+            "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-best-practices"
+        },
+        "valid-lang": {
+            "id": "valid-lang",
+            "title": "`[lang]` attributes have a valid value",
+            "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-language"
+        }
+    },
+    "manual": {
+        "visual-order-follows-dom": {
+            "id": "visual-order-follows-dom",
+            "title": "Visual order on the page follows DOM order",
+            "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+            "weight": 0,
+            "group": null
+        },
+        "focusable-controls": {
+            "id": "focusable-controls",
+            "title": "Interactive controls are keyboard focusable",
+            "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+            "weight": 0,
+            "group": null
+        },
+        "offscreen-content-hidden": {
+            "id": "offscreen-content-hidden",
+            "title": "Offscreen content is hidden from assistive technology",
+            "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+            "weight": 0,
+            "group": null
+        },
+        "managed-focus": {
+            "id": "managed-focus",
+            "title": "The user's focus is directed to new content added to the page",
+            "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+            "weight": 0,
+            "group": null
+        },
+        "custom-controls-roles": {
+            "id": "custom-controls-roles",
+            "title": "Custom controls have ARIA roles",
+            "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+            "weight": 0,
+            "group": null
+        },
+        "focus-traps": {
+            "id": "focus-traps",
+            "title": "User focus is not accidentally trapped in a region",
+            "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+            "weight": 0,
+            "group": null
+        },
+        "logical-tab-order": {
+            "id": "logical-tab-order",
+            "title": "The page has a logical tab order",
+            "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+            "weight": 0,
+            "group": null
+        },
+        "interactive-element-affordance": {
+            "id": "interactive-element-affordance",
+            "title": "Interactive elements indicate their purpose and state",
+            "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+            "weight": 0,
+            "group": null
+        },
+        "use-landmarks": {
+            "id": "use-landmarks",
+            "title": "HTML5 landmark elements are used to improve navigation",
+            "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+            "weight": 0,
+            "group": null
+        },
+        "custom-controls-labels": {
+            "id": "custom-controls-labels",
+            "title": "Custom controls have associated labels",
+            "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+            "weight": 0,
+            "group": null
+        }
+    },
+    "not_applicable": {
+        "dlitem": {
+            "id": "dlitem",
+            "title": "Definition list items are wrapped in `<dl>` elements",
+            "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "aria-command-name": {
+            "id": "aria-command-name",
+            "title": "`button`, `link`, and `menuitem` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "th-has-data-cells": {
+            "id": "th-has-data-cells",
+            "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+            "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "aria-tooltip-name": {
+            "id": "aria-tooltip-name",
+            "title": "ARIA `tooltip` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-valid-attr-value": {
+            "id": "aria-valid-attr-value",
+            "title": "`[aria-*]` attributes have valid values",
+            "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-allowed-attr": {
+            "id": "aria-allowed-attr",
+            "title": "`[aria-*]` attributes match their roles",
+            "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "video-caption": {
+            "id": "video-caption",
+            "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+            "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+            "weight": 0,
+            "group": "a11y-audio-video"
+        },
+        "input-image-alt": {
+            "id": "input-image-alt",
+            "title": "`<input type=\"image\">` elements have `[alt]` text",
+            "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "aria-roles": {
+            "id": "aria-roles",
+            "title": "`[role]` values are valid",
+            "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "form-field-multiple-labels": {
+            "id": "form-field-multiple-labels",
+            "title": "No form fields have multiple labels",
+            "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "aria-required-parent": {
+            "id": "aria-required-parent",
+            "title": "`[role]`s are contained by their required parent element",
+            "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-required-children": {
+            "id": "aria-required-children",
+            "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children.",
+            "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "meta-refresh": {
+            "id": "meta-refresh",
+            "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+            "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+            "weight": 0,
+            "group": "a11y-best-practices"
+        },
+        "definition-list": {
+            "id": "definition-list",
+            "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+            "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "tabindex": {
+            "id": "tabindex",
+            "title": "No element has a `[tabindex]` value greater than 0",
+            "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+            "weight": 0,
+            "group": "a11y-navigation"
+        },
+        "aria-hidden-focus": {
+            "id": "aria-hidden-focus",
+            "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+            "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-input-field-name": {
+            "id": "aria-input-field-name",
+            "title": "ARIA input fields have accessible names",
+            "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-treeitem-name": {
+            "id": "aria-treeitem-name",
+            "title": "ARIA `treeitem` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-progressbar-name": {
+            "id": "aria-progressbar-name",
+            "title": "ARIA `progressbar` elements have accessible names",
+            "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "object-alt": {
+            "id": "object-alt",
+            "title": "`<object>` elements have alternate text",
+            "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "aria-required-attr": {
+            "id": "aria-required-attr",
+            "title": "`[role]`s have all required `[aria-*]` attributes",
+            "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-meter-name": {
+            "id": "aria-meter-name",
+            "title": "ARIA `meter` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "frame-title": {
+            "id": "frame-title",
+            "title": "`<frame>` or `<iframe>` elements have a title",
+            "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "aria-toggle-field-name": {
+            "id": "aria-toggle-field-name",
+            "title": "ARIA toggle fields have accessible names",
+            "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "td-headers-attr": {
+            "id": "td-headers-attr",
+            "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+            "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "aria-valid-attr": {
+            "id": "aria-valid-attr",
+            "title": "`[aria-*]` attributes are valid and not misspelled",
+            "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        }
+    }
+}

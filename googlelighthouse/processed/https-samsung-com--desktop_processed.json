@@ -1,0 +1,1687 @@
+{
+    "score": 0.78,
+    "problem": {
+        "serious": {
+            "color-contrast": {
+                "id": "color-contrast",
+                "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+                "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+                "details": {
+                    "debugData": {
+                        "impact": "serious",
+                        "tags": [
+                            "cat.color",
+                            "wcag2aa",
+                            "wcag143"
+                        ],
+                        "type": "debugdata"
+                    },
+                    "headings": [
+                        {
+                            "key": "node",
+                            "subItemsHeading": {
+                                "itemType": "node",
+                                "key": "relatedNode"
+                            },
+                            "text": "Failing Elements",
+                            "itemType": "node"
+                        }
+                    ],
+                    "type": "table",
+                    "items": [
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "lhId": "40-16-DIV",
+                                            "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A,0,DIV",
+                                            "boundingRect": {
+                                                "left": 23,
+                                                "right": 443,
+                                                "top": 867,
+                                                "height": 309,
+                                                "bottom": 1177,
+                                                "width": 420
+                                            },
+                                            "snippet": "<div class=\"showcase-card-tab-card__img-wrap wrap-offer\">",
+                                            "selector": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "nodeLabel": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",
+                                "nodeLabel": "Save up to $850 with select devices.",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A,2,DIV,0,SPAN,0,SPAN",
+                                "boundingRect": {
+                                    "width": 223,
+                                    "bottom": 1127,
+                                    "left": 121,
+                                    "height": 14,
+                                    "right": 344,
+                                    "top": 1113
+                                },
+                                "lhId": "40-15-SPAN",
+                                "snippet": "<span>",
+                                "type": "node",
+                                "selector": "a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__product-description-wrap > span.tgt-total-saving > span"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "top": 1199,
+                                                "bottom": 1509,
+                                                "width": 420,
+                                                "height": 309,
+                                                "left": 23,
+                                                "right": 443
+                                            },
+                                            "nodeLabel": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "type": "node",
+                                            "selector": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "snippet": "<div class=\"showcase-card-tab-card__img-wrap wrap-offer\">",
+                                            "lhId": "40-18-DIV",
+                                            "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,A,0,DIV"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,A,2,DIV,0,SPAN,0,SPAN",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",
+                                "lhId": "40-17-SPAN",
+                                "type": "node",
+                                "selector": "a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__product-description-wrap > span.tgt-total-saving > span",
+                                "boundingRect": {
+                                    "width": 194,
+                                    "height": 14,
+                                    "bottom": 1459,
+                                    "right": 330,
+                                    "left": 136,
+                                    "top": 1445
+                                },
+                                "snippet": "<span>",
+                                "nodeLabel": "Save up to $75."
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "nodeLabel": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "snippet": "<div class=\"showcase-card-tab-card__img-wrap wrap-offer\">",
+                                            "selector": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A,0,DIV",
+                                            "lhId": "40-20-DIV",
+                                            "boundingRect": {
+                                                "height": 309,
+                                                "bottom": 1177,
+                                                "top": 867,
+                                                "left": 465,
+                                                "width": 420,
+                                                "right": 885
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "type": "node",
+                                "lhId": "40-19-SPAN",
+                                "nodeLabel": "Save up to $125.",
+                                "selector": "a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__product-description-wrap > span.tgt-total-saving > span",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",
+                                "boundingRect": {
+                                    "height": 14,
+                                    "bottom": 1127,
+                                    "top": 1113,
+                                    "width": 196,
+                                    "left": 577,
+                                    "right": 773
+                                },
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A,2,DIV,0,SPAN,0,SPAN",
+                                "snippet": "<span>"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,A,0,DIV",
+                                            "snippet": "<div class=\"showcase-card-tab-card__img-wrap wrap-offer\">",
+                                            "nodeLabel": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "selector": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "lhId": "40-22-DIV",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "left": 465,
+                                                "height": 309,
+                                                "bottom": 1509,
+                                                "top": 1199,
+                                                "width": 420,
+                                                "right": 885
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "snippet": "<span>",
+                                "selector": "a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__product-description-wrap > span.tgt-total-saving > span",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,A,2,DIV,0,SPAN,0,SPAN",
+                                "lhId": "40-21-SPAN",
+                                "nodeLabel": "Save up to $400.",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",
+                                "boundingRect": {
+                                    "height": 14,
+                                    "width": 105,
+                                    "bottom": 1459,
+                                    "top": 1445,
+                                    "right": 728,
+                                    "left": 623
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<span>",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",
+                                "lhId": "40-23-SPAN",
+                                "boundingRect": {
+                                    "bottom": 1127,
+                                    "width": 105,
+                                    "right": 1170,
+                                    "height": 14,
+                                    "left": 1065,
+                                    "top": 1113
+                                },
+                                "type": "node",
+                                "selector": "a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__product-description-wrap > span.tgt-total-saving > span",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,A,2,DIV,0,SPAN,0,SPAN",
+                                "nodeLabel": "Save up to $400."
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "snippet": "<div class=\"showcase-card-tab-card__img-wrap wrap-offer\">",
+                                            "type": "node",
+                                            "nodeLabel": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "boundingRect": {
+                                                "height": 309,
+                                                "right": 1328,
+                                                "width": 420,
+                                                "left": 908,
+                                                "top": 867,
+                                                "bottom": 1177
+                                            },
+                                            "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,A,0,DIV",
+                                            "selector": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "lhId": "40-24-DIV"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<span>",
+                                "type": "node",
+                                "selector": "a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__product-description-wrap > span.tgt-total-saving > span",
+                                "boundingRect": {
+                                    "right": 1218,
+                                    "height": 14,
+                                    "bottom": 1459,
+                                    "top": 1445,
+                                    "left": 1018,
+                                    "width": 200
+                                },
+                                "lhId": "40-25-SPAN",
+                                "nodeLabel": "Save up to $300.",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,A,2,DIV,0,SPAN,0,SPAN",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "right": 1328,
+                                                "top": 1199,
+                                                "width": 420,
+                                                "height": 309,
+                                                "left": 908,
+                                                "bottom": 1509
+                                            },
+                                            "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,A,0,DIV",
+                                            "type": "node",
+                                            "snippet": "<div class=\"showcase-card-tab-card__img-wrap wrap-offer\">",
+                                            "selector": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "nodeLabel": "div.showcase-card-tab-inner-container > div.tgt-small-recs-card > a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__img-wrap",
+                                            "lhId": "40-26-DIV"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "node": {
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,1,DIV,0,DIV,2,A",
+                                "snippet": "<a href=\"/us/\">",
+                                "lhId": "40-27-A",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "boundingRect": {
+                                    "width": 87,
+                                    "left": 861,
+                                    "right": 948,
+                                    "height": 17,
+                                    "top": 6054,
+                                    "bottom": 6071
+                                },
+                                "type": "node",
+                                "nodeLabel": "Samsung.com"
+                            }
+                        },
+                        {
+                            "node": {
+                                "nodeLabel": "Show More",
+                                "boundingRect": {
+                                    "right": 259,
+                                    "left": 189,
+                                    "width": 70,
+                                    "height": 24,
+                                    "top": 6099,
+                                    "bottom": 6123
+                                },
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "lhId": "40-28-A",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,1,DIV,0,DIV,4,A",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "40-29-A",
+                                "boundingRect": {
+                                    "right": 476,
+                                    "left": 406,
+                                    "top": 6167,
+                                    "width": 70,
+                                    "height": 24,
+                                    "bottom": 6191
+                                },
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,2,DIV,0,DIV,2,A",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "nodeLabel": "Show More"
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<a href=\"samsung.com/shop\">",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "nodeLabel": "Samsung.com/Shop",
+                                "lhId": "40-30-A",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,3,DIV,0,DIV,2,A",
+                                "boundingRect": {
+                                    "right": 343,
+                                    "height": 17,
+                                    "top": 6214,
+                                    "bottom": 6231,
+                                    "width": 125,
+                                    "left": 218
+                                },
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a",
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "height": 24,
+                                    "left": 238,
+                                    "right": 308,
+                                    "width": 70,
+                                    "bottom": 6282,
+                                    "top": 6259
+                                },
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "lhId": "40-31-A",
+                                "type": "node",
+                                "nodeLabel": "Show More",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,3,DIV,0,DIV,4,A",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "40-32-A",
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "type": "node",
+                                "nodeLabel": "Show More",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,4,DIV,0,DIV,2,A",
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "boundingRect": {
+                                    "width": 70,
+                                    "left": 413,
+                                    "height": 24,
+                                    "bottom": 6326,
+                                    "right": 483,
+                                    "top": 6302
+                                },
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "height": 24,
+                                    "left": 1197,
+                                    "width": 70,
+                                    "bottom": 6370,
+                                    "right": 1267,
+                                    "top": 6346
+                                },
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,5,DIV,0,DIV,2,A",
+                                "lhId": "40-33-A",
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "nodeLabel": "Show More",
+                                "type": "node",
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "nodeLabel": "Show More",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,6,DIV,0,DIV,2,A",
+                                "lhId": "40-34-A",
+                                "boundingRect": {
+                                    "bottom": 6438,
+                                    "height": 24,
+                                    "right": 297,
+                                    "width": 70,
+                                    "left": 227,
+                                    "top": 6414
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "boundingRect": {
+                                    "bottom": 6506,
+                                    "height": 24,
+                                    "right": 570,
+                                    "left": 500,
+                                    "width": 70,
+                                    "top": 6482
+                                },
+                                "nodeLabel": "Show More",
+                                "lhId": "40-35-A",
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,7,DIV,0,DIV,2,A"
+                            }
+                        },
+                        {
+                            "node": {
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "boundingRect": {
+                                    "bottom": 6574,
+                                    "width": 70,
+                                    "top": 6550,
+                                    "right": 148,
+                                    "height": 24,
+                                    "left": 78
+                                },
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "nodeLabel": "Show More",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,8,DIV,0,DIV,2,A",
+                                "lhId": "40-36-A",
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "node": {
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a",
+                                "lhId": "40-37-A",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,9,DIV,0,DIV,2,A",
+                                "boundingRect": {
+                                    "right": 996,
+                                    "bottom": 6614,
+                                    "height": 17,
+                                    "top": 6597,
+                                    "width": 146,
+                                    "left": 850
+                                },
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "nodeLabel": "Samsung.com/business",
+                                "snippet": "<a href=\"/us/business/\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "lhId": "40-38-A",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,2,DIV,9,DIV,0,DIV,4,A",
+                                "boundingRect": {
+                                    "width": 70,
+                                    "left": 290,
+                                    "right": 360,
+                                    "top": 6618,
+                                    "bottom": 6642,
+                                    "height": 24
+                                },
+                                "nodeLabel": "Show More",
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "node": {
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,6,DIV,1,DIV,0,DIV,2,A",
+                                "boundingRect": {
+                                    "left": 1025,
+                                    "height": 24,
+                                    "top": 6692,
+                                    "right": 1095,
+                                    "bottom": 6716,
+                                    "width": 70
+                                },
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">",
+                                "nodeLabel": "Show More",
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "selector": "div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "type": "node",
+                                "lhId": "40-39-A"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "lhId": "40-40-A",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,10,DIV,0,DIV,0,DIV,2,A",
+                                "boundingRect": {
+                                    "bottom": 6814,
+                                    "height": 17,
+                                    "right": 893,
+                                    "top": 6797,
+                                    "left": 857,
+                                    "width": 36
+                                },
+                                "selector": "div > div.disclaimer__row > div.disclaimer__show > a",
+                                "type": "node",
+                                "snippet": "<a href=\" https://attnl.tv/t/QAP\" target=\"_blank\" aria-describedby=\"audioeye_new_window_message\">",
+                                "nodeLabel": "Terms"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "type": "node",
+                                "nodeLabel": "Privacy",
+                                "selector": "div > div.disclaimer__row > div.disclaimer__show > a",
+                                "boundingRect": {
+                                    "height": 17,
+                                    "top": 6797,
+                                    "bottom": 6814,
+                                    "right": 952,
+                                    "left": 908,
+                                    "width": 44
+                                },
+                                "lhId": "40-41-A",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,10,DIV,0,DIV,0,DIV,4,A",
+                                "snippet": "<a href=\"https://attnl.tv/p/QAP\" target=\"_blank\" aria-describedby=\"audioeye_new_window_message\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "40-42-A",
+                                "selector": "div > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,20,DIV,51,DIV,0,DIV,0,DIV,1,DIV,0,DIV,13,DIV,1,SECTION,0,DIV,10,DIV,1,DIV,0,DIV,2,A",
+                                "nodeLabel": "Show More",
+                                "boundingRect": {
+                                    "left": 963,
+                                    "bottom": 6841,
+                                    "width": 70,
+                                    "right": 1033,
+                                    "height": 17,
+                                    "top": 6824
+                                },
+                                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+                                "snippet": "<a class=\"disclaimer__show__link\" role=\"presentation\">"
+                            }
+                        }
+                    ]
+                },
+                "weight": 3,
+                "group": "a11y-color-contrast"
+            },
+            "aria-allowed-attr": {
+                "id": "aria-allowed-attr",
+                "title": "`[aria-*]` attributes do not match their roles",
+                "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+                "details": {
+                    "items": [
+                        {
+                            "node": {
+                                "type": "node",
+                                "nodeLabel": "AudioEye.layoutHelpers.push(function(ele){\n// [PI-13598] - mutation performance\u2026",
+                                "lhId": "40-0-DIV",
+                                "snippet": "<div id=\"ae_app\" data-nosnippet=\"\" aria-label=\"AudioEye.layoutHelpers.push(function(ele){\n// [PI-13598] - mutation perfor\u2026\">",
+                                "path": "1,HTML,1,BODY,76,DIV",
+                                "boundingRect": {
+                                    "bottom": 8720,
+                                    "height": 940,
+                                    "width": 0,
+                                    "top": 7780,
+                                    "right": 0,
+                                    "left": 0
+                                },
+                                "selector": "body.ae-lang-en > div#ae_app",
+                                "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+                            }
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "key": "node",
+                            "text": "Failing Elements",
+                            "subItemsHeading": {
+                                "itemType": "node",
+                                "key": "relatedNode"
+                            },
+                            "itemType": "node"
+                        }
+                    ],
+                    "type": "table",
+                    "debugData": {
+                        "impact": "serious",
+                        "tags": [
+                            "cat.aria",
+                            "wcag2a",
+                            "wcag412"
+                        ],
+                        "type": "debugdata"
+                    }
+                },
+                "weight": 10,
+                "group": "a11y-aria"
+            },
+            "listitem": {
+                "id": "listitem",
+                "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+                "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+                "details": {
+                    "headings": [
+                        {
+                            "itemType": "node",
+                            "text": "Failing Elements",
+                            "key": "node",
+                            "subItemsHeading": {
+                                "itemType": "node",
+                                "key": "relatedNode"
+                            }
+                        }
+                    ],
+                    "items": [
+                        {
+                            "node": {
+                                "lhId": "40-43-LI",
+                                "nodeLabel": "Mobile",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,0,LI",
+                                "type": "node",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"0\">",
+                                "boundingRect": {
+                                    "top": 0,
+                                    "width": 55,
+                                    "right": 243,
+                                    "left": 188,
+                                    "height": 75,
+                                    "bottom": 75
+                                },
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu"
+                            }
+                        },
+                        {
+                            "node": {
+                                "type": "node",
+                                "boundingRect": {
+                                    "right": 322,
+                                    "bottom": 75,
+                                    "width": 78,
+                                    "height": 75,
+                                    "top": 0,
+                                    "left": 244
+                                },
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"1\">",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,1,LI",
+                                "nodeLabel": "TV & Audio",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "lhId": "40-44-LI"
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"2\">",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,2,LI",
+                                "boundingRect": {
+                                    "bottom": 75,
+                                    "height": 75,
+                                    "right": 402,
+                                    "left": 323,
+                                    "width": 79,
+                                    "top": 0
+                                },
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "type": "node",
+                                "nodeLabel": "Appliances",
+                                "lhId": "40-45-LI",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "height": 75,
+                                    "right": 481,
+                                    "left": 403,
+                                    "top": 0,
+                                    "width": 78,
+                                    "bottom": 75
+                                },
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,3,LI",
+                                "type": "node",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"3\">",
+                                "lhId": "40-46-LI",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "nodeLabel": "Computing",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+                            }
+                        },
+                        {
+                            "node": {
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "nodeLabel": "Displays",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,4,LI",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "lhId": "40-47-LI",
+                                "boundingRect": {
+                                    "right": 547,
+                                    "top": 0,
+                                    "width": 65,
+                                    "bottom": 75,
+                                    "left": 482,
+                                    "height": 75
+                                },
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"4\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "bottom": 75,
+                                    "width": 84,
+                                    "top": 0,
+                                    "right": 632,
+                                    "left": 548,
+                                    "height": 75
+                                },
+                                "lhId": "40-48-LI",
+                                "type": "node",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"5\">",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,5,LI",
+                                "nodeLabel": "Accessories",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "height": 75,
+                                    "right": 721,
+                                    "top": 0,
+                                    "left": 633,
+                                    "bottom": 75,
+                                    "width": 88
+                                },
+                                "nodeLabel": "SmartThings",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "lhId": "40-49-LI",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,6,LI",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"6\">",
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,7,LI",
+                                "nodeLabel": "Offers",
+                                "lhId": "40-50-LI",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"7\">",
+                                "boundingRect": {
+                                    "width": 52,
+                                    "top": 0,
+                                    "height": 75,
+                                    "bottom": 75,
+                                    "left": 722,
+                                    "right": 774
+                                },
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "node": {
+                                "type": "node",
+                                "boundingRect": {
+                                    "bottom": 75,
+                                    "left": 775,
+                                    "width": 52,
+                                    "height": 75,
+                                    "right": 827,
+                                    "top": 0
+                                },
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\">",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "lhId": "40-51-LI",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,8,LI",
+                                "nodeLabel": "Outlet"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "width": 59,
+                                    "right": 1032,
+                                    "top": 0,
+                                    "bottom": 75,
+                                    "height": 75,
+                                    "left": 973
+                                },
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"8\">",
+                                "nodeLabel": "Explore",
+                                "lhId": "40-52-LI",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,1,UL,0,LI",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "boundingRect": {
+                                    "top": 0,
+                                    "right": 1093,
+                                    "width": 60,
+                                    "left": 1033,
+                                    "height": 75,
+                                    "bottom": 75
+                                },
+                                "type": "node",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,1,UL,1,LI",
+                                "lhId": "40-53-LI",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"9\">",
+                                "nodeLabel": "Support"
+                            }
+                        },
+                        {
+                            "node": {
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,1,UL,2,LI",
+                                "type": "node",
+                                "lhId": "40-54-LI",
+                                "nodeLabel": "For Business",
+                                "snippet": "<li class=\"nv00-gnb__l0-menu\" data-index=\"10\">",
+                                "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\"",
+                                "selector": "div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu",
+                                "boundingRect": {
+                                    "top": 0,
+                                    "right": 1181,
+                                    "left": 1094,
+                                    "bottom": 75,
+                                    "height": 75,
+                                    "width": 87
+                                }
+                            }
+                        }
+                    ],
+                    "debugData": {
+                        "type": "debugdata",
+                        "tags": [
+                            "cat.structure",
+                            "wcag2a",
+                            "wcag131"
+                        ],
+                        "impact": "serious"
+                    },
+                    "type": "table"
+                },
+                "weight": 3,
+                "group": "a11y-tables-lists"
+            }
+        },
+        "critical": {
+            "aria-required-children": {
+                "id": "aria-required-children",
+                "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+                "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+                "details": {
+                    "items": [
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "left": 188,
+                                    "right": 827,
+                                    "width": 639,
+                                    "height": 75,
+                                    "top": 0,
+                                    "bottom": 75
+                                },
+                                "snippet": "<ul class=\"nv00-gnb__l0-menu-list left-menu\" role=\"menubar\">",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Required ARIA children role not present: group, menuitemradio, menuitem, menuitemcheckbox",
+                                "lhId": "40-1-UL",
+                                "nodeLabel": "Mobile\n \nTV & Audio\n \nAppliances\n \nComputing\n \nDisplays\n \nAccessories\n \nSmartTh\u2026",
+                                "selector": "nav#component-id > div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "bottom": 75,
+                                    "width": 208,
+                                    "top": 0,
+                                    "left": 973,
+                                    "height": 75,
+                                    "right": 1181
+                                },
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,1,UL",
+                                "snippet": "<ul class=\"nv00-gnb__l0-menu-list right-menu\" role=\"menubar\">",
+                                "lhId": "40-2-UL",
+                                "type": "node",
+                                "selector": "nav#component-id > div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list",
+                                "nodeLabel": "Explore\n \nSupport\n \nFor Business",
+                                "explanation": "Fix any of the following:\n  Required ARIA children role not present: group, menuitemradio, menuitem, menuitemcheckbox"
+                            }
+                        }
+                    ],
+                    "debugData": {
+                        "type": "debugdata",
+                        "tags": [
+                            "cat.aria",
+                            "wcag2a",
+                            "wcag131"
+                        ],
+                        "impact": "critical"
+                    },
+                    "headings": [
+                        {
+                            "key": "node",
+                            "subItemsHeading": {
+                                "key": "relatedNode",
+                                "itemType": "node"
+                            },
+                            "text": "Failing Elements",
+                            "itemType": "node"
+                        }
+                    ],
+                    "type": "table"
+                },
+                "weight": 10,
+                "group": "a11y-aria"
+            },
+            "aria-required-parent": {
+                "id": "aria-required-parent",
+                "title": "`[role]`s are not contained by their required parent element",
+                "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+                "details": {
+                    "headings": [
+                        {
+                            "itemType": "node",
+                            "subItemsHeading": {
+                                "key": "relatedNode",
+                                "itemType": "node"
+                            },
+                            "text": "Failing Elements",
+                            "key": "node"
+                        }
+                    ],
+                    "debugData": {
+                        "type": "debugdata",
+                        "impact": "critical",
+                        "tags": [
+                            "cat.aria",
+                            "wcag2a",
+                            "wcag131"
+                        ]
+                    },
+                    "type": "table",
+                    "items": [
+                        {
+                            "node": {
+                                "type": "node",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "lhId": "40-3-BUTTON",
+                                "nodeLabel": "Mobile",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"mobile\">",
+                                "boundingRect": {
+                                    "height": 30,
+                                    "width": 55,
+                                    "right": 243,
+                                    "top": 23,
+                                    "left": 188,
+                                    "bottom": 53
+                                },
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,0,LI,0,BUTTON"
+                            }
+                        },
+                        {
+                            "node": {
+                                "nodeLabel": "TV & Audio",
+                                "type": "node",
+                                "boundingRect": {
+                                    "top": 23,
+                                    "bottom": 53,
+                                    "height": 30,
+                                    "left": 244,
+                                    "right": 322,
+                                    "width": 78
+                                },
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"tv &amp; audio\">",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,1,LI,0,BUTTON",
+                                "lhId": "40-4-BUTTON"
+                            }
+                        },
+                        {
+                            "node": {
+                                "type": "node",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "nodeLabel": "Appliances",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"appliances\">",
+                                "boundingRect": {
+                                    "top": 23,
+                                    "height": 30,
+                                    "bottom": 53,
+                                    "right": 402,
+                                    "width": 79,
+                                    "left": 323
+                                },
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,2,LI,0,BUTTON",
+                                "lhId": "40-5-BUTTON"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "boundingRect": {
+                                    "height": 30,
+                                    "right": 481,
+                                    "bottom": 53,
+                                    "left": 403,
+                                    "top": 23,
+                                    "width": 78
+                                },
+                                "type": "node",
+                                "nodeLabel": "Computing",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,3,LI,0,BUTTON",
+                                "lhId": "40-6-BUTTON",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"computing\">",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn"
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"displays\">",
+                                "boundingRect": {
+                                    "width": 65,
+                                    "height": 30,
+                                    "top": 23,
+                                    "left": 482,
+                                    "bottom": 53,
+                                    "right": 547
+                                },
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,4,LI,0,BUTTON",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "nodeLabel": "Displays",
+                                "lhId": "40-7-BUTTON"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "type": "node",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "boundingRect": {
+                                    "right": 632,
+                                    "height": 30,
+                                    "width": 84,
+                                    "top": 23,
+                                    "left": 548,
+                                    "bottom": 53
+                                },
+                                "lhId": "40-8-BUTTON",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,5,LI,0,BUTTON",
+                                "nodeLabel": "Accessories",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"accessories\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "40-9-BUTTON",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,6,LI,0,BUTTON",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "nodeLabel": "SmartThings",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"smartthings\">",
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "type": "node",
+                                "boundingRect": {
+                                    "left": 633,
+                                    "height": 30,
+                                    "bottom": 53,
+                                    "right": 721,
+                                    "width": 88,
+                                    "top": 23
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "nodeLabel": "Offers",
+                                "type": "node",
+                                "lhId": "40-10-BUTTON",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "boundingRect": {
+                                    "bottom": 53,
+                                    "width": 52,
+                                    "height": 30,
+                                    "right": 774,
+                                    "left": 722,
+                                    "top": 23
+                                },
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,7,LI,0,BUTTON",
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"offers\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,0,UL,8,LI,0,A",
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "lhId": "40-11-A",
+                                "type": "node",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > a.nv00-gnb__l0-menu-link",
+                                "snippet": "<a class=\"nv00-gnb__l0-menu-link\" href=\"/us/shop/outlet/\" an-tr=\"nv00_gnb-1depth-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"outlet\" role=\"menuitem\">",
+                                "nodeLabel": "Outlet",
+                                "boundingRect": {
+                                    "top": 23,
+                                    "height": 30,
+                                    "bottom": 53,
+                                    "left": 775,
+                                    "width": 52,
+                                    "right": 827
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "bottom": 53,
+                                    "right": 1032,
+                                    "left": 973,
+                                    "top": 23,
+                                    "width": 59,
+                                    "height": 30
+                                },
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "nodeLabel": "Explore",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,1,UL,0,LI,0,BUTTON",
+                                "type": "node",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "lhId": "40-12-BUTTON",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-la=\"explore\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "type": "node",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-la=\"support\">",
+                                "lhId": "40-13-BUTTON",
+                                "nodeLabel": "Support",
+                                "boundingRect": {
+                                    "left": 1033,
+                                    "height": 30,
+                                    "right": 1093,
+                                    "bottom": 53,
+                                    "top": 23,
+                                    "width": 60
+                                },
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,1,UL,1,LI,0,BUTTON",
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group",
+                                "selector": "div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu > button.nv00-gnb__l0-menu-btn",
+                                "path": "1,HTML,1,BODY,20,DIV,41,NAV,0,DIV,6,DIV,1,UL,2,LI,0,BUTTON",
+                                "lhId": "40-14-BUTTON",
+                                "snippet": "<button class=\"nv00-gnb__l0-menu-btn\" role=\"menuitem\" aria-expanded=\"false\" aria-haspopup=\"true\" an-la=\"for business\">",
+                                "boundingRect": {
+                                    "top": 23,
+                                    "bottom": 53,
+                                    "right": 1181,
+                                    "height": 30,
+                                    "width": 87,
+                                    "left": 1094
+                                },
+                                "nodeLabel": "For Business",
+                                "type": "node"
+                            }
+                        }
+                    ]
+                },
+                "weight": 10,
+                "group": "a11y-aria"
+            }
+        }
+    },
+    "pass": {
+        "aria-command-name": {
+            "id": "aria-command-name",
+            "title": "`button`, `link`, and `menuitem` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-aria"
+        },
+        "aria-hidden-focus": {
+            "id": "aria-hidden-focus",
+            "title": "`[aria-hidden=\"true\"]` elements do not contain focusable descendents",
+            "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-aria"
+        },
+        "html-has-lang": {
+            "id": "html-has-lang",
+            "title": "`<html>` element has a `[lang]` attribute",
+            "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+            "details": {
+                "type": "table",
+                "items": [],
+                "headings": []
+            },
+            "weight": 3,
+            "group": "a11y-language"
+        },
+        "aria-roles": {
+            "id": "aria-roles",
+            "title": "`[role]` values are valid",
+            "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "document-title": {
+            "id": "document-title",
+            "title": "Document has a `<title>` element",
+            "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-names-labels"
+        },
+        "button-name": {
+            "id": "button-name",
+            "title": "Buttons have an accessible name",
+            "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        },
+        "meta-viewport": {
+            "id": "meta-viewport",
+            "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+            "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-best-practices"
+        },
+        "aria-valid-attr-value": {
+            "id": "aria-valid-attr-value",
+            "title": "`[aria-*]` attributes have valid values",
+            "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "bypass": {
+            "id": "bypass",
+            "title": "The page contains a heading, skip link, or landmark region",
+            "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "duplicate-id-aria": {
+            "id": "duplicate-id-aria",
+            "title": "ARIA IDs are unique",
+            "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+            "details": {
+                "type": "table",
+                "items": [],
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "duplicate-id-active": {
+            "id": "duplicate-id-active",
+            "title": "`[id]` attributes on active, focusable elements are unique",
+            "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "aria-required-attr": {
+            "id": "aria-required-attr",
+            "title": "`[role]`s have all required `[aria-*]` attributes",
+            "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "link-name": {
+            "id": "link-name",
+            "title": "Links have a discernible name",
+            "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-names-labels"
+        },
+        "aria-valid-attr": {
+            "id": "aria-valid-attr",
+            "title": "`[aria-*]` attributes are valid and not misspelled",
+            "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "label": {
+            "id": "label",
+            "title": "Form elements have associated labels",
+            "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+            "details": {
+                "type": "table",
+                "items": [],
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        },
+        "heading-order": {
+            "id": "heading-order",
+            "title": "Heading elements appear in a sequentially-descending order",
+            "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 2,
+            "group": "a11y-navigation"
+        },
+        "aria-hidden-body": {
+            "id": "aria-hidden-body",
+            "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+            "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "tabindex": {
+            "id": "tabindex",
+            "title": "No element has a `[tabindex]` value greater than 0",
+            "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "html-lang-valid": {
+            "id": "html-lang-valid",
+            "title": "`<html>` element has a valid value for its `[lang]` attribute",
+            "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-language"
+        },
+        "image-alt": {
+            "id": "image-alt",
+            "title": "Image elements have `[alt]` attributes",
+            "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        }
+    },
+    "manual": {
+        "logical-tab-order": {
+            "id": "logical-tab-order",
+            "title": "The page has a logical tab order",
+            "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+            "weight": 0,
+            "group": null
+        },
+        "focus-traps": {
+            "id": "focus-traps",
+            "title": "User focus is not accidentally trapped in a region",
+            "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+            "weight": 0,
+            "group": null
+        },
+        "interactive-element-affordance": {
+            "id": "interactive-element-affordance",
+            "title": "Interactive elements indicate their purpose and state",
+            "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+            "weight": 0,
+            "group": null
+        },
+        "use-landmarks": {
+            "id": "use-landmarks",
+            "title": "HTML5 landmark elements are used to improve navigation",
+            "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+            "weight": 0,
+            "group": null
+        },
+        "custom-controls-roles": {
+            "id": "custom-controls-roles",
+            "title": "Custom controls have ARIA roles",
+            "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+            "weight": 0,
+            "group": null
+        },
+        "visual-order-follows-dom": {
+            "id": "visual-order-follows-dom",
+            "title": "Visual order on the page follows DOM order",
+            "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+            "weight": 0,
+            "group": null
+        },
+        "custom-controls-labels": {
+            "id": "custom-controls-labels",
+            "title": "Custom controls have associated labels",
+            "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+            "weight": 0,
+            "group": null
+        },
+        "managed-focus": {
+            "id": "managed-focus",
+            "title": "The user's focus is directed to new content added to the page",
+            "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+            "weight": 0,
+            "group": null
+        },
+        "focusable-controls": {
+            "id": "focusable-controls",
+            "title": "Interactive controls are keyboard focusable",
+            "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+            "weight": 0,
+            "group": null
+        },
+        "offscreen-content-hidden": {
+            "id": "offscreen-content-hidden",
+            "title": "Offscreen content is hidden from assistive technology",
+            "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+            "weight": 0,
+            "group": null
+        }
+    },
+    "not_applicable": {
+        "definition-list": {
+            "id": "definition-list",
+            "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+            "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "accesskeys": {
+            "id": "accesskeys",
+            "title": "`[accesskey]` values are unique",
+            "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+            "weight": 0,
+            "group": "a11y-navigation"
+        },
+        "aria-progressbar-name": {
+            "id": "aria-progressbar-name",
+            "title": "ARIA `progressbar` elements have accessible names",
+            "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "meta-refresh": {
+            "id": "meta-refresh",
+            "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+            "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+            "weight": 0,
+            "group": "a11y-best-practices"
+        },
+        "valid-lang": {
+            "id": "valid-lang",
+            "title": "`[lang]` attributes have a valid value",
+            "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+            "weight": 0,
+            "group": "a11y-language"
+        },
+        "list": {
+            "id": "list",
+            "title": "Lists contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+            "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "aria-input-field-name": {
+            "id": "aria-input-field-name",
+            "title": "ARIA input fields have accessible names",
+            "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "video-caption": {
+            "id": "video-caption",
+            "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+            "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+            "weight": 0,
+            "group": "a11y-audio-video"
+        },
+        "td-headers-attr": {
+            "id": "td-headers-attr",
+            "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+            "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "aria-toggle-field-name": {
+            "id": "aria-toggle-field-name",
+            "title": "ARIA toggle fields have accessible names",
+            "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "frame-title": {
+            "id": "frame-title",
+            "title": "`<frame>` or `<iframe>` elements have a title",
+            "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "aria-tooltip-name": {
+            "id": "aria-tooltip-name",
+            "title": "ARIA `tooltip` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "th-has-data-cells": {
+            "id": "th-has-data-cells",
+            "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+            "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "aria-treeitem-name": {
+            "id": "aria-treeitem-name",
+            "title": "ARIA `treeitem` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-meter-name": {
+            "id": "aria-meter-name",
+            "title": "ARIA `meter` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "object-alt": {
+            "id": "object-alt",
+            "title": "`<object>` elements have alternate text",
+            "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "dlitem": {
+            "id": "dlitem",
+            "title": "Definition list items are wrapped in `<dl>` elements",
+            "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "input-image-alt": {
+            "id": "input-image-alt",
+            "title": "`<input type=\"image\">` elements have `[alt]` text",
+            "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "form-field-multiple-labels": {
+            "id": "form-field-multiple-labels",
+            "title": "No form fields have multiple labels",
+            "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        }
+    }
+}

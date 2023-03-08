@@ -1,11 +1,9 @@
 type,code,message,context,selector
 serious,best-practice,"Fix any of the following:
-  Element has a tabindex greater than 0","<div data-focus-guard=""true"" tabindex=""1"" style=""width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed;"">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/div[1]/div[0]/div[0]/div[0]/main[0]/div[1]/section[1]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[1]/div[0]/div[2]/aside[0]/div[1]
+  Element has a tabindex greater than 0","<div data-focus-guard=""true"" tabindex=""1"" style=""width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed;"">",div > div.app-components-PlacesFilters-placesFilters__container--1YQfU > aside > div
 serious,"wcag412,wcag131","Fix all of the following:
   Focusable content should be disabled or be removed from the DOM
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""app-components-GoogleMap-styles__mapContainer--726l8"" aria-hidden=""true"" style=""position: relative; overflow: hidden;"">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/div[1]/div[0]/div[0]/div[0]/main[0]/div[1]/section[1]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[1]/div[1]/div[0]
-serious,wcag412,"Fix all of the following:
-  aria-label attribute cannot be used on a div with no valid role attribute.","<div class=""app-components-BookFlightForm-bookFlightForm__checkboxWrapper--2y-7J app-c…"" aria-label=""Flexible dates"">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/div[1]/div[0]/div[0]/div[0]/main[0]/section[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[1]/section[1]/div[0]/div[0]/div[1]/form[0]/div[0]/div[2]
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""app-components-GoogleMap-styles__mapContainer--726l8"" aria-hidden=""true"" style=""position: relative; overflow: hidden;"">",div.app-components-ContentVisible-styles__contentVisible--1xzdB > div.app-components-Places-styles__mapContent--3sSXn > div.app-components-GoogleMap-styles__fullMap--1DO-H > div.app-components-GoogleMap-styles__mapContainer--726l8
 serious,"wcag412,wcag244","Fix all of the following:
   Element is in tab order and does not have accessible text
 
@@ -13,21 +11,23 @@ Fix any of the following:
   Element does not have text that is visible to screen readers
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a href="""" target=""_self"" class="""" rel="""" aria-describedby="""">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/footer[2]/div[0]/section[0]/div[0]/div[0]/section[1]/div[0]/div[1]/ul[1]/li[5]/a[0]
+  Element has no title attribute","<a href="""" target=""_self"" class="""" rel="""" aria-describedby="""">",div.app-components-GlobalFooter-globalFooter__tabpanelChild--2-_E4 > ul > li > a
 serious,wcag131,"Fix any of the following:
-  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""app-components-BookFlight-bookFlight__noPadding--1iEms"">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/div[1]/div[0]/div[0]/div[0]/main[0]/section[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[1]/section[1]/div[0]/div[0]/div[0]/div[0]/ul[0]/li[4]
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""app-components-BookFlight-bookFlight__noPadding--1iEms"">",div.app-components-BookFlight-bookFlight__tabListWrapper--1-5vz > div.app-components-BookFlight-bookFlight__tabListContainer--1Au8B > ul.app-components-BookFlight-bookFlight__bookFlightMenu--d3pkV > li.app-components-BookFlight-bookFlight__noPadding--1iEms
+serious,wcag412,"Fix all of the following:
+  aria-label attribute cannot be used on a div with no valid role attribute.","<div class=""app-components-BookFlightForm-bookFlightForm__checkboxWrapper--2y-7J app-c…"" aria-label=""Flexible dates"">",div#bookFlightTab-panel > form#bookFlightForm > div.app-components-BookFlightForm-bookFlightForm__formHeader--2Hpvk > div.app-components-BookFlightForm-bookFlightForm__checkboxWrapper--2y-7J
+critical,wcag411,"Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: favoritesModalHeader","<h2 class=""atm-c-heading"" id=""favoritesModalHeader"">",div.atm-c-modal__window > div.atm-c-modal__content > header.atm-c-modal__header > h2#favoritesModalHeader
+critical,wcag411,"Fix any of the following:
+  Document has multiple elements referenced with ARIA with the same id attribute: favoritesModalBody","<span id=""favoritesModalBody"">",div.atm-c-modal__window > div.atm-c-modal__content > div.atm-c-modal__body > span#favoritesModalBody
 critical,wcag412,"Fix any of the following:
   Element does not have inner text that is visible to screen readers
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button type=""button"" class=""app-components-ListBox-ListBox__listBoxMainButton--6Hfoi app-components-Li…"" aria-expanded=""false"" aria-haspopup=""listbox"" role=""combobox"" aria-label="""" aria-required=""false"" id=""cabinType"" name=""cabinType"" value=""0"">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/div[1]/div[0]/div[0]/div[0]/main[0]/section[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[1]/section[1]/div[0]/div[0]/div[1]/form[0]/div[3]/div[0]/div[0]/button[0]
-critical,wcag411,"Fix any of the following:
-  Document has multiple elements referenced with ARIA with the same id attribute: favoritesModalHeader","<h2 class=""atm-c-heading"" id=""favoritesModalHeader"">",/html[1]/body[1]/div[23]/div[2]/div[0]/div[0]/div[0]/header[0]/h2[0]
-critical,wcag411,"Fix any of the following:
-  Document has multiple elements referenced with ARIA with the same id attribute: favoritesModalBody","<span id=""favoritesModalBody"">",/html[1]/body[1]/div[23]/div[2]/div[0]/div[0]/div[0]/div[1]/span[0]
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button type=""button"" class=""app-components-ListBox-ListBox__listBoxMainButton--6Hfoi app-components-Li…"" aria-expanded=""false"" aria-haspopup=""listbox"" role=""combobox"" aria-label="""" aria-required=""false"" id=""cabinType"" name=""cabinType"" value=""0"">",div.app-components-BookFlightForm-bookFlightForm__optionFieldsContainer--2LeaB > div.app-components-BookFlightForm-bookFlightForm__optionField--1kIro > div.app-components-ListBox-ListBox__listbox--2-kSS > button#cabinType
 critical,best-practice,"Fix any of the following:
-  user-scalable=no on <meta> tag disables zooming on mobile devices","<meta name=""viewport"" content=""width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"">",/html[1]/head[0]/meta[10]
+  user-scalable=no on <meta> tag disables zooming on mobile devices","<meta name=""viewport"" content=""width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"">",head > meta
 critical,"wcag412,wcag131","Fix all of the following:
   Form element has explicit <label> that is hidden
 
@@ -38,4 +38,4 @@ Fix any of the following:
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
   Element has no title attribute
   Element has no placeholder attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" class=""app-components-BookFlightForm-bookFlightForm__customCheckbox--2Wd21"" name=""Flexible"" id=""flexibleDates"">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/div[1]/div[0]/div[0]/div[0]/main[0]/section[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[1]/section[1]/div[0]/div[0]/div[1]/form[0]/div[0]/div[2]/input[0]
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" class=""app-components-BookFlightForm-bookFlightForm__customCheckbox--2Wd21"" name=""Flexible"" id=""flexibleDates"">",form#bookFlightForm > div.app-components-BookFlightForm-bookFlightForm__formHeader--2Hpvk > div.app-components-BookFlightForm-bookFlightForm__checkboxWrapper--2y-7J > input#flexibleDates

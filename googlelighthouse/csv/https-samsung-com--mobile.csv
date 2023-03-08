@@ -1,38 +1,20 @@
 type,code,message,context,selector
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.45 (foreground color: #2189ff, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<button class=""cookie-bar__desc-read-more-btn"" style=""display: block;"">",div.cookie-bar__wrap > div.cookie-bar__msg-wrap > div.cookie-bar__msg > button.cookie-bar__desc-read-more-btn
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""samsung.com/shop"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/business/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href="" https://attnl.tv/t/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://attnl.tv/p/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",div > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link
 serious,wcag412,"Fix all of the following:
   aria-label attribute cannot be used on a div with no valid role attribute.","<div id=""ae_app"" data-nosnippet="""" aria-label=""AudioEye.layoutHelpers.push(function(ele){
-// [PI-13598] - mutation perfor…"">",/html[1]/body[1]/div[76]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 3.45 (foreground color: #2189ff, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<button class=""cookie-bar__desc-read-more-btn"" style=""display: block;"">",/html[1]/body[1]/div[19]/header[34]/div[2]/div[0]/div[0]/div[0]/button[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[1]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[1]/div[0]/a[4]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[2]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""samsung.com/shop"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[3]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[3]/div[0]/a[4]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[4]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[5]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[6]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[7]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[8]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/business/"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[9]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[9]/div[0]/a[4]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[6]/div[1]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href="" https://attnl.tv/t/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[10]/div[0]/div[0]/a[2]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://attnl.tv/p/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[10]/div[0]/div[0]/a[4]
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[19]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[10]/div[1]/div[0]/a[2]
+// [PI-13598] - mutation perfor…"">",body.ae-lang-en > div#ae_app

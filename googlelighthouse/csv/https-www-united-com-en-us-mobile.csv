@@ -1,5 +1,5 @@
 type,code,message,context,selector
 critical,best-practice,"Fix any of the following:
-  user-scalable=no on <meta> tag disables zooming on mobile devices","<meta name=""viewport"" content=""width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"">",/html[1]/head[0]/meta[1]
+  user-scalable=no on <meta> tag disables zooming on mobile devices","<meta name=""viewport"" content=""width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"">",head > meta
 serious,wcag131,"Fix any of the following:
-  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""app-components-BookFlight-bookFlight__noPadding--1iEms"">",/html[1]/body[1]/div[3]/div[0]/div[0]/div[0]/div[2]/div[2]/div[1]/div[0]/div[0]/div[0]/main[0]/section[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[1]/ul[0]/section[1]/div[0]/div[0]/div[0]/div[0]/ul[0]/li[4]
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""app-components-BookFlight-bookFlight__noPadding--1iEms"">",div.app-components-BookFlight-bookFlight__tabListWrapper--1-5vz > div.app-components-BookFlight-bookFlight__tabListContainer--1Au8B > ul.app-components-BookFlight-bookFlight__bookFlightMenu--d3pkV > li.app-components-BookFlight-bookFlight__noPadding--1iEms

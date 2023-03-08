@@ -1,65 +1,53 @@
 type,code,message,context,selector
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/ul[9]
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",/html[1]/body[1]/main[51]/div[4]/div[25]/div[0]/div[14]/ul[9]
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",/html[1]/body[1]/main[51]/div[4]/div[33]/div[0]/div[14]/ul[9]
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",/html[1]/body[1]/main[51]/div[4]/div[39]/div[0]/div[61]/div[1]/ul[23]
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",/html[1]/body[1]/main[51]/div[4]/div[39]/div[0]/div[67]/div[1]/ul[43]
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",/html[1]/body[1]/main[51]/div[4]/div[48]/div[0]/div[13]/div[0]/div[1]/ul[3]
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",/html[1]/body[1]/main[51]/div[4]/div[60]/div[0]/div[1]/ul[3]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide01","<div data-bi-placement=""Flash Quad"" class=""slick-slide slick-current slick-active"" data-impr-status="""" data-impr-url=""https://media-cdn.costco.com/www3/;ID=178157;size=1x1;type=p57e9bfc3;setID…"" data-eligible-url=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" data-viewable-url=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" data-slick-index=""1"" aria-hidden=""false"" tabindex=""-1"" id=""slick-slide01"" style=""width: 1320px;"" eligible-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" …>",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/div[1]/div[0]/div[2]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide02","<div data-bi-placement=""Flash Quad"" class=""slick-slide"" data-impr-status="""" data-impr-url=""https://media-cdn.costco.com/www3/;ID=178157;size=1x1;type=p57e9bfc3;setID…"" data-eligible-url=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" data-viewable-url=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide02"" style=""width: 1320px;"" eligible-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" viewable-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" …>",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/div[1]/div[0]/div[3]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide03","<div data-bi-placement=""Flash Quad"" class=""slick-slide"" data-impr-status="""" data-impr-url=""https://media-cdn.costco.com/www3/;ID=178157;size=1x1;type=p57e9bfc3;setID…"" data-eligible-url=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" data-viewable-url=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" data-slick-index=""3"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide03"" style=""width: 1320px;"" eligible-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" viewable-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" …>",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/div[1]/div[0]/div[4]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide04","<div data-bi-placement=""Flash Quad"" class=""slick-slide"" data-impr-status="""" data-impr-url=""https://media-cdn.costco.com/www3/;ID=178157;size=1x1;type=p57e9bfc3;setID…"" data-eligible-url=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" data-viewable-url=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide04"" style=""width: 1320px;"" eligible-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" viewable-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" …>",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/div[1]/div[0]/div[5]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide05","<div data-bi-placement=""Flash Quad"" class=""slick-slide"" data-impr-status="""" data-impr-url=""https://media-cdn.costco.com/www3/;ID=178157;size=1x1;type=p57e9bfc3;setID…"" data-eligible-url=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" data-viewable-url=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide05"" style=""width: 1320px;"" eligible-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" viewable-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" …>",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/div[1]/div[0]/div[6]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide06","<div data-bi-placement=""Flash Quad"" class=""slick-slide"" data-impr-status="""" data-impr-url=""https://media-cdn.costco.com/www3/;ID=178157;size=1x1;type=p57e9bfc3;setID…"" data-eligible-url=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" data-viewable-url=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide06"" style=""width: 1320px;"" eligible-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" viewable-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" …>",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/div[1]/div[0]/div[7]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control00","<button type=""button"" id=""slick-slide-control00"" aria-label=""1 of 7"" aria-current=""true"" tabindex=""0"">",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/ul[3]/li[0]/button[0]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control01","<button type=""button"" id=""slick-slide-control01"" aria-label=""2 of 7"" aria-current=""false"">",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/ul[3]/li[1]/button[0]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control02","<button type=""button"" id=""slick-slide-control02"" aria-label=""3 of 7"" aria-current=""false"">",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/ul[3]/li[2]/button[0]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control03","<button type=""button"" id=""slick-slide-control03"" aria-label=""4 of 7"" aria-current=""false"">",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/ul[3]/li[3]/button[0]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control04","<button type=""button"" id=""slick-slide-control04"" aria-label=""5 of 7"" aria-current=""false"">",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/ul[3]/li[4]/button[0]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide15","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide15"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/div[6]/div[0]/div[5]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide16","<div class=""featured-product slick-slide"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide16"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/div[6]/div[0]/div[6]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide17","<div class=""featured-product slick-slide"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide17"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/div[6]/div[0]/div[7]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide18","<div class=""featured-product slick-slide"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide18"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/div[6]/div[0]/div[8]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide19","<div class=""featured-product slick-slide"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide19"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/div[6]/div[0]/div[9]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control10","<button type=""button"" id=""slick-slide-control10"" aria-label=""featured content 1 of 2"" aria-current=""true"" tabindex=""0"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/ul[9]/li[0]/button[0]
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control11","<button type=""button"" id=""slick-slide-control11"" aria-label=""featured content 2 of 2"" aria-current=""false"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/ul[9]/li[1]/button[0]
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div data-bi-placement=""Flash Quad"" class=""slick-slide"" data-impr-status=""loaded"" data-impr-url=""https://media-cdn.costco.com/www3/;ID=178157;size=1x1;type=p57e9bfc3;setID…"" data-eligible-url=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" data-viewable-url=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" data-slick-index=""0"" aria-hidden=""true"" id=""slick-slide00"" eligible-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=e57e9bfc3;placementID=2…"" viewable-callback=""https://media-cdn.costco.com/www3/;MID=178157;type=v57e9bfc3;placementID=2…"" …>",/html[1]/body[1]/main[51]/div[4]/div[15]/div[0]/div[73]/div[1]/div[0]/div[1]
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide06"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide06
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide16"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/div[6]/div[0]/div[6]
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide09"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide09
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide19"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[20]/div[0]/div[14]/div[6]/div[0]/div[9]
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide15"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide15
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide25"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[25]/div[0]/div[14]/div[6]/div[0]/div[5]
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide17"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide17
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide27"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[25]/div[0]/div[14]/div[6]/div[0]/div[7]
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide18"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide18
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide28"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[25]/div[0]/div[14]/div[6]/div[0]/div[8]
-serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide35"" style=""width: 232px;"">",/html[1]/body[1]/main[51]/div[4]/div[33]/div[0]/div[14]/div[6]/div[0]/div[5]
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide25"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide25
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.row > div.feature-carousel-container > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide05","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide05"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide05
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide06","<div class=""featured-product slick-slide"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide06"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide06
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide07","<div class=""featured-product slick-slide"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide07"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide07
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide08","<div class=""featured-product slick-slide"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide08"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide08
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide09","<div class=""featured-product slick-slide"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide09"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide09
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide-control00","<button type=""button"" id=""slick-slide-control00"" aria-label=""featured content 1 of 2"" aria-current=""true"" tabindex=""0"">",div.feature-carousel > ul.slick-dots > li.slick-active > button#slick-slide-control00
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide-control01","<button type=""button"" id=""slick-slide-control01"" aria-label=""featured content 2 of 2"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control01
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide15","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide15"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide15
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide16","<div class=""featured-product slick-slide"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide16"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide16
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide17","<div class=""featured-product slick-slide"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide17"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide17
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide18","<div class=""featured-product slick-slide"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide18"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide18
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide19","<div class=""featured-product slick-slide"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide19"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide19
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide-control10","<button type=""button"" id=""slick-slide-control10"" aria-label=""featured content 1 of 2"" aria-current=""true"" tabindex=""0"">",div.feature-carousel > ul.slick-dots > li.slick-active > button#slick-slide-control10
+serious,wcag411,"Fix any of the following:
+  Document has active elements with the same id attribute: slick-slide-control11","<button type=""button"" id=""slick-slide-control11"" aria-label=""featured content 2 of 2"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control11

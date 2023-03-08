@@ -1,4 +1,5 @@
 import json
+import time
 from typing import Dict, List
 
 import pandas as pd
@@ -8,11 +9,15 @@ import base64
 
 
 def test_api(url: str, path: str, strategy="mobile"):
-    r = requests.get(
-        f"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={url}&category=accessibility&strategy={strategy}",
-        headers={
-            'content-type': 'application/json',
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78"})
+    while True:
+        r = requests.get(
+            f"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={url}&category=accessibility&strategy={strategy}",
+            headers={
+                'content-type': 'application/json',
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78"})
+        if not r.json().__contains__('error'):
+            break
+        time.sleep(2)
     with open(path, 'w') as f1:
         json.dump(r.json(), f1, indent=4)
 
@@ -59,7 +64,7 @@ def json2csv(file_path: str, csv_file: str):
                     df_data['code'].append(code)
                     df_data['message'].append(it['node']['explanation'])
                     df_data['context'].append(it['node']['snippet'])
-                    df_data['selector'].append(path2XPath(it['node']['path']))
+                    df_data['selector'].append(it['node']['selector'])
                 else:
                     ittems = it['subItems']['items']
                     for i in ittems:
@@ -67,9 +72,10 @@ def json2csv(file_path: str, csv_file: str):
                         df_data['code'].append(code)
                         df_data['message'].append(i['relatedNode']['nodeLabel'])
                         df_data['context'].append(i['relatedNode']['snippet'])
-                        df_data['selector'].append(path2XPath(it['relatedNode']['path']))
+                        df_data['selector'].append(it['relatedNode']['selector'])
 
     df = pd.DataFrame(df_data)
+    df.drop_duplicates(inplace=True)
     df.to_csv(csv_file, index=False)
 
 

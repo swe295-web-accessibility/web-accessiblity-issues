@@ -1,1 +1,13 @@
 type,code,message,context,selector
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.row > div.feature-carousel-container > div.feature-carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots
+serious,wcag131,"Fix all of the following:
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots

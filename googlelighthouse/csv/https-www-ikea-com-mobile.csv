@@ -1,520 +1,520 @@
 type,code,message,context,selector
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.pr/puertorico/es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.pr/puertorico/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ae/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ae/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.hk/zh/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.hk/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.do/es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.do/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ca/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ca/fr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ma/fr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ma/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ma/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/pl/pl/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jo/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jo/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/cz/cs/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/cz/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/th/th/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/th/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/gb/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/de/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/fr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/it/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/rs/sr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/be/nl/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/be/fr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/be/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/bh/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/bh/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/hu/hu/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.gr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.gr/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.co.id/in/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.co.id/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/eg/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/eg/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/us/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sk/sk/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/se/sv/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sg/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ph/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/pt/pt/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/pt/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/dk/da/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.is/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.bg/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tr/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lt/lt/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lt/ru/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lt/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ru/ru/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jp/ja/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jp/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.cy/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.cy/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/au/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.cn/cn/zh/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.cn/cn/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sa/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sa/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kw/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kw/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kr/ko/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kr/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/fi/fi/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://baleares.ikea.es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/hr/hr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/nl/nl/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/no/no/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/qa/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/qa/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/il/he/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/om/ar/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/om/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/de/de/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.ee/et/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.ee/ru/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.ee/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lv/lv/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lv/ru/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lv/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/si/sl/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/my/ms/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/my/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tw/zh/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tw/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://canarias.ikea.es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ro/ro/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ie/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/it/it/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/fr/fr/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/at/de/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ua/uk/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/mx/es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/mx/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/in/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/nl/en/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/cl/es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
+serious,"wcag412,wcag244","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/co/es/?ref=gwp-start"" tabindex=""-1"">",body.startpage > div.region-links > a.link
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 3.68 (foreground color: #ffffff, background color: #309843, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",<p>,/html[1]/body[1]/div[0]/div[1]/main[0]/div[5]/div[0]/div[0]/a[0]/div[0]/div[0]/div[1]/p[0]
+  Element has insufficient color contrast of 3.68 (foreground color: #ffffff, background color: #309843, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",<p>,div.content > div.copy-container > div.title-container > p
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.35 (foreground color: #b3cde3, background color: #0058a3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1","<p class=""svelte-xzdvl1"">",/html[1]/body[1]/div[0]/div[1]/footer[1]/div[2]/div[1]/div[1]/p[0]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.pr/puertorico/es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[0]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.pr/puertorico/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[1]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ae/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[2]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ae/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[3]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.hk/zh/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[4]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.hk/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[5]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.do/es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[6]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.do/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[7]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ca/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[8]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ca/fr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[9]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ma/fr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[10]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ma/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[11]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ma/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[12]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/pl/pl/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[13]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jo/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[14]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jo/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[15]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/cz/cs/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[16]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/cz/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[17]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/th/th/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[18]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/th/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[19]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/gb/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[20]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/de/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[21]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/fr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[22]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/it/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[23]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ch/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[24]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/rs/sr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[25]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/be/nl/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[26]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/be/fr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[27]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/be/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[28]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/bh/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[29]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/bh/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[30]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/hu/hu/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[31]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.gr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[32]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.gr/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[33]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.co.id/in/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[34]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.co.id/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[35]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/eg/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[36]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/eg/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[37]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/us/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[38]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sk/sk/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[39]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/se/sv/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[40]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sg/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[41]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ph/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[42]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/pt/pt/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[43]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/pt/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[44]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/dk/da/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[45]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.is/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[46]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.bg/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[47]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[48]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tr/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[49]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lt/lt/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[50]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lt/ru/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[51]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lt/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[52]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ru/ru/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[53]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jp/ja/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[54]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/jp/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[55]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.cy/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[56]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.cy/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[57]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/au/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[58]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.cn/cn/zh/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[59]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.cn/cn/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[60]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sa/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[61]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/sa/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[62]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kw/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[63]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kw/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[64]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kr/ko/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[65]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/kr/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[66]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/fi/fi/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[67]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[68]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://baleares.ikea.es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[69]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/hr/hr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[70]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/nl/nl/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[71]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/no/no/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[72]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/qa/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[73]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/qa/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[74]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/il/he/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[75]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/om/ar/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[76]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/om/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[77]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/de/de/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[78]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.ee/et/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[79]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.ee/ru/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[80]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.ee/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[81]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lv/lv/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[82]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lv/ru/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[83]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.lv/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[84]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/si/sl/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[85]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/my/ms/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[86]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/my/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[87]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tw/zh/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[88]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com.tw/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[89]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://canarias.ikea.es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[90]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ro/ro/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[91]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ie/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[92]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/it/it/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[93]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/fr/fr/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[94]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/at/de/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[95]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/ua/uk/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[96]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/mx/es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[97]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/mx/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[98]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/in/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[99]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/nl/en/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[100]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/cl/es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[101]
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""link"" href=""https://www.ikea.com/co/es/?ref=gwp-start"" tabindex=""-1"">",/html[1]/body[1]/div[3]/a[102]
+  Element has insufficient color contrast of 4.35 (foreground color: #b3cde3, background color: #0058a3, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1","<p class=""svelte-xzdvl1"">",div.bottom-content > div.end-copy > div.svelte-xzdvl1 > p.svelte-xzdvl1

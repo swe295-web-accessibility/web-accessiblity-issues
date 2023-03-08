@@ -1,0 +1,2677 @@
+{
+    "score": 0.95,
+    "problem": {
+        "serious": {
+            "list": {
+                "id": "list",
+                "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+                "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+                "details": {
+                    "debugData": {
+                        "impact": "serious",
+                        "type": "debugdata",
+                        "tags": [
+                            "cat.structure",
+                            "wcag2a",
+                            "wcag131"
+                        ]
+                    },
+                    "type": "table",
+                    "items": [
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-65-LI",
+                                            "nodeLabel": "1",
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "left": 110,
+                                                "bottom": 5513,
+                                                "width": 20,
+                                                "top": 5493,
+                                                "right": 130
+                                            },
+                                            "type": "node",
+                                            "snippet": "<li class=\"slick-active\" role=\"presentation\">",
+                                            "selector": "div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots > li.slick-active",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,0,LI"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "nodeLabel": "2",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,1,LI",
+                                            "selector": "div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots > li",
+                                            "lhId": "16-66-LI",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "left": 140,
+                                                "height": 20,
+                                                "bottom": 5513,
+                                                "width": 20,
+                                                "top": 5493,
+                                                "right": 160
+                                            },
+                                            "snippet": "<li role=\"presentation\">"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "bottom": 5513,
+                                                "top": 5493,
+                                                "width": 20,
+                                                "right": 190,
+                                                "height": 20,
+                                                "left": 170
+                                            },
+                                            "snippet": "<li role=\"presentation\">",
+                                            "lhId": "16-67-LI",
+                                            "selector": "div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots > li",
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,2,LI",
+                                            "nodeLabel": "3"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "selector": "div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots",
+                                "snippet": "<ul class=\"slick-dots\" style=\"display: block;\">",
+                                "lhId": "16-64-UL",
+                                "nodeLabel": "1\n2\n3\n4\n5",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL",
+                                "boundingRect": {
+                                    "top": 5493,
+                                    "height": 21,
+                                    "bottom": 5515,
+                                    "left": 15,
+                                    "right": 345,
+                                    "width": 330
+                                },
+                                "type": "node",
+                                "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "16-68-UL",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL",
+                                "boundingRect": {
+                                    "bottom": 6059,
+                                    "right": 345,
+                                    "height": 21,
+                                    "width": 330,
+                                    "left": 15,
+                                    "top": 6037
+                                },
+                                "type": "node",
+                                "selector": "div.container-fluid > div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots",
+                                "nodeLabel": "1\n2\n3\n4\n5",
+                                "snippet": "<ul class=\"slick-dots\" style=\"display: block;\">",
+                                "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots > li.slick-active",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,0,LI",
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "bottom": 6057,
+                                                "top": 6037,
+                                                "right": 130,
+                                                "width": 20,
+                                                "left": 110
+                                            },
+                                            "lhId": "16-69-LI",
+                                            "type": "node",
+                                            "snippet": "<li class=\"slick-active\" role=\"presentation\">",
+                                            "nodeLabel": "1"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "nodeLabel": "2",
+                                            "snippet": "<li role=\"presentation\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,1,LI",
+                                            "selector": "div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots > li",
+                                            "lhId": "16-70-LI",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "left": 140,
+                                                "top": 6037,
+                                                "bottom": 6057,
+                                                "width": 20,
+                                                "right": 160,
+                                                "height": 20
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "left": 170,
+                                                "width": 20,
+                                                "height": 20,
+                                                "bottom": 6057,
+                                                "right": 190,
+                                                "top": 6037
+                                            },
+                                            "nodeLabel": "3",
+                                            "selector": "div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots > li",
+                                            "snippet": "<li role=\"presentation\">",
+                                            "lhId": "16-71-LI",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,2,LI"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation",
+                                "selector": "div.container-fluid > div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots",
+                                "nodeLabel": "1\n2\n3\n4",
+                                "snippet": "<ul class=\"slick-dots\" style=\"display: block;\">",
+                                "lhId": "16-72-UL",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,33,DIV,0,DIV,14,DIV,7,UL",
+                                "type": "node",
+                                "boundingRect": {
+                                    "height": 21,
+                                    "width": 330,
+                                    "left": 15,
+                                    "right": 345,
+                                    "bottom": 10306,
+                                    "top": 10284
+                                }
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "width": 20,
+                                                "bottom": 10304,
+                                                "top": 10284,
+                                                "left": 125,
+                                                "right": 145,
+                                                "height": 20
+                                            },
+                                            "snippet": "<li class=\"slick-active\" role=\"presentation\">",
+                                            "lhId": "16-73-LI",
+                                            "selector": "div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots > li.slick-active",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,33,DIV,0,DIV,14,DIV,7,UL,0,LI",
+                                            "nodeLabel": "1",
+                                            "type": "node"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,33,DIV,0,DIV,14,DIV,7,UL,1,LI",
+                                            "snippet": "<li role=\"presentation\">",
+                                            "nodeLabel": "2",
+                                            "lhId": "16-74-LI",
+                                            "boundingRect": {
+                                                "right": 175,
+                                                "height": 20,
+                                                "left": 155,
+                                                "top": 10284,
+                                                "width": 20,
+                                                "bottom": 10304
+                                            },
+                                            "selector": "div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots > li"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots > li",
+                                            "nodeLabel": "3",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "width": 20,
+                                                "right": 205,
+                                                "left": 185,
+                                                "bottom": 10304,
+                                                "top": 10284
+                                            },
+                                            "snippet": "<li role=\"presentation\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,33,DIV,0,DIV,14,DIV,7,UL,2,LI",
+                                            "lhId": "16-75-LI"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "right": 130,
+                                                "width": 20,
+                                                "top": 10959,
+                                                "height": 20,
+                                                "bottom": 10979,
+                                                "left": 110
+                                            },
+                                            "lhId": "16-77-LI",
+                                            "snippet": "<li class=\"slick-active\" role=\"presentation\">",
+                                            "nodeLabel": "1",
+                                            "selector": "div.feature-carousel-container > div.feature-carousel > ul.slick-dots > li.slick-active",
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,61,DIV,1,DIV,21,UL,0,LI"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-78-LI",
+                                            "type": "node",
+                                            "snippet": "<li role=\"presentation\">",
+                                            "boundingRect": {
+                                                "right": 160,
+                                                "height": 20,
+                                                "left": 140,
+                                                "bottom": 10979,
+                                                "width": 20,
+                                                "top": 10959
+                                            },
+                                            "nodeLabel": "2",
+                                            "selector": "div.feature-carousel-container > div.feature-carousel > ul.slick-dots > li",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,61,DIV,1,DIV,21,UL,1,LI"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "right": 190,
+                                                "width": 20,
+                                                "top": 10959,
+                                                "left": 170,
+                                                "bottom": 10979
+                                            },
+                                            "snippet": "<li role=\"presentation\">",
+                                            "lhId": "16-79-LI",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,61,DIV,1,DIV,21,UL,2,LI",
+                                            "nodeLabel": "3",
+                                            "selector": "div.feature-carousel-container > div.feature-carousel > ul.slick-dots > li"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,61,DIV,1,DIV,21,UL",
+                                "nodeLabel": "1\n2\n3\n4\n5",
+                                "selector": "div.row > div.feature-carousel-container > div.feature-carousel > ul.slick-dots",
+                                "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation",
+                                "boundingRect": {
+                                    "height": 21,
+                                    "left": 15,
+                                    "bottom": 10980,
+                                    "width": 330,
+                                    "right": 345,
+                                    "top": 10959
+                                },
+                                "type": "node",
+                                "snippet": "<ul class=\"slick-dots\" style=\"display: block;\">",
+                                "lhId": "16-76-UL"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "width": 20,
+                                                "bottom": 11347,
+                                                "right": 55,
+                                                "left": 35,
+                                                "top": 11327
+                                            },
+                                            "type": "node",
+                                            "snippet": "<li class=\"slick-active\" role=\"presentation\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,67,DIV,1,DIV,41,UL,0,LI",
+                                            "nodeLabel": "1",
+                                            "selector": "div.feature-carousel-container > div.feature-carousel > ul.slick-dots > li.slick-active",
+                                            "lhId": "16-81-LI"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-82-LI",
+                                            "selector": "div.feature-carousel-container > div.feature-carousel > ul.slick-dots > li",
+                                            "type": "node",
+                                            "nodeLabel": "2",
+                                            "boundingRect": {
+                                                "bottom": 11347,
+                                                "width": 20,
+                                                "height": 20,
+                                                "right": 85,
+                                                "top": 11327,
+                                                "left": 65
+                                            },
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,67,DIV,1,DIV,41,UL,1,LI",
+                                            "snippet": "<li role=\"presentation\">"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "width": 20,
+                                                "bottom": 11347,
+                                                "left": 95,
+                                                "height": 20,
+                                                "right": 115,
+                                                "top": 11327
+                                            },
+                                            "snippet": "<li role=\"presentation\">",
+                                            "nodeLabel": "3",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,67,DIV,1,DIV,41,UL,2,LI",
+                                            "selector": "div.feature-carousel-container > div.feature-carousel > ul.slick-dots > li",
+                                            "type": "node",
+                                            "lhId": "16-83-LI"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,39,DIV,0,DIV,67,DIV,1,DIV,41,UL",
+                                "selector": "div.row > div.feature-carousel-container > div.feature-carousel > ul.slick-dots",
+                                "lhId": "16-80-UL",
+                                "nodeLabel": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10",
+                                "boundingRect": {
+                                    "right": 345,
+                                    "height": 21,
+                                    "left": 15,
+                                    "width": 330,
+                                    "bottom": 11348,
+                                    "top": 11327
+                                },
+                                "type": "node",
+                                "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation",
+                                "snippet": "<ul class=\"slick-dots\" style=\"display: block;\">"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "height": 43,
+                                    "width": 300,
+                                    "bottom": 11789,
+                                    "top": 11746,
+                                    "left": 30,
+                                    "right": 330
+                                },
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL",
+                                "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation",
+                                "lhId": "16-84-UL",
+                                "selector": "div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots",
+                                "nodeLabel": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+                                "snippet": "<ul class=\"slick-dots\" style=\"\">",
+                                "type": "node"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,0,LI",
+                                            "nodeLabel": "1",
+                                            "snippet": "<li class=\"slick-active\" role=\"presentation\">",
+                                            "boundingRect": {
+                                                "right": 55,
+                                                "top": 11746,
+                                                "height": 20,
+                                                "left": 35,
+                                                "width": 20,
+                                                "bottom": 11766
+                                            },
+                                            "selector": "div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li.slick-active",
+                                            "lhId": "16-85-LI",
+                                            "type": "node"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "nodeLabel": "2",
+                                            "selector": "div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li",
+                                            "type": "node",
+                                            "snippet": "<li role=\"presentation\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,1,LI",
+                                            "lhId": "16-86-LI",
+                                            "boundingRect": {
+                                                "left": 65,
+                                                "width": 20,
+                                                "top": 11746,
+                                                "height": 20,
+                                                "bottom": 11766,
+                                                "right": 85
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-87-LI",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,2,LI",
+                                            "nodeLabel": "3",
+                                            "selector": "div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li",
+                                            "type": "node",
+                                            "snippet": "<li role=\"presentation\">",
+                                            "boundingRect": {
+                                                "left": 95,
+                                                "width": 20,
+                                                "bottom": 11766,
+                                                "top": 11746,
+                                                "height": 20,
+                                                "right": 115
+                                            }
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "16-88-UL",
+                                "nodeLabel": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+                                "boundingRect": {
+                                    "left": 15,
+                                    "right": 345,
+                                    "height": 43,
+                                    "bottom": 13030,
+                                    "top": 12987,
+                                    "width": 330
+                                },
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL",
+                                "snippet": "<ul class=\"slick-dots\" style=\"\">",
+                                "explanation": "Fix all of the following:\n  List element has direct children with a role that is not allowed: presentation",
+                                "selector": "div#viewHome-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li.slick-active",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,0,LI",
+                                            "snippet": "<li class=\"slick-active\" role=\"presentation\">",
+                                            "lhId": "16-89-LI",
+                                            "nodeLabel": "1",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "right": 40,
+                                                "left": 20,
+                                                "top": 12987,
+                                                "bottom": 13007,
+                                                "width": 20
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "snippet": "<li role=\"presentation\">",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "bottom": 13007,
+                                                "right": 70,
+                                                "height": 20,
+                                                "width": 20,
+                                                "top": 12987,
+                                                "left": 50
+                                            },
+                                            "selector": "div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,1,LI",
+                                            "lhId": "16-90-LI",
+                                            "nodeLabel": "2"
+                                        }
+                                    },
+                                    {
+                                        "relatedNode": {
+                                            "nodeLabel": "3",
+                                            "snippet": "<li role=\"presentation\">",
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "width": 20,
+                                                "top": 12987,
+                                                "right": 100,
+                                                "bottom": 13007,
+                                                "left": 80
+                                            },
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,2,LI",
+                                            "type": "node",
+                                            "selector": "div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li",
+                                            "lhId": "16-91-LI"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "headings": [
+                        {
+                            "text": "Failing Elements",
+                            "key": "node",
+                            "itemType": "node",
+                            "subItemsHeading": {
+                                "key": "relatedNode",
+                                "itemType": "node"
+                            }
+                        }
+                    ]
+                },
+                "weight": 3,
+                "group": "a11y-tables-lists"
+            },
+            "duplicate-id-active": {
+                "id": "duplicate-id-active",
+                "title": "`[id]` attributes on active, focusable elements are not unique",
+                "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+                "details": {
+                    "debugData": {
+                        "type": "debugdata",
+                        "impact": "serious",
+                        "tags": [
+                            "cat.parsing",
+                            "wcag2a",
+                            "wcag411"
+                        ]
+                    },
+                    "type": "table",
+                    "headings": [
+                        {
+                            "key": "node",
+                            "itemType": "node",
+                            "text": "Failing Elements",
+                            "subItemsHeading": {
+                                "key": "relatedNode",
+                                "itemType": "node"
+                            }
+                        }
+                    ],
+                    "items": [
+                        {
+                            "node": {
+                                "nodeLabel": "$234.99\n\nAfter $65 OFF\n\nHansgrohe Cento Semi-Pro Kitchen Faucet",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide02\">",
+                                "type": "node",
+                                "lhId": "16-0-DIV",
+                                "boundingRect": {
+                                    "height": 289,
+                                    "width": 155,
+                                    "bottom": 5410,
+                                    "right": 520,
+                                    "left": 365,
+                                    "top": 5120
+                                },
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide02",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide02",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,2,DIV"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-22-DIV",
+                                            "type": "node",
+                                            "nodeLabel": "Member Only Item\n\nPrice includes $650 savings.\nPrice valid through 3/8/23\n\nLG 6\u2026",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV",
+                                            "boundingRect": {
+                                                "width": 155,
+                                                "bottom": 12944,
+                                                "top": 12619,
+                                                "left": 365,
+                                                "height": 326,
+                                                "right": 520
+                                            },
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide02\" style=\"width: 155px;\">",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide02"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "node": {
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide03",
+                                "type": "node",
+                                "nodeLabel": "$189.99\n\n$189.99 After $40 OFF\n\nTRINITY 5-Tier Heavy Duty Wire Shelving Rack, 6\u2026",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide03",
+                                "lhId": "16-23-DIV",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,3,DIV",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide03\">",
+                                "boundingRect": {
+                                    "bottom": 5478,
+                                    "right": 695,
+                                    "top": 5120,
+                                    "width": 155,
+                                    "height": 358,
+                                    "left": 540
+                                }
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide03\" style=\"width: 155px;\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,3,DIV",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide03",
+                                            "nodeLabel": "$22.99\n\nAdvil Liqui-Gels Ibuprofen 200 mg. Pain Reliever/Fever Reducer, 240 Cap\u2026",
+                                            "type": "node",
+                                            "lhId": "16-24-DIV",
+                                            "boundingRect": {
+                                                "left": 540,
+                                                "width": 155,
+                                                "top": 12619,
+                                                "right": 695,
+                                                "bottom": 12893,
+                                                "height": 275
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "width": 155,
+                                                "right": 870,
+                                                "bottom": 12893,
+                                                "height": 275,
+                                                "left": 715,
+                                                "top": 12619
+                                            },
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV",
+                                            "lhId": "16-25-DIV",
+                                            "nodeLabel": "$21.99\n\nCaltrate Bone Health Advanced 600+D3 Plus Minerals, 320 Tablets",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide04",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide04\" style=\"width: 155px;\">"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "boundingRect": {
+                                    "width": 155,
+                                    "top": 5120,
+                                    "right": 870,
+                                    "bottom": 5410,
+                                    "left": 715,
+                                    "height": 289
+                                },
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide04",
+                                "nodeLabel": "$99.99\n\n$99.99 After $40 OFF\n\nHunter Apex LED 52\" Reversible Blade Ceiling Fan",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide04",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide04\">",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,4,DIV",
+                                "lhId": "16-2-DIV"
+                            }
+                        },
+                        {
+                            "node": {
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide05",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"5\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide05\">",
+                                "lhId": "16-26-DIV",
+                                "boundingRect": {
+                                    "left": 890,
+                                    "top": 5120,
+                                    "right": 1045,
+                                    "width": 155,
+                                    "bottom": 5455,
+                                    "height": 334
+                                },
+                                "nodeLabel": "$1,649.99\n\n$1,649.99 After $250 OFF\n\nOVE Decors Lakeview 72\" Bath Vanity",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide05",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,5,DIV"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "lhId": "16-27-DIV",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,5,DIV",
+                                            "nodeLabel": "$39.99\n\nVoltaren Arthritis Pain Gel, 12.34 Ounces",
+                                            "boundingRect": {
+                                                "width": 155,
+                                                "top": 12619,
+                                                "height": 257,
+                                                "left": 890,
+                                                "bottom": 12875,
+                                                "right": 1045
+                                            },
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"5\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide05\" style=\"width: 155px;\">",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide05"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-28-DIV",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,6,DIV",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide06",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"6\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide06\" style=\"width: 155px;\">",
+                                            "boundingRect": {
+                                                "width": 155,
+                                                "right": 1220,
+                                                "left": 1065,
+                                                "top": 12619,
+                                                "height": 275,
+                                                "bottom": 12893
+                                            },
+                                            "nodeLabel": "$22.99\n\nAdvil Ibuprofen 200 mg., Pain Reliever/Fever Reducer, 360 Tablets",
+                                            "type": "node"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "nodeLabel": "$249.99\n\n$249.99 After $150 OFF\n\nOVE Decors Enlight Smart Bidet Toilet Seat wit\u2026",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,6,DIV",
+                                "boundingRect": {
+                                    "top": 5120,
+                                    "height": 312,
+                                    "right": 1220,
+                                    "left": 1065,
+                                    "width": 155,
+                                    "bottom": 5433
+                                },
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide06",
+                                "lhId": "16-4-DIV",
+                                "type": "node",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"6\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide06\">",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide06"
+                            }
+                        },
+                        {
+                            "node": {
+                                "nodeLabel": "$69.99\n\nAfter $20 OFF\n\nMoen Engage Handheld Showerhead with Magnetix",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide07",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,7,DIV",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"7\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide07\">",
+                                "lhId": "16-29-DIV",
+                                "boundingRect": {
+                                    "left": 1240,
+                                    "right": 1395,
+                                    "bottom": 5462,
+                                    "height": 341,
+                                    "width": 155,
+                                    "top": 5120
+                                },
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide07"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"7\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide07\" style=\"width: 155px;\">",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide07",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,7,DIV",
+                                            "lhId": "16-30-DIV",
+                                            "type": "node",
+                                            "nodeLabel": "$19.99\n\ntrunature Premium Milk Thistle 160 mg., 120 Vegetarian Capsules",
+                                            "boundingRect": {
+                                                "left": 1240,
+                                                "height": 275,
+                                                "bottom": 12893,
+                                                "width": 155,
+                                                "right": 1395,
+                                                "top": 12619
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,8,DIV",
+                                            "boundingRect": {
+                                                "width": 155,
+                                                "bottom": 12893,
+                                                "height": 275,
+                                                "top": 12619,
+                                                "right": 1570,
+                                                "left": 1415
+                                            },
+                                            "lhId": "16-32-DIV",
+                                            "nodeLabel": "$35.99\n\nPureboost Energy Drink Mix, Variety Pack, 45 Packets",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"8\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide08\" style=\"width: 155px;\">",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide08",
+                                            "type": "node"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide08",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"8\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide08\">",
+                                "nodeLabel": "$419.99\n\nAfter $180 OFF\n\nLorex Fusion 4K 12-CH 2TB Wired DVR System With Four 4\u2026",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,8,DIV",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide08",
+                                "boundingRect": {
+                                    "right": 1570,
+                                    "left": 1415,
+                                    "width": 155,
+                                    "height": 341,
+                                    "bottom": 5462,
+                                    "top": 5120
+                                },
+                                "lhId": "16-31-DIV"
+                            }
+                        },
+                        {
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide09",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,9,DIV",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"9\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide09\">",
+                                "boundingRect": {
+                                    "bottom": 5433,
+                                    "right": 1745,
+                                    "width": 155,
+                                    "left": 1590,
+                                    "top": 5120,
+                                    "height": 312
+                                },
+                                "lhId": "16-6-DIV",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide09",
+                                "nodeLabel": "$399.99\n\n$399.99 After $100 OFF\n\nKRAUS Undermount Workstation Sink with Pull-Do\u2026"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-33-DIV",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > div.slick-list > div.slick-track > div#slick-slide09",
+                                            "boundingRect": {
+                                                "width": 155,
+                                                "left": 1590,
+                                                "bottom": 12912,
+                                                "height": 294,
+                                                "right": 1745,
+                                                "top": 12619
+                                            },
+                                            "nodeLabel": "Member Only Item\n\nItem Qualifies for Buy More, Save More Prom\n\nLG 27.5 cu. ft. \u2026",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,1,DIV,0,DIV,9,DIV",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"9\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide09\" style=\"width: 155px;\">",
+                                            "type": "node"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "width": 20,
+                                                "left": 20,
+                                                "bottom": 13007,
+                                                "top": 12987,
+                                                "height": 20,
+                                                "right": 40
+                                            },
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control00\" aria-label=\"sponsored products 1 of 12\" tabindex=\"0\" aria-current=\"true\">",
+                                            "nodeLabel": "1",
+                                            "type": "node",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li.slick-active > button#slick-slide-control00",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,0,LI,0,BUTTON",
+                                            "lhId": "16-35-BUTTON"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control00\" aria-label=\"featured content 1 of 5\" aria-current=\"true\" tabindex=\"0\">",
+                                "type": "node",
+                                "nodeLabel": "1",
+                                "selector": "div.feature-carousel > ul.slick-dots > li.slick-active > button#slick-slide-control00",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control00",
+                                "boundingRect": {
+                                    "bottom": 5513,
+                                    "top": 5493,
+                                    "left": 110,
+                                    "right": 130,
+                                    "height": 20,
+                                    "width": 20
+                                },
+                                "lhId": "16-34-BUTTON",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,0,LI,0,BUTTON"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li > button#slick-slide-control01",
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control01\" aria-label=\"sponsored products 2 of 12\">",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "top": 12987,
+                                                "width": 20,
+                                                "left": 50,
+                                                "bottom": 13007,
+                                                "height": 20,
+                                                "right": 70
+                                            },
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,1,LI,0,BUTTON",
+                                            "nodeLabel": "2",
+                                            "lhId": "16-37-BUTTON"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control01",
+                                "lhId": "16-36-BUTTON",
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control01\" aria-label=\"featured content 2 of 5\" aria-current=\"false\">",
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control01",
+                                "boundingRect": {
+                                    "bottom": 5513,
+                                    "height": 20,
+                                    "right": 160,
+                                    "width": 20,
+                                    "top": 5493,
+                                    "left": 140
+                                },
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,1,LI,0,BUTTON",
+                                "nodeLabel": "2"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li > button#slick-slide-control02",
+                                            "lhId": "16-39-BUTTON",
+                                            "nodeLabel": "3",
+                                            "type": "node",
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control02\" aria-label=\"sponsored products 3 of 12\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,2,LI,0,BUTTON",
+                                            "boundingRect": {
+                                                "left": 80,
+                                                "right": 100,
+                                                "top": 12987,
+                                                "width": 20,
+                                                "bottom": 13007,
+                                                "height": 20
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control02",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control02",
+                                "nodeLabel": "3",
+                                "lhId": "16-38-BUTTON",
+                                "boundingRect": {
+                                    "width": 20,
+                                    "right": 190,
+                                    "bottom": 5513,
+                                    "height": 20,
+                                    "top": 5493,
+                                    "left": 170
+                                },
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,2,LI,0,BUTTON",
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control02\" aria-label=\"featured content 3 of 5\" aria-current=\"false\">",
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control03\" aria-label=\"sponsored products 4 of 12\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,3,LI,0,BUTTON",
+                                            "boundingRect": {
+                                                "height": 20,
+                                                "right": 130,
+                                                "left": 110,
+                                                "bottom": 13007,
+                                                "width": 20,
+                                                "top": 12987
+                                            },
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li > button#slick-slide-control03",
+                                            "nodeLabel": "4",
+                                            "type": "node",
+                                            "lhId": "16-41-BUTTON"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control03",
+                                "lhId": "16-40-BUTTON",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control03",
+                                "boundingRect": {
+                                    "bottom": 5513,
+                                    "left": 200,
+                                    "width": 20,
+                                    "top": 5493,
+                                    "right": 220,
+                                    "height": 20
+                                },
+                                "nodeLabel": "4",
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control03\" aria-label=\"featured content 4 of 5\" aria-current=\"false\">",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,3,LI,0,BUTTON"
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "left": 230,
+                                    "height": 20,
+                                    "width": 20,
+                                    "top": 5493,
+                                    "bottom": 5513,
+                                    "right": 250
+                                },
+                                "lhId": "16-42-BUTTON",
+                                "nodeLabel": "5",
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control04",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,7,UL,4,LI,0,BUTTON",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control04",
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control04\" aria-label=\"featured content 5 of 5\" aria-current=\"false\">"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "nodeLabel": "5",
+                                            "selector": "div#rm-prodgroup-viewHome-Carousel > ul.slick-dots > li > button#slick-slide-control04",
+                                            "lhId": "16-43-BUTTON",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,60,DIV,0,DIV,1,DIV,3,UL,4,LI,0,BUTTON",
+                                            "boundingRect": {
+                                                "left": 140,
+                                                "bottom": 13007,
+                                                "height": 20,
+                                                "top": 12987,
+                                                "right": 160,
+                                                "width": 20
+                                            },
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control04\" aria-label=\"sponsored products 5 of 12\">"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "left": 365,
+                                    "height": 244,
+                                    "width": 155,
+                                    "bottom": 5865,
+                                    "top": 5621,
+                                    "right": 520
+                                },
+                                "type": "node",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide12\">",
+                                "lhId": "16-8-DIV",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide12",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide12",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,2,DIV",
+                                "nodeLabel": "$189.99\nthrough\n - $299.99\n\nAfter $50 - $80 OFF\n\nAerobin Composter"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,2,DIV",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "top": 11420,
+                                                "bottom": 11728,
+                                                "left": 350,
+                                                "height": 308,
+                                                "right": 490,
+                                                "width": 140
+                                            },
+                                            "lhId": "16-44-DIV",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide12\" style=\"width: 140px;\">",
+                                            "nodeLabel": "Member Only Item\n\nPrice includes $650 savings.\nPrice valid through 3/8/23\n\nLG 6\u2026",
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide12"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "bottom": 5933,
+                                    "right": 695,
+                                    "width": 155,
+                                    "height": 312,
+                                    "left": 540,
+                                    "top": 5621
+                                },
+                                "type": "node",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide13",
+                                "nodeLabel": "$12,499.99\nthrough\n - $16,999.99\n\nAfter $2,000 OFF\n\nExaco Riga XL 6 Professiona\u2026",
+                                "lhId": "16-10-DIV",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide13",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,3,DIV",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide13\">"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "nodeLabel": "$999.99\n\nGhostbed Hybrid 12\" Medium Mattress",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide13\" style=\"width: 140px;\">",
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide13",
+                                            "boundingRect": {
+                                                "left": 510,
+                                                "bottom": 11659,
+                                                "top": 11420,
+                                                "width": 140,
+                                                "right": 650,
+                                                "height": 239
+                                            },
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,3,DIV",
+                                            "lhId": "16-45-DIV"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide14\" style=\"width: 140px;\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,4,DIV",
+                                            "nodeLabel": "$1,299.99\n\nGhostbed 11\" Memory Foam Mattress with Adjustable Base",
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide14",
+                                            "boundingRect": {
+                                                "left": 670,
+                                                "top": 11420,
+                                                "right": 810,
+                                                "height": 257,
+                                                "width": 140,
+                                                "bottom": 11677
+                                            },
+                                            "lhId": "16-46-DIV",
+                                            "type": "node"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,4,DIV",
+                                "lhId": "16-12-DIV",
+                                "nodeLabel": "$2,699.99\n\n$2,699.99 After $1,300 OFF\n\nSirio Hollywood 7-piece Deep Seating Set",
+                                "boundingRect": {
+                                    "top": 5621,
+                                    "width": 155,
+                                    "height": 305,
+                                    "bottom": 5926,
+                                    "right": 870,
+                                    "left": 715
+                                },
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide14",
+                                "type": "node",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide14\">",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide14"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,5,DIV",
+                                            "type": "node",
+                                            "nodeLabel": "Member Only Item\n\nWhite includes $300 savings.\nGray include $400 savings.\n\nLG 5\u2026",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"5\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide15\" style=\"width: 140px;\">",
+                                            "lhId": "16-47-DIV",
+                                            "boundingRect": {
+                                                "right": 970,
+                                                "bottom": 11731,
+                                                "left": 830,
+                                                "width": 140,
+                                                "height": 311,
+                                                "top": 11420
+                                            },
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide15"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,5,DIV",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"5\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide15\">",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide15",
+                                "lhId": "16-14-DIV",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide15",
+                                "nodeLabel": "$2,199.99\n\n$2,199.99 After $500 OFF\n\nMilea 9-piece Dining Set",
+                                "boundingRect": {
+                                    "right": 1045,
+                                    "height": 283,
+                                    "top": 5621,
+                                    "bottom": 5904,
+                                    "left": 890,
+                                    "width": 155
+                                },
+                                "type": "node"
+                            }
+                        },
+                        {
+                            "node": {
+                                "type": "node",
+                                "nodeLabel": "$2,999.99\n\n$2,999.99 After $1,000 OFF\n\nStirling 10' x 12' Storage Shed Do It Yo\u2026",
+                                "lhId": "16-48-DIV",
+                                "boundingRect": {
+                                    "bottom": 5978,
+                                    "left": 1065,
+                                    "top": 5621,
+                                    "width": 155,
+                                    "right": 1220,
+                                    "height": 357
+                                },
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide16",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide16",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"6\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide16\">",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,6,DIV"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide16",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"6\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide16\" style=\"width: 140px;\">",
+                                            "boundingRect": {
+                                                "top": 11420,
+                                                "right": 1130,
+                                                "height": 292,
+                                                "width": 140,
+                                                "bottom": 11712,
+                                                "left": 990
+                                            },
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,6,DIV",
+                                            "lhId": "16-49-DIV",
+                                            "nodeLabel": "Member Only Item\n\nItem Qualifies for Buy More, Save More Prom\n\nLG 27.5 cu. ft. \u2026",
+                                            "type": "node"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "node": {
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide17",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,7,DIV",
+                                "boundingRect": {
+                                    "right": 1395,
+                                    "width": 155,
+                                    "top": 5621,
+                                    "height": 289,
+                                    "left": 1240,
+                                    "bottom": 5910
+                                },
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"7\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide17\">",
+                                "lhId": "16-16-DIV",
+                                "nodeLabel": "$469.99\n\n$469.99 After $110 OFF\n\nPortside 3-piece Shellback Adirondack Set",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide17"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "top": 11420,
+                                                "height": 239,
+                                                "left": 1150,
+                                                "right": 1290,
+                                                "width": 140,
+                                                "bottom": 11659
+                                            },
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,7,DIV",
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide17",
+                                            "lhId": "16-50-DIV",
+                                            "type": "node",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"7\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide17\" style=\"width: 140px;\">",
+                                            "nodeLabel": "$649.99\n\nGhostbed 11\" Memory Foam Mattress"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide18",
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "top": 11420,
+                                                "width": 140,
+                                                "left": 1310,
+                                                "height": 308,
+                                                "bottom": 11728,
+                                                "right": 1450
+                                            },
+                                            "nodeLabel": "Member Only Item\n\nPrice includes $200 savings.\nPrice valid through 3/8/23\n\nLG 6\u2026",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,8,DIV",
+                                            "lhId": "16-51-DIV",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"8\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide18\" style=\"width: 140px;\">"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "boundingRect": {
+                                    "bottom": 5904,
+                                    "height": 283,
+                                    "left": 1415,
+                                    "right": 1570,
+                                    "width": 155,
+                                    "top": 5621
+                                },
+                                "type": "node",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"8\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide18\">",
+                                "nodeLabel": "$2,699.99\n\n$2,699.99 After $600 OFF\n\nTorren 6-piece Seating Set",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide18",
+                                "lhId": "16-18-DIV",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,8,DIV",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide18"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "nodeLabel": "Member Only Item\n\nWhite includes $300 savings.\nGray include $400 savings.\n\nLG 5\u2026",
+                                            "snippet": "<div class=\"slick-slide\" data-slick-index=\"9\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide19\" style=\"width: 140px;\">",
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > div.slick-list > div.slick-track > div#slick-slide19",
+                                            "type": "node",
+                                            "lhId": "16-53-DIV",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,1,DIV,0,DIV,9,DIV",
+                                            "boundingRect": {
+                                                "right": 1610,
+                                                "bottom": 11731,
+                                                "left": 1470,
+                                                "top": 11420,
+                                                "width": 140,
+                                                "height": 311
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "nodeLabel": "Quick Ship\n$999.99\n\n$300 OFF\n\nItem Qualifies for Buy More, Save More Promotion\n\u2026",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide19",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"9\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide19\">",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide19",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,9,DIV",
+                                "type": "node",
+                                "lhId": "16-52-DIV",
+                                "boundingRect": {
+                                    "height": 401,
+                                    "width": 155,
+                                    "left": 1590,
+                                    "right": 1745,
+                                    "bottom": 6022,
+                                    "top": 5621
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "boundingRect": {
+                                    "height": 20,
+                                    "right": 130,
+                                    "bottom": 6057,
+                                    "width": 20,
+                                    "left": 110,
+                                    "top": 6037
+                                },
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control10",
+                                "selector": "div.feature-carousel > ul.slick-dots > li.slick-active > button#slick-slide-control10",
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control10\" aria-label=\"featured content 1 of 5\" aria-current=\"true\" tabindex=\"0\">",
+                                "lhId": "16-54-BUTTON",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,0,LI,0,BUTTON",
+                                "nodeLabel": "1"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li.slick-active > button#slick-slide-control10",
+                                            "type": "node",
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control10\" aria-label=\"sponsored products 1 of 12\" tabindex=\"0\" aria-current=\"true\">",
+                                            "lhId": "16-55-BUTTON",
+                                            "nodeLabel": "1",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,0,LI,0,BUTTON",
+                                            "boundingRect": {
+                                                "right": 55,
+                                                "left": 35,
+                                                "height": 20,
+                                                "width": 20,
+                                                "bottom": 11766,
+                                                "top": 11746
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control11\" aria-label=\"featured content 2 of 5\" aria-current=\"false\">",
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control11",
+                                "nodeLabel": "2",
+                                "lhId": "16-56-BUTTON",
+                                "boundingRect": {
+                                    "right": 160,
+                                    "width": 20,
+                                    "top": 6037,
+                                    "height": 20,
+                                    "bottom": 6057,
+                                    "left": 140
+                                },
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control11",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,1,LI,0,BUTTON",
+                                "type": "node"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "bottom": 11766,
+                                                "right": 85,
+                                                "top": 11746,
+                                                "height": 20,
+                                                "width": 20,
+                                                "left": 65
+                                            },
+                                            "nodeLabel": "2",
+                                            "type": "node",
+                                            "lhId": "16-57-BUTTON",
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li > button#slick-slide-control11",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,1,LI,0,BUTTON",
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control11\" aria-label=\"sponsored products 2 of 12\">"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "16-58-BUTTON",
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control12",
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control12\" aria-label=\"featured content 3 of 5\" aria-current=\"false\">",
+                                "nodeLabel": "3",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,2,LI,0,BUTTON",
+                                "type": "node",
+                                "boundingRect": {
+                                    "height": 20,
+                                    "right": 190,
+                                    "top": 6037,
+                                    "bottom": 6057,
+                                    "left": 170,
+                                    "width": 20
+                                },
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control12"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li > button#slick-slide-control12",
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control12\" aria-label=\"sponsored products 3 of 12\">",
+                                            "type": "node",
+                                            "nodeLabel": "3",
+                                            "lhId": "16-59-BUTTON",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,2,LI,0,BUTTON",
+                                            "boundingRect": {
+                                                "top": 11746,
+                                                "left": 95,
+                                                "right": 115,
+                                                "height": 20,
+                                                "width": 20,
+                                                "bottom": 11766
+                                            }
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "16-60-BUTTON",
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control13\" aria-label=\"featured content 4 of 5\" aria-current=\"false\">",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,3,LI,0,BUTTON",
+                                "boundingRect": {
+                                    "top": 6037,
+                                    "bottom": 6057,
+                                    "right": 220,
+                                    "width": 20,
+                                    "left": 200,
+                                    "height": 20
+                                },
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control13",
+                                "nodeLabel": "4",
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control13",
+                                "type": "node"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "lhId": "16-61-BUTTON",
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control13\" aria-label=\"sponsored products 4 of 12\">",
+                                            "nodeLabel": "4",
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li > button#slick-slide-control13",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,3,LI,0,BUTTON",
+                                            "boundingRect": {
+                                                "top": 11746,
+                                                "width": 20,
+                                                "left": 125,
+                                                "right": 145,
+                                                "height": 20,
+                                                "bottom": 11766
+                                            }
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<button type=\"button\" id=\"slick-slide-control14\" aria-label=\"featured content 5 of 5\" aria-current=\"false\">",
+                                "boundingRect": {
+                                    "width": 20,
+                                    "height": 20,
+                                    "right": 250,
+                                    "bottom": 6057,
+                                    "left": 230,
+                                    "top": 6037
+                                },
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,7,UL,4,LI,0,BUTTON",
+                                "selector": "div.feature-carousel > ul.slick-dots > li > button#slick-slide-control14",
+                                "lhId": "16-62-BUTTON",
+                                "nodeLabel": "5",
+                                "type": "node",
+                                "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: slick-slide-control14"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots > li > button#slick-slide-control14",
+                                            "lhId": "16-63-BUTTON",
+                                            "snippet": "<button type=\"button\" id=\"slick-slide-control14\" aria-label=\"sponsored products 5 of 12\">",
+                                            "boundingRect": {
+                                                "top": 11746,
+                                                "width": 20,
+                                                "right": 175,
+                                                "height": 20,
+                                                "bottom": 11766,
+                                                "left": 155
+                                            },
+                                            "nodeLabel": "5",
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,48,DIV,0,DIV,13,DIV,0,DIV,1,DIV,3,UL,4,LI,0,BUTTON"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        }
+                    ]
+                },
+                "weight": 3,
+                "group": "a11y-navigation"
+            },
+            "aria-hidden-focus": {
+                "id": "aria-hidden-focus",
+                "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+                "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+                "details": {
+                    "headings": [
+                        {
+                            "itemType": "node",
+                            "subItemsHeading": {
+                                "key": "relatedNode",
+                                "itemType": "node"
+                            },
+                            "key": "node",
+                            "text": "Failing Elements"
+                        }
+                    ],
+                    "debugData": {
+                        "type": "debugdata",
+                        "impact": "serious",
+                        "tags": [
+                            "cat.name-role-value",
+                            "wcag2a",
+                            "wcag412",
+                            "wcag131"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "nodeLabel": "$234.99",
+                                            "lhId": "16-1-DIV",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,2,DIV,3,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+                                            "boundingRect": {
+                                                "right": 423,
+                                                "height": 17,
+                                                "left": 365,
+                                                "bottom": 5315,
+                                                "width": 58,
+                                                "top": 5298
+                                            },
+                                            "selector": "div.thumbnail > div.caption > div > div#price-1205508",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_2\" id=\"price-1205508\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "lhId": "16-0-DIV",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "type": "node",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide02\">",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,2,DIV",
+                                "boundingRect": {
+                                    "width": 155,
+                                    "left": 365,
+                                    "right": 520,
+                                    "height": 289,
+                                    "top": 5120,
+                                    "bottom": 5410
+                                },
+                                "nodeLabel": "$234.99\n\nAfter $65 OFF\n\nHansgrohe Cento Semi-Pro Kitchen Faucet",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide02"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "type": "node",
+                                            "boundingRect": {
+                                                "left": 715,
+                                                "right": 764,
+                                                "width": 49,
+                                                "height": 17,
+                                                "bottom": 5315,
+                                                "top": 5298
+                                            },
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_4\" id=\"price-2529732\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "lhId": "16-3-DIV",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,4,DIV,3,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+                                            "nodeLabel": "$99.99",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-2529732"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "type": "node",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide04",
+                                "lhId": "16-2-DIV",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide04\">",
+                                "nodeLabel": "$99.99\n\n$99.99 After $40 OFF\n\nHunter Apex LED 52\" Reversible Blade Ceiling Fan",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,4,DIV",
+                                "boundingRect": {
+                                    "bottom": 5410,
+                                    "height": 289,
+                                    "width": 155,
+                                    "left": 715,
+                                    "right": 870,
+                                    "top": 5120
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide06",
+                                "nodeLabel": "$249.99\n\n$249.99 After $150 OFF\n\nOVE Decors Enlight Smart Bidet Toilet Seat wit\u2026",
+                                "lhId": "16-4-DIV",
+                                "boundingRect": {
+                                    "bottom": 5433,
+                                    "right": 1220,
+                                    "top": 5120,
+                                    "width": 155,
+                                    "height": 312,
+                                    "left": 1065
+                                },
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"6\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide06\">",
+                                "type": "node",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,6,DIV"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,6,DIV,3,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+                                            "nodeLabel": "$249.99",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_6\" id=\"price-2592650\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "boundingRect": {
+                                                "width": 58,
+                                                "top": 5298,
+                                                "height": 17,
+                                                "bottom": 5315,
+                                                "right": 1123,
+                                                "left": 1065
+                                            },
+                                            "type": "node",
+                                            "lhId": "16-5-DIV",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-2592650"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-7-DIV",
+                                            "boundingRect": {
+                                                "bottom": 5315,
+                                                "right": 1648,
+                                                "left": 1590,
+                                                "top": 5298,
+                                                "width": 58,
+                                                "height": 17
+                                            },
+                                            "nodeLabel": "$399.99",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_9\" id=\"price-2588611\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "type": "node",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-2588611",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,9,DIV,3,DIV,1,DIV,1,DIV,2,DIV,0,DIV"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide09",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,20,DIV,0,DIV,14,DIV,6,DIV,0,DIV,9,DIV",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"9\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide09\">",
+                                "boundingRect": {
+                                    "width": 155,
+                                    "bottom": 5433,
+                                    "top": 5120,
+                                    "left": 1590,
+                                    "right": 1745,
+                                    "height": 312
+                                },
+                                "nodeLabel": "$399.99\n\n$399.99 After $100 OFF\n\nKRAUS Undermount Workstation Sink with Pull-Do\u2026",
+                                "lhId": "16-6-DIV"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "lhId": "16-9-DIV",
+                                            "nodeLabel": "$189.99\nthrough\n - $299.99",
+                                            "type": "node",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_2\" id=\"price-515100\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,2,DIV,3,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-515100",
+                                            "boundingRect": {
+                                                "left": 365,
+                                                "height": 17,
+                                                "top": 5799,
+                                                "width": 130,
+                                                "bottom": 5816,
+                                                "right": 495
+                                            }
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide12",
+                                "lhId": "16-8-DIV",
+                                "boundingRect": {
+                                    "bottom": 5865,
+                                    "right": 520,
+                                    "left": 365,
+                                    "top": 5621,
+                                    "height": 244,
+                                    "width": 155
+                                },
+                                "nodeLabel": "$189.99\nthrough\n - $299.99\n\nAfter $50 - $80 OFF\n\nAerobin Composter",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,2,DIV",
+                                "type": "node",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide12\">",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,3,DIV,3,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+                                            "boundingRect": {
+                                                "left": 540,
+                                                "right": 630,
+                                                "height": 40,
+                                                "bottom": 5839,
+                                                "width": 90,
+                                                "top": 5799
+                                            },
+                                            "type": "node",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-1021365",
+                                            "nodeLabel": "$12,499.99\nthrough\n - $16,999.99",
+                                            "lhId": "16-11-DIV",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_3\" id=\"price-1021365\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">"
+                                        }
+                                    }
+                                ]
+                            },
+                            "node": {
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,3,DIV",
+                                "boundingRect": {
+                                    "left": 540,
+                                    "right": 695,
+                                    "top": 5621,
+                                    "height": 312,
+                                    "width": 155,
+                                    "bottom": 5933
+                                },
+                                "type": "node",
+                                "nodeLabel": "$12,499.99\nthrough\n - $16,999.99\n\nAfter $2,000 OFF\n\nExaco Riga XL 6 Professiona\u2026",
+                                "lhId": "16-10-DIV",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide13\">",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide13"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "16-12-DIV",
+                                "type": "node",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "nodeLabel": "$2,699.99\n\n$2,699.99 After $1,300 OFF\n\nSirio Hollywood 7-piece Deep Seating Set",
+                                "boundingRect": {
+                                    "right": 870,
+                                    "bottom": 5926,
+                                    "left": 715,
+                                    "top": 5621,
+                                    "height": 305,
+                                    "width": 155
+                                },
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide14\">",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,4,DIV",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide14"
+                            },
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div.thumbnail > div.caption > div > div#price-1243648",
+                                            "nodeLabel": "$2,699.99",
+                                            "boundingRect": {
+                                                "bottom": 5816,
+                                                "left": 715,
+                                                "right": 786,
+                                                "top": 5799,
+                                                "height": 17,
+                                                "width": 71
+                                            },
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,4,DIV,3,DIV,1,DIV,1,DIV,3,DIV,0,DIV",
+                                            "lhId": "16-13-DIV",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_4\" id=\"price-1243648\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            }
+                        },
+                        {
+                            "node": {
+                                "lhId": "16-14-DIV",
+                                "nodeLabel": "$2,199.99\n\n$2,199.99 After $500 OFF\n\nMilea 9-piece Dining Set",
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"5\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide15\">",
+                                "boundingRect": {
+                                    "right": 1045,
+                                    "height": 283,
+                                    "width": 155,
+                                    "left": 890,
+                                    "top": 5621,
+                                    "bottom": 5904
+                                },
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide15",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,5,DIV",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "type": "node"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "boundingRect": {
+                                                "width": 71,
+                                                "bottom": 5816,
+                                                "right": 961,
+                                                "top": 5799,
+                                                "left": 890,
+                                                "height": 17
+                                            },
+                                            "nodeLabel": "$2,199.99",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_5\" id=\"price-2442939\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "lhId": "16-15-DIV",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-2442939",
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,5,DIV,3,DIV,1,DIV,1,DIV,3,DIV,0,DIV"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "node": {
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"7\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide17\">",
+                                "type": "node",
+                                "nodeLabel": "$469.99\n\n$469.99 After $110 OFF\n\nPortside 3-piece Shellback Adirondack Set",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,7,DIV",
+                                "lhId": "16-16-DIV",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide17",
+                                "boundingRect": {
+                                    "width": 155,
+                                    "top": 5621,
+                                    "right": 1395,
+                                    "bottom": 5910,
+                                    "height": 289,
+                                    "left": 1240
+                                },
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+                            },
+                            "subItems": {
+                                "type": "subitems",
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,7,DIV,3,DIV,1,DIV,1,DIV,3,DIV,0,DIV",
+                                            "lhId": "16-17-DIV",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-1225123",
+                                            "type": "node",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_7\" id=\"price-1225123\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "boundingRect": {
+                                                "top": 5799,
+                                                "bottom": 5816,
+                                                "right": 1298,
+                                                "height": 17,
+                                                "left": 1240,
+                                                "width": 58
+                                            },
+                                            "nodeLabel": "$469.99"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "selector": "div.thumbnail > div.caption > div > div#price-2725716",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_8\" id=\"price-2725716\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "boundingRect": {
+                                                "top": 5799,
+                                                "height": 17,
+                                                "width": 71,
+                                                "right": 1486,
+                                                "bottom": 5816,
+                                                "left": 1415
+                                            },
+                                            "type": "node",
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,8,DIV,3,DIV,1,DIV,1,DIV,3,DIV,0,DIV",
+                                            "lhId": "16-19-DIV",
+                                            "nodeLabel": "$2,699.99"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"8\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide18\">",
+                                "type": "node",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,25,DIV,0,DIV,14,DIV,6,DIV,0,DIV,8,DIV",
+                                "nodeLabel": "$2,699.99\n\n$2,699.99 After $600 OFF\n\nTorren 6-piece Seating Set",
+                                "lhId": "16-18-DIV",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide18",
+                                "boundingRect": {
+                                    "height": 283,
+                                    "top": 5621,
+                                    "right": 1570,
+                                    "bottom": 5904,
+                                    "width": 155,
+                                    "left": 1415
+                                }
+                            }
+                        },
+                        {
+                            "subItems": {
+                                "items": [
+                                    {
+                                        "relatedNode": {
+                                            "path": "1,HTML,1,BODY,50,MAIN,4,DIV,33,DIV,0,DIV,14,DIV,6,DIV,0,DIV,5,DIV,3,DIV,1,DIV,1,DIV,2,DIV,0,DIV",
+                                            "boundingRect": {
+                                                "right": 939,
+                                                "width": 49,
+                                                "left": 890,
+                                                "height": 17,
+                                                "bottom": 10084,
+                                                "top": 10067
+                                            },
+                                            "type": "node",
+                                            "lhId": "16-21-DIV",
+                                            "nodeLabel": "$35.99",
+                                            "snippet": "<div tabindex=\"0\" class=\"price\" automation-id=\"itemPriceOutput_5\" id=\"price-1497790\" data-regionnav=\"DEFAULT\" data-nosnippet=\"\" style=\"display: inline !important\">",
+                                            "selector": "div.thumbnail > div.caption > div > div#price-1497790"
+                                        }
+                                    }
+                                ],
+                                "type": "subitems"
+                            },
+                            "node": {
+                                "lhId": "16-20-DIV",
+                                "type": "node",
+                                "selector": "div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide25",
+                                "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM",
+                                "path": "1,HTML,1,BODY,50,MAIN,4,DIV,33,DIV,0,DIV,14,DIV,6,DIV,0,DIV,5,DIV",
+                                "boundingRect": {
+                                    "height": 351,
+                                    "bottom": 10240,
+                                    "top": 9889,
+                                    "width": 155,
+                                    "right": 1045,
+                                    "left": 890
+                                },
+                                "snippet": "<div class=\"featured-product slick-slide\" style=\"width: 155px;\" data-slick-index=\"5\" aria-hidden=\"true\" tabindex=\"-1\" id=\"slick-slide25\">",
+                                "nodeLabel": "$35.99\n\nBuy 2, Save $15 on Select Nutrition Items\n\nFurther Food Grass-Fed Colla\u2026"
+                            }
+                        }
+                    ],
+                    "type": "table"
+                },
+                "weight": 3,
+                "group": "a11y-aria"
+            }
+        }
+    },
+    "pass": {
+        "meta-viewport": {
+            "id": "meta-viewport",
+            "title": "`[user-scalable=\"no\"]` is not used in the `<meta name=\"viewport\">` element and the `[maximum-scale]` attribute is not less than 5.",
+            "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-best-practices"
+        },
+        "heading-order": {
+            "id": "heading-order",
+            "title": "Heading elements appear in a sequentially-descending order",
+            "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 2,
+            "group": "a11y-navigation"
+        },
+        "document-title": {
+            "id": "document-title",
+            "title": "Document has a `<title>` element",
+            "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-names-labels"
+        },
+        "aria-required-parent": {
+            "id": "aria-required-parent",
+            "title": "`[role]`s are contained by their required parent element",
+            "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "image-alt": {
+            "id": "image-alt",
+            "title": "Image elements have `[alt]` attributes",
+            "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        },
+        "color-contrast": {
+            "id": "color-contrast",
+            "title": "Background and foreground colors have a sufficient contrast ratio",
+            "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 3,
+            "group": "a11y-color-contrast"
+        },
+        "html-has-lang": {
+            "id": "html-has-lang",
+            "title": "`<html>` element has a `[lang]` attribute",
+            "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-language"
+        },
+        "aria-required-children": {
+            "id": "aria-required-children",
+            "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` have all required children.",
+            "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "aria-required-attr": {
+            "id": "aria-required-attr",
+            "title": "`[role]`s have all required `[aria-*]` attributes",
+            "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more](https://web.dev/aria-required-attr/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "aria-valid-attr": {
+            "id": "aria-valid-attr",
+            "title": "`[aria-*]` attributes are valid and not misspelled",
+            "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid names. [Learn more](https://web.dev/aria-valid-attr/).",
+            "details": {
+                "type": "table",
+                "items": [],
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "link-name": {
+            "id": "link-name",
+            "title": "Links have a discernible name",
+            "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-names-labels"
+        },
+        "html-lang-valid": {
+            "id": "html-lang-valid",
+            "title": "`<html>` element has a valid value for its `[lang]` attribute",
+            "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-language"
+        },
+        "aria-allowed-attr": {
+            "id": "aria-allowed-attr",
+            "title": "`[aria-*]` attributes match their roles",
+            "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "tabindex": {
+            "id": "tabindex",
+            "title": "No element has a `[tabindex]` value greater than 0",
+            "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+            "details": {
+                "type": "table",
+                "headings": [],
+                "items": []
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "button-name": {
+            "id": "button-name",
+            "title": "Buttons have an accessible name",
+            "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+            "details": {
+                "items": [],
+                "type": "table",
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        },
+        "duplicate-id-aria": {
+            "id": "duplicate-id-aria",
+            "title": "ARIA IDs are unique",
+            "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "bypass": {
+            "id": "bypass",
+            "title": "The page contains a heading, skip link, or landmark region",
+            "description": "Adding ways to bypass repetitive content lets keyboard users navigate the page more efficiently. [Learn more](https://web.dev/bypass/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-navigation"
+        },
+        "aria-roles": {
+            "id": "aria-roles",
+            "title": "`[role]` values are valid",
+            "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+            "details": {
+                "type": "table",
+                "items": [],
+                "headings": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "label": {
+            "id": "label",
+            "title": "Form elements have associated labels",
+            "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-names-labels"
+        },
+        "aria-valid-attr-value": {
+            "id": "aria-valid-attr-value",
+            "title": "`[aria-*]` attributes have valid values",
+            "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+            "details": {
+                "headings": [],
+                "items": [],
+                "type": "table"
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        },
+        "listitem": {
+            "id": "listitem",
+            "title": "List items (`<li>`) are contained within `<ul>` or `<ol>` parent elements",
+            "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+            "details": {
+                "items": [],
+                "headings": [],
+                "type": "table"
+            },
+            "weight": 3,
+            "group": "a11y-tables-lists"
+        },
+        "aria-hidden-body": {
+            "id": "aria-hidden-body",
+            "title": "`[aria-hidden=\"true\"]` is not present on the document `<body>`",
+            "description": "Assistive technologies, like screen readers, work inconsistently when `aria-hidden=\"true\"` is set on the document `<body>`. [Learn more](https://web.dev/aria-hidden-body/).",
+            "details": {
+                "headings": [],
+                "type": "table",
+                "items": []
+            },
+            "weight": 10,
+            "group": "a11y-aria"
+        }
+    },
+    "manual": {
+        "custom-controls-roles": {
+            "id": "custom-controls-roles",
+            "title": "Custom controls have ARIA roles",
+            "description": "Custom interactive controls have appropriate ARIA roles. [Learn more](https://web.dev/custom-control-roles/).",
+            "weight": 0,
+            "group": null
+        },
+        "focus-traps": {
+            "id": "focus-traps",
+            "title": "User focus is not accidentally trapped in a region",
+            "description": "A user can tab into and out of any control or region without accidentally trapping their focus. [Learn more](https://web.dev/focus-traps/).",
+            "weight": 0,
+            "group": null
+        },
+        "managed-focus": {
+            "id": "managed-focus",
+            "title": "The user's focus is directed to new content added to the page",
+            "description": "If new content, such as a dialog, is added to the page, the user's focus is directed to it. [Learn more](https://web.dev/managed-focus/).",
+            "weight": 0,
+            "group": null
+        },
+        "logical-tab-order": {
+            "id": "logical-tab-order",
+            "title": "The page has a logical tab order",
+            "description": "Tabbing through the page follows the visual layout. Users cannot focus elements that are offscreen. [Learn more](https://web.dev/logical-tab-order/).",
+            "weight": 0,
+            "group": null
+        },
+        "offscreen-content-hidden": {
+            "id": "offscreen-content-hidden",
+            "title": "Offscreen content is hidden from assistive technology",
+            "description": "Offscreen content is hidden with display: none or aria-hidden=true. [Learn more](https://web.dev/offscreen-content-hidden/).",
+            "weight": 0,
+            "group": null
+        },
+        "focusable-controls": {
+            "id": "focusable-controls",
+            "title": "Interactive controls are keyboard focusable",
+            "description": "Custom interactive controls are keyboard focusable and display a focus indicator. [Learn more](https://web.dev/focusable-controls/).",
+            "weight": 0,
+            "group": null
+        },
+        "custom-controls-labels": {
+            "id": "custom-controls-labels",
+            "title": "Custom controls have associated labels",
+            "description": "Custom interactive controls have associated labels, provided by aria-label or aria-labelledby. [Learn more](https://web.dev/custom-controls-labels/).",
+            "weight": 0,
+            "group": null
+        },
+        "use-landmarks": {
+            "id": "use-landmarks",
+            "title": "HTML5 landmark elements are used to improve navigation",
+            "description": "Landmark elements (<main>, <nav>, etc.) are used to improve the keyboard navigation of the page for assistive technology. [Learn more](https://web.dev/use-landmarks/).",
+            "weight": 0,
+            "group": null
+        },
+        "visual-order-follows-dom": {
+            "id": "visual-order-follows-dom",
+            "title": "Visual order on the page follows DOM order",
+            "description": "DOM order matches the visual order, improving navigation for assistive technology. [Learn more](https://web.dev/visual-order-follows-dom/).",
+            "weight": 0,
+            "group": null
+        },
+        "interactive-element-affordance": {
+            "id": "interactive-element-affordance",
+            "title": "Interactive elements indicate their purpose and state",
+            "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn more](https://web.dev/interactive-element-affordance/).",
+            "weight": 0,
+            "group": null
+        }
+    },
+    "not_applicable": {
+        "video-caption": {
+            "id": "video-caption",
+            "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+            "description": "When a video provides a caption it is easier for deaf and hearing impaired users to access its information. [Learn more](https://web.dev/video-caption/).",
+            "weight": 0,
+            "group": "a11y-audio-video"
+        },
+        "th-has-data-cells": {
+            "id": "th-has-data-cells",
+            "title": "`<th>` elements and elements with `[role=\"columnheader\"/\"rowheader\"]` have data cells they describe.",
+            "description": "Screen readers have features to make navigating tables easier. Ensuring table headers always refer to some set of cells may improve the experience for screen reader users. [Learn more](https://web.dev/th-has-data-cells/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "object-alt": {
+            "id": "object-alt",
+            "title": "`<object>` elements have alternate text",
+            "description": "Screen readers cannot translate non-text content. Adding alternate text to `<object>` elements helps screen readers convey meaning to users. [Learn more](https://web.dev/object-alt/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "input-image-alt": {
+            "id": "input-image-alt",
+            "title": "`<input type=\"image\">` elements have `[alt]` text",
+            "description": "When an image is being used as an `<input>` button, providing alternative text can help screen reader users understand the purpose of the button. [Learn more](https://web.dev/input-image-alt/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "meta-refresh": {
+            "id": "meta-refresh",
+            "title": "The document does not use `<meta http-equiv=\"refresh\">`",
+            "description": "Users do not expect a page to refresh automatically, and doing so will move focus back to the top of the page. This may create a frustrating or confusing experience. [Learn more](https://web.dev/meta-refresh/).",
+            "weight": 0,
+            "group": "a11y-best-practices"
+        },
+        "accesskeys": {
+            "id": "accesskeys",
+            "title": "`[accesskey]` values are unique",
+            "description": "Access keys let users quickly focus a part of the page. For proper navigation, each access key must be unique. [Learn more](https://web.dev/accesskeys/).",
+            "weight": 0,
+            "group": "a11y-navigation"
+        },
+        "aria-progressbar-name": {
+            "id": "aria-progressbar-name",
+            "title": "ARIA `progressbar` elements have accessible names",
+            "description": "When a `progressbar` element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "frame-title": {
+            "id": "frame-title",
+            "title": "`<frame>` or `<iframe>` elements have a title",
+            "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "definition-list": {
+            "id": "definition-list",
+            "title": "`<dl>`'s contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+            "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "form-field-multiple-labels": {
+            "id": "form-field-multiple-labels",
+            "title": "No form fields have multiple labels",
+            "description": "Form fields with multiple labels can be confusingly announced by assistive technologies like screen readers which use either the first, the last, or all of the labels. [Learn more](https://web.dev/form-field-multiple-labels/).",
+            "weight": 0,
+            "group": "a11y-names-labels"
+        },
+        "aria-toggle-field-name": {
+            "id": "aria-toggle-field-name",
+            "title": "ARIA toggle fields have accessible names",
+            "description": "When a toggle field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-tooltip-name": {
+            "id": "aria-tooltip-name",
+            "title": "ARIA `tooltip` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-meter-name": {
+            "id": "aria-meter-name",
+            "title": "ARIA `meter` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "aria-treeitem-name": {
+            "id": "aria-treeitem-name",
+            "title": "ARIA `treeitem` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "td-headers-attr": {
+            "id": "td-headers-attr",
+            "title": "Cells in a `<table>` element that use the `[headers]` attribute refer to table cells within the same table.",
+            "description": "Screen readers have features to make navigating tables easier. Ensuring `<td>` cells using the `[headers]` attribute only refer to other cells in the same table may improve the experience for screen reader users. [Learn more](https://web.dev/td-headers-attr/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "aria-input-field-name": {
+            "id": "aria-input-field-name",
+            "title": "ARIA input fields have accessible names",
+            "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        },
+        "dlitem": {
+            "id": "dlitem",
+            "title": "Definition list items are wrapped in `<dl>` elements",
+            "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+            "weight": 0,
+            "group": "a11y-tables-lists"
+        },
+        "valid-lang": {
+            "id": "valid-lang",
+            "title": "`[lang]` attributes have a valid value",
+            "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn more](https://web.dev/valid-lang/).",
+            "weight": 0,
+            "group": "a11y-language"
+        },
+        "aria-command-name": {
+            "id": "aria-command-name",
+            "title": "`button`, `link`, and `menuitem` elements have accessible names",
+            "description": "When an element doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+            "weight": 0,
+            "group": "a11y-aria"
+        }
+    }
+}

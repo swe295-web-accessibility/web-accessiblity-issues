@@ -1,6 +1,0 @@
-type,code,message,context,selector
-serious,"wcag412,wcag244","Fix any of the following:
-  Element does not have text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a href=""https://blog.playstation.com/2023/02/06/playstation-vr2-the-ultimate-faq/"" class=""hero-item-image"" tabindex=""-1"" data-aa-click=""en_H4_hero_ExtLink_SIE_Gaming_PSVR2-UltimateFAQ_20230302"" data-movie="""" data-aa-movie-play="""" data-aa-movie-end="""">",/html[1]/body[1]/div[5]/div[0]/main[2]/div[0]/div[1]/div[0]/div[13]/a[1]

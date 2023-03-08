@@ -1,0 +1,3 @@
+type,code,message,context,selector
+serious,wcag412,"Fix all of the following:
+  aria-label attribute cannot be used on a div with no valid role attribute.","<div class=""mt2"" tabindex=""0"" aria-label=""4.5 stars out of 5"" data-automation-id=""sb-div-rating"">",/html[1]/body[1]/div[0]/div[0]/div[0]/div[1]/span[2]/section[1]/div[0]/div[0]/div[1]/div[2]

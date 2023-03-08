@@ -1,0 +1,100 @@
+type,code,message,context,selector
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""mobile"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[0]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""tv &amp; audio"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[1]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""appliances"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[2]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""computing"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[3]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""displays"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[4]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""accessories"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[5]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""smartthings"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[6]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""offers"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[7]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<a class=""nv00-gnb__l0-menu-link"" href=""/us/shop/outlet/"" an-tr=""nv00_gnb-1depth-navigation2"" an-ca=""navigation"" an-ac=""gnb"" an-la=""outlet"" role=""menuitem"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[8]/a[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-la=""explore"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[1]/li[0]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-la=""support"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[1]/li[1]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<button class=""nv00-gnb__l0-menu-btn"" role=""menuitem"" aria-expanded=""false"" aria-haspopup=""true"" an-la=""for business"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[1]/li[2]/button[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA children role not present: group, menuitemradio, menuitem, menuitemcheckbox","<ul class=""nv00-gnb__l0-menu-list left-menu"" role=""menubar"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]
+critical,wcag131,"Fix any of the following:
+  Required ARIA children role not present: group, menuitemradio, menuitem, menuitemcheckbox","<ul class=""nv00-gnb__l0-menu-list right-menu"" role=""menubar"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[1]
+serious,wcag412,"Fix all of the following:
+  aria-label attribute cannot be used on a div with no valid role attribute.","<div id=""ae_app"" data-nosnippet="""" aria-label=""AudioEye.layoutHelpers.push(function(ele){
+// [PI-13598] - mutation perfor…"">",/html[1]/body[1]/div[67]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""0"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[0]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""1"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[1]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""2"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[2]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""3"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[3]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""4"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[4]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""5"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[5]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""6"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[6]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""7"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[7]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[0]/li[8]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""8"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[1]/li[0]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""9"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[1]/li[1]
+serious,wcag131,"Fix any of the following:
+  List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""10"">",/html[1]/body[1]/div[20]/nav[41]/div[0]/div[6]/ul[1]/li[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",<span>,/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[3]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/a[0]/div[2]/span[0]/span[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",<span>,/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[3]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[1]/a[0]/div[2]/span[0]/span[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",<span>,/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[3]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[2]/a[0]/div[2]/span[0]/span[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",<span>,/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[3]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[3]/a[0]/div[2]/span[0]/span[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",<span>,/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[3]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[4]/a[0]/div[2]/span[0]/span[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",<span>,/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[3]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[5]/a[0]/div[2]/span[0]/span[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[1]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[1]/div[0]/a[4]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[2]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""samsung.com/shop"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[3]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[3]/div[0]/a[4]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[4]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[5]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[6]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[7]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[8]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/business/"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[9]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[2]/div[9]/div[0]/a[4]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[6]/div[1]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href="" https://attnl.tv/t/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[10]/div[0]/div[0]/a[2]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://attnl.tv/p/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[10]/div[0]/div[0]/a[4]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",/html[1]/body[1]/div[20]/div[51]/div[0]/div[0]/div[1]/div[0]/div[13]/section[1]/div[0]/div[10]/div[1]/div[0]/a[2]

@@ -1,0 +1,69 @@
+type,code,message,context,selector
+serious,best-practice,"Fix any of the following:
+  Element has a tabindex greater than 0","<button class=""feds-navList-hamburger"" aria-expanded=""false"" aria-haspopup=""true"" aria-label=""Navigation menu"" tabindex=""1"" role=""button"" type=""button"">",/html[1]/body[1]/div[6]/div[0]/div[0]/div[1]/div[0]/div[0]/header[1]/nav[0]/div[1]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[1]/div[0]/ul[0]/li[0]/button[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.09 (foreground color: #fa0f00, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1","<span class=""feds-logo-text--default"">",/html[1]/body[1]/div[6]/div[0]/div[0]/div[1]/div[0]/div[0]/header[1]/nav[0]/div[1]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[2]/a[0]/span[1]/span[0]
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img id=""titleIcon"" src=""https://s7d1.scene7.com/is/image/TitanProd/adobeexpress_appicon_noshadow_4…"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[0]/div[0]/img[0]
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ax-icon"" src=""https://www.adobe.com/content/dam/cc/optimization/ccx-takeover/AX_Icon_Log…"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[0]/div[0]/a[0]/div[0]/div[0]/img[1]
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ax-icon"" src=""https://www.adobe.com/content/dam/cc/optimization/ccx-takeover/AX_Icon_Soc…"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[1]/div[0]/a[0]/div[0]/div[0]/img[1]
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ax-icon"" src=""https://www.adobe.com/content/dam/cc/optimization/ccx-takeover/AX_Icon_Ban…"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[2]/div[0]/a[0]/div[0]/div[0]/img[1]
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ax-icon"" src=""https://www.adobe.com/content/dam/cc/optimization/ccx-takeover/AX_Icon_Soc…"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[3]/div[0]/a[0]/div[0]/div[0]/img[1]
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ax-icon"" src=""https://www.adobe.com/content/dam/cc/optimization/ccx-takeover/AX_Icon_Soc…"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[4]/div[0]/a[0]/div[0]/div[0]/img[1]
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ax-icon"" src=""https://www.adobe.com/content/dam/cc/optimization/ccx-takeover/AX_Icon_Fly…"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[0]/div[0]/div[0]/div[5]/div[0]/a[0]/div[0]/div[0]/img[1]
+critical,wcag412,"Fix all of the following:
+  Role must be one of the valid ARIA roles: false","<div id=""id-4c057cf0426698c3453354b4bbb0b0a1-tt2"" class=""dexter-FlexContainer  false "" role=""false"" tabindex=""false"" daa-im=""true"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[2]/div[0]
+critical,wcag412,"Fix all of the following:
+  Role must be one of the valid ARIA roles: false","<div id=""id-6982887a219fc99404b14650203f222b-tt2"" class=""dexter-FlexContainer dexter-FlexContainer--GapWrapper mobile-margin-top-16…"" role=""false"" tabindex=""false"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[1]/div[0]/div[2]/div[0]/div[0]/div[0]/div[0]/div[0]/div[1]/div[0]
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.09 (foreground color: #fa0f00, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1","<span class=""feds-logo-text--default"">",/html[1]/body[1]/div[6]/div[0]/div[0]/div[1]/div[0]/div[0]/header[1]/nav[0]/div[1]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[0]/a[0]/span[1]/span[0]
+serious,"wcag412,wcag244","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""https://acrobat.adobe.com/us/en/mobile.html"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[5]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/a[1]
+serious,"wcag412,wcag244","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""https://acrobat.adobe.com/us/en/mobile.html"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[5]/div[1]/div[0]/div[1]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/a[1]

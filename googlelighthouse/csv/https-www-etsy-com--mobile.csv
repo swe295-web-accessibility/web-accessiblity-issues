@@ -1,0 +1,5 @@
+type,code,message,context,selector
+serious,best-practice,"Fix any of the following:
+  Element has a tabindex greater than 0","<a data-selector=""skip-to-content-marketplace"" class=""global-enhancements-skip-to-content wt-screen-reader-only wt-focusable"" tabindex=""1"" href=""#content"">",/html[1]/body[1]/div[1]/header[0]/a[3]
+critical,wcag412,"Fix any of the following:
+  ARIA attribute is not allowed: aria-expanded=""false""","<div class=""wt-input-btn-group global-enhancements-search-input-btn-group wt-menu__tri…"" aria-expanded=""false"" data-id=""search-suggestions-trigger"">",/html[1]/body[1]/div[1]/header[0]/div[2]/div[0]/form[0]/div[1]/div[0]

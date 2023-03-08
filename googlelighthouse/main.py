@@ -178,11 +178,11 @@ def compare_mobile_desktop(mobile: str, desktop: str, url: str):
     report['Number of Mobile issues'] = df1.shape[0]
     print(f"The number of the intersection: {df_inter.shape[0]}")
     report['Number of Intersection issues'] = df_inter.shape[0]
-    df_inter.to_csv(f"./processed/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-intersection.csv",
+    df_inter.to_csv(f"./csv/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-intersection.csv",
                     index=False)
     print(f"The number of the union: {df_union.shape[0]}")
     report['Number of Union issues'] = df_union.shape[0]
-    df_union.to_csv(f"./processed/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-union.csv", index=False)
+    df_union.to_csv(f"./csv/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-union.csv", index=False)
     print(f"The number of the problems that are unique in mobile: {df1.shape[0] - df_inter.shape[0]}")
     report['Number of issues that appear only on Mobile'] = df1.shape[0] - df_inter.shape[0]
     print(f"The number of the problems that are unique in desktop: {df2.shape[0] - df_inter.shape[0]}")

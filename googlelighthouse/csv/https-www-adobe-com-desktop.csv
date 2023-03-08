@@ -1,0 +1,19 @@
+type,code,message,context,selector
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.09 (foreground color: #fa0f00, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1","<span class=""feds-logo-text--default"">",/html[1]/body[1]/div[6]/div[0]/div[0]/div[1]/div[0]/div[0]/header[1]/nav[0]/div[1]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[0]/div[0]/ul[0]/li[0]/a[0]/span[1]/span[0]
+serious,"wcag412,wcag244","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""https://acrobat.adobe.com/us/en/mobile.html"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[5]/div[1]/div[0]/div[0]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/a[1]
+serious,"wcag412,wcag244","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""https://acrobat.adobe.com/us/en/mobile.html"">",/html[1]/body[1]/div[6]/div[0]/main[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[5]/div[1]/div[0]/div[1]/div[1]/div[0]/div[0]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/div[1]/div[0]/a[1]

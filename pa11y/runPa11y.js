@@ -68,13 +68,20 @@ async function runPa11y(url, isMobile) {
 }
 
 const intersect = (arr1, arr2) => {
-    let filter = arr1.filter(item1 => {
+    let f = arr1.filter(item1 => {
         let filter2 = arr2.filter(item2 => {
-            return item1.code == item2.code && item1.context == item2.context && item1.selector == item2.selector
+            return item1.type == item2.type && item1.code == item2.code && item1.context == item2.context
         })
         return filter2.length >= 1
     });
-    return filter;
+
+    const map = new Map();
+
+    for (item of f) {
+        map.set(`${item.type}${item.code}${item.context}`, item);
+    }
+    
+    return Array.from(map.values());
 };
 
 const union = (arr1, arr2) => {
@@ -82,7 +89,7 @@ const union = (arr1, arr2) => {
 
     let onlyInArr1 = arr1.filter(item1 => {
          let filter2 = intersection.filter(item2 => {
-            return item1.code == item2.code && item1.context == item2.context && item1.selector == item2.selector
+            return item1.code == item2.code && item1.context == item2.context
         })
         return filter2.length == 0;
     });
@@ -180,15 +187,15 @@ class AnalysisResult {
 async function main() {
     targetURLs = [
         "https://usability.yale.edu/web-accessibility",
-        "https://www.adobe.com/",
+        "https://samsung.com/",
         "https://www.ikea.com",
         "https://www.geeksforgeeks.org/",
         "https://www.traderjoes.com/home",
         "https://developer.mozilla.org/en-US/",
         "https://www.etsy.com/",
         "https://www.ics.uci.edu/",
-        "https://www.united.com/en/us",
-        "https://www.costco.com/"
+        "https://www.costco.com/",
+        "https://www.wikipedia.org/"
     ]
     
     analysisResults = []

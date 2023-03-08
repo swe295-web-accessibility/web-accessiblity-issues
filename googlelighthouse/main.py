@@ -23,21 +23,21 @@ def test_api(url: str, path: str, strategy="mobile"):
 
 
 def get_info_website(url: str):
-    print(f"===========================================" + "=" * (len(url) + 4))
-    print(f"|                                          " + " " * (len(url) + 3) + "|")
-    print(f"|   Summary of the accessibility issues in {url}   |")
-    print(f"|                                          " + " " * (len(url) + 3) + "|")
-    print(f"===========================================" + "=" * (len(url) + 4))
+    # print(f"===========================================" + "=" * (len(url) + 4))
+    # print(f"|                                          " + " " * (len(url) + 3) + "|")
+    # print(f"|   Summary of the accessibility issues in {url}   |")
+    # print(f"|                                          " + " " * (len(url) + 3) + "|")
+    # print(f"===========================================" + "=" * (len(url) + 4))
     file_name = url.replace(".", "-").replace("://", "-").replace("/", "-")
-    test_api(url, f'./metadata/{file_name}-mobile_meta.json')
-    test_api(url, f'./metadata/{file_name}-desktop_meta.json', 'desktop')
-    calculate_overall(f'./metadata/{file_name}-mobile_meta.json', f'./processed/{file_name}-mobile_processed.json')
-    calculate_overall(f'./metadata/{file_name}-desktop_meta.json', f'./processed/{file_name}-desktop_processed.json')
-    # type,code,message,context,selector
-    print("Storing results as csv files")
-    json2csv(f'./processed/{file_name}-desktop_processed.json', f'./csv/{file_name}-desktop.csv')
-    json2csv(f'./processed/{file_name}-mobile_processed.json', f'./csv/{file_name}-mobile.csv')
-    print("Comparing Results")
+    # test_api(url, f'./metadata/{file_name}-mobile_meta.json')
+    # test_api(url, f'./metadata/{file_name}-desktop_meta.json', 'desktop')
+    # calculate_overall(f'./metadata/{file_name}-mobile_meta.json', f'./processed/{file_name}-mobile_processed.json')
+    # calculate_overall(f'./metadata/{file_name}-desktop_meta.json', f'./processed/{file_name}-desktop_processed.json')
+    # # type,code,message,context,selector
+    # print("Storing results as csv files")
+    # json2csv(f'./processed/{file_name}-desktop_processed.json', f'./csv/{file_name}-desktop.csv')
+    # json2csv(f'./processed/{file_name}-mobile_processed.json', f'./csv/{file_name}-mobile.csv')
+    # print("Comparing Results")
     compare_mobile_desktop(f'./csv/{file_name}-mobile.csv', f'./csv/{file_name}-desktop.csv', url)
 
 
@@ -75,7 +75,7 @@ def json2csv(file_path: str, csv_file: str):
                         df_data['selector'].append(it['relatedNode']['selector'])
 
     df = pd.DataFrame(df_data)
-    df.drop_duplicates(inplace=True)
+    df.drop_duplicates(subset=['type', 'code', 'message', 'context'], inplace=True)
     df.to_csv(csv_file, index=False)
 
 
@@ -174,7 +174,8 @@ def compare_mobile_desktop(mobile: str, desktop: str, url: str):
     df1 = pd.read_csv(mobile)
     df2 = pd.read_csv(desktop)
     df_inter = pd.merge(df1, df2, how='inner', on=['type', 'code', 'message', 'context', 'selector'])
-    df_union = pd.concat([df1, df2])
+    df_union = pd.concat([df1, df2], ignore_index=True)
+    df_union.drop_duplicates(['type', 'code', 'message', 'context', 'selector'], inplace=True)
     print(f"====================================================")
     print(f"|                                                  |")
     print(f"|   Comparing results between Desktop and Mobile   |")

@@ -97,18 +97,6 @@ serious,"wcag412,wcag131","Fix all of the following:
   Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide18"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide18
 serious,"wcag412,wcag131","Fix all of the following:
   Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide25"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide25
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.row > div.feature-carousel-container > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots
 serious,wcag411,"Fix any of the following:
   Document has active elements with the same id attribute: slick-slide05","<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide05"" style=""width: 232px;"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide05
 serious,wcag411,"Fix any of the following:

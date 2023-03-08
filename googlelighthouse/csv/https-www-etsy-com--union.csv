@@ -23,7 +23,3 @@ critical,wcag131,"Fix any of the following:
   Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-562"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-562
 critical,wcag131,"Fix any of the following:
   Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link--10"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link--10
-critical,wcag412,"Fix any of the following:
-  ARIA attribute is not allowed: aria-expanded=""false""","<div class=""wt-input-btn-group global-enhancements-search-input-btn-group wt-menu__tri…"" aria-expanded=""false"" data-id=""search-suggestions-trigger"">",div.wt-display-inline-block > form#gnav-search > div.wt-menu > div.wt-input-btn-group
-serious,best-practice,"Fix any of the following:
-  Element has a tabindex greater than 0","<a data-selector=""skip-to-content-marketplace"" class=""global-enhancements-skip-to-content wt-screen-reader-only wt-focusable"" tabindex=""1"" href=""#content"">",body.ui-toolkit > div#gnav-header > header#gnav-header-inner > a.global-enhancements-skip-to-content

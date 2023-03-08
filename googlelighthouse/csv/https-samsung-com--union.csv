@@ -20,23 +20,6 @@ serious,wcag412,"Fix all of the following:
 // [PI-13598] - mutation perfor…"">",body.ae-lang-en > div#ae_app
 serious,wcag143,"Fix any of the following:
   Element has insufficient color contrast of 3.13 (foreground color: #2189ff, background color: #f4f4f4, font size: 10.2pt (13.5945px), font weight: bold). Expected contrast ratio of 4.5:1",<span>,a.showcase-card-tab-card__full-bleed-wrap > div.showcase-card-tab-card__product-description-wrap > span.tgt-total-saving > span
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""samsung.com/shop"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/business/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href="" https://attnl.tv/t/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://attnl.tv/p/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",div > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link
-serious,wcag412,"Fix all of the following:
-  aria-label attribute cannot be used on a div with no valid role attribute.","<div id=""ae_app"" data-nosnippet="""" aria-label=""AudioEye.layoutHelpers.push(function(ele){
-// [PI-13598] - mutation perfor…"">",body.ae-lang-en > div#ae_app
 serious,wcag131,"Fix any of the following:
   List item does not have a <ul>, <ol> parent element without a role, or a role=""list""","<li class=""nv00-gnb__l0-menu"" data-index=""0"">",div.nv00-gnb__inner-wrap > div.nv00-gnb__l0-menu-wrap > ul.nv00-gnb__l0-menu-list > li.nv00-gnb__l0-menu
 serious,wcag131,"Fix any of the following:

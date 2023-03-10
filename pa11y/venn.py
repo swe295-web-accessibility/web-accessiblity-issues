@@ -15,11 +15,11 @@ class Issue:
         self.runnerExtras = runnerExtras
     
     def __repr__(self):
-        return "Issue(%s, %s, %s)" % (self.code, self.context, self.selector)
+        return "Issue(%s, %s)" % (self.code, self.context)
 
     def __eq__(self, other):
         if isinstance(other, Issue):
-            return ((self.code == other.code) and (self.context == other.context) and (self.selector == other.selector))
+            return ((self.code == other.code) and (self.context == other.context))
         else:
             return False
         

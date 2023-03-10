@@ -1,4 +1,132 @@
-type,code,message,context,selector
+type,code,message,context,selector,category
+critical,best-practice,"Fix any of the following:
+  maximum-scale on <meta> tag disables zooming on mobile devices","<meta name=""viewport"" content=""width=device-width,initial-scale=1,maximum-scale=1"">",head > meta,cat.sensory-and-visual-cues
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_search_image"" src=""https://media.geeksforgeeks.org/auth-dashboard-uploads/image-%2822%29.png"">",div.ant-card-cover > div.ant-row > div.ant-col > img.gfg_home_page_search_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_search_image"" src=""https://media.geeksforgeeks.org/auth-dashboard-uploads/image-%2821%29.png"">",div.ant-card-cover > div.ant-row > div.ant-col > img.gfg_home_page_search_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_search_image"" src=""https://media.geeksforgeeks.org/auth-dashboard-uploads/image-%2823%29.png"">",div.ant-card-cover > div.ant-row > div.ant-col > img.gfg_home_page_search_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_carousel_image"" src=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201216211829/100-…"" style=""object-fit: cover;"">",a > div.ant-row > div.ant-col > img.gfg_home_page_carousel_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/Java-backend-live-thum…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_visit_count_image"" src=""https://media.geeksforgeeks.org/img-practice/Group7622-1669294650.svg"">",div.ant-col > div.ant-row > div > img.gfg_home_page_course_visit_count_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_rating_image"" src=""https://media.geeksforgeeks.org/img-practice/Path4648-1641537423.svg"">",div.ant-col > div.ant-row > div.gfg_home_page_course_card_rating > img.gfg_home_page_course_rating_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_level_image"" src=""https://media.geeksforgeeks.org/img-practice/Levels-1669283463.svg"">",div.ant-col > div.ant-row > div > img.gfg_home_page_course_level_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/devops-live-thumbnail.…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/dsa-self-paced-thumbna…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/Data-Structures-With-P…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/geeks-classes-live-thu…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbn…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ant-image-img gfg_home_page_potd_image gfg_home_page_potd_image_small"" src=""https://media.geeksforgeeks.org/img-practice/Asset1-1641910145.svg"">",div.ant-col > div.ant-row > div.ant-image > img.ant-image-img,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_video_image"" src=""https://videocdn.geeksforgeeks.org/geeksforgeeks/HowtoAnswerTellMeAboutYou…"">",div.ant-card > div.ant-card-cover > div > img.gfg_home_page_video_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_video_image"" src=""https://videocdn.geeksforgeeks.org/geeksforgeeks/ThisiswhyyourResumegetsRe…"">",div.ant-card > div.ant-card-cover > div > img.gfg_home_page_video_image,cat.text-alternatives
+critical,wcag111,"Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_video_image"" src=""https://videocdn.geeksforgeeks.org/geeksforgeeks/5DSAProjectsforyourResume…"">",div.ant-card > div.ant-card-cover > div > img.gfg_home_page_video_image,cat.text-alternatives
+critical,wcag412,"Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""gcse-search__btn not-expanded"">",ul.header-main__left-list > li.header-main__left-list-item > form#gcse-form > button.gcse-search__btn,cat.name-role-value
+critical,wcag412,"Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""toggle-darkMode"" data-gfg-action=""toggleGFGTheme"">",div.header-sidebar__wrapper > div.mobile_translate > div > button.toggle-darkMode,cat.name-role-value
+critical,wcag412,"Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""header-main__slider-arrow previous"">",body.blog > div.header-main__slider > button.header-main__slider-arrow,cat.name-role-value
+critical,wcag412,"Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""header-main__slider-arrow next"">",body.blog > div.header-main__slider > button.header-main__slider-arrow,cat.name-role-value
 serious,"wcag412,wcag244","Fix all of the following:
   Element is in tab order and does not have accessible text
 
@@ -6,188 +134,60 @@ Fix any of the following:
   Element does not have text that is visible to screen readers
   aria-label attribute does not exist or is empty
   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute","<a class=""footer-wrapper_branding-anchor"" href=""https://www.geeksforgeeks.org/"">",footer#gfg-footer > div.footer-wrapper > div.footer-wrapper_branding > a.footer-wrapper_branding-anchor
+  Element has no title attribute","<a class=""footer-wrapper_branding-anchor"" href=""https://www.geeksforgeeks.org/"">",footer#gfg-footer > div.footer-wrapper > div.footer-wrapper_branding > a.footer-wrapper_branding-anchor,cat.name-role-value
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.18 (foreground color: #ffffff, background color: #2f8d46, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",<span>,span.ant-input-wrapper > span.ant-input-group-addon > button.ant-btn > span
+  Element has insufficient color contrast of 4.18 (foreground color: #ffffff, background color: #2f8d46, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",<span>,span.ant-input-wrapper > span.ant-input-group-addon > button.ant-btn > span,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.18 (foreground color: #2f8d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""gfg_home_page_gBlogHeading"" href=""https://www.geeksforgeeks.org/category/guestblogs/"">",div.ant-col > div.ant-col > div.ant-col > a.gfg_home_page_gBlogHeading
+  Element has insufficient color contrast of 4.18 (foreground color: #2f8d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""gfg_home_page_gBlogHeading"" href=""https://www.geeksforgeeks.org/category/guestblogs/"">",div.ant-col > div.ant-col > div.ant-col > a.gfg_home_page_gBlogHeading,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.32 (foreground color: #797980, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<span class=""gfg_home_page_course_level_color"" style=""padding-left: 8px;"">",div.ant-col > div.ant-row > div > span.gfg_home_page_course_level_color
+  Element has insufficient color contrast of 4.32 (foreground color: #797980, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<span class=""gfg_home_page_course_level_color"" style=""padding-left: 8px;"">",div.ant-col > div.ant-row > div > span.gfg_home_page_course_level_color,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1","<div class=""ant-row gfg_home_page_potd_banner_title"">",div.ant-row > div.ant-col > div.ant-col > div.ant-row
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1","<div class=""ant-row gfg_home_page_potd_banner_title"">",div.ant-row > div.ant-col > div.ant-col > div.ant-row,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/list-of-hobbies-and-interests-for-resume"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/what-to-wear-to-an-interview-women-and-men"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.18 (foreground color: #2f8d46, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<div class=""ant-col"" style=""padding-left: 0px; padding-right: 0px;"">",div.ant-row > div.ant-col > a > div.ant-col
+  Element has insufficient color contrast of 4.18 (foreground color: #2f8d46, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<div class=""ant-col"" style=""padding-left: 0px; padding-right: 0px;"">",div.ant-row > div.ant-col > a > div.ant-col,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/chatgpt-vs-google-bard-top-differences-that-…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/best-ai-businesses-to-start-with-chatgpt"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/best-linux-desktop-environments"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/list-of-hobbies-and-interests-for-resume"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/find-minimum-number-of-laptops-required"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/tenneco-us-interview-experience-for-pm-intern"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/optimal-array"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/increff-interview-experience-for-data-engine…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/find-the-minimum-operations-required-to-type…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/paytm-interview-experience-for-backend-devel…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/kth-maximum-level-sum"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/tiaa-gb-interview-experience-for-internship-…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/disease-causing-by-microorganisms"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/intuit-interview-experience-for-summer-inter…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/distinct-substring-frequency-counter"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/infosys-hackwithinfy-interview-experience-fo…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/find-maximum-and-minimum-cost-to-reach-the-l…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/multiple-class-constructors-in-javascript"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/amazon-interview-experience-for-sde-1-30"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/sort-a-string-alphabetically-using-a-functio…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/how-to-perform-intersection-of-two-sets-in-j…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/how-to-clone-an-array-in-javascript"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/how-to-get-the-uninon-of-two-sets-in-javascr…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/trade-payable-turnover-ratio-meaning-formula…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/different-ways-to-delete-an-item-from-an-arr…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/how-to-control-deficient-demand"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/traversal-of-binary-search-tree-in-downward-…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/how-to-control-excess-demand"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/different-ways-to-populate-an-array-in-javas…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/what-are-the-different-measures-to-control-e…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/what-is-the-most-efficient-way-to-create-a-z…"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/what-is-cyclic-graph"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/how-to-create-popup-box-using-html-and-css"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/what-is-directed-graph-directed-graph-meaning"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",<li>,div.footer-wrapper > div.footer-wrapper_links > ul.footer-wrapper_links-list > li
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",<li>,div.footer-wrapper > div.footer-wrapper_links > ul.footer-wrapper_links-list > li,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""link-head"" href=""https://news.geeksforgeeks.org/?ref=footer"">",div.footer-wrapper_links > ul.footer-wrapper_links-list > li > a.link-head
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""link-head"" href=""https://news.geeksforgeeks.org/?ref=footer"">",div.footer-wrapper_links > ul.footer-wrapper_links-list > li > a.link-head,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #ffffff, background color: #308d46, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/"" rel=""noopener noreferrer"" target=""_blank"">",footer#gfg-footer > div.footer-strip > div.copyright > a
+  Element has insufficient color contrast of 4.17 (foreground color: #ffffff, background color: #308d46, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/"" rel=""noopener noreferrer"" target=""_blank"">",footer#gfg-footer > div.footer-strip > div.copyright > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.17 (foreground color: #ffffff, background color: #308d46, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/copyright-information/"">",div.footer-strip > div.copyright > span > a
+  Element has insufficient color contrast of 4.17 (foreground color: #ffffff, background color: #308d46, font size: 11.0pt (14.6667px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/copyright-information/"">",div.footer-strip > div.copyright > span > a,cat.color
 serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 4.23 (foreground color: #a9a5a5, background color: #3c404d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",<u>,div.cookie-consent > span.cookie-text > a > u
-critical,best-practice,"Fix any of the following:
-  maximum-scale on <meta> tag disables zooming on mobile devices","<meta name=""viewport"" content=""width=device-width,initial-scale=1,maximum-scale=1"">",head > meta
-critical,wcag412,"Fix any of the following:
-  Element does not have inner text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""gcse-search__btn not-expanded"">",ul.header-main__left-list > li.header-main__left-list-item > form#gcse-form > button.gcse-search__btn
-critical,wcag412,"Fix any of the following:
-  Element does not have inner text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""toggle-darkMode"" data-gfg-action=""toggleGFGTheme"">",div.header-sidebar__wrapper > div.mobile_translate > div > button.toggle-darkMode
-critical,wcag412,"Fix any of the following:
-  Element does not have inner text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""header-main__slider-arrow previous"">",body.blog > div.header-main__slider > button.header-main__slider-arrow
-critical,wcag412,"Fix any of the following:
-  Element does not have inner text that is visible to screen readers
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""header-main__slider-arrow next"">",body.blog > div.header-main__slider > button.header-main__slider-arrow
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_search_image"" src=""https://media.geeksforgeeks.org/auth-dashboard-uploads/image-%2822%29.png"">",div.ant-card-cover > div.ant-row > div.ant-col > img.gfg_home_page_search_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_search_image"" src=""https://media.geeksforgeeks.org/auth-dashboard-uploads/image-%2821%29.png"">",div.ant-card-cover > div.ant-row > div.ant-col > img.gfg_home_page_search_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_search_image"" src=""https://media.geeksforgeeks.org/auth-dashboard-uploads/image-%2823%29.png"">",div.ant-card-cover > div.ant-row > div.ant-col > img.gfg_home_page_search_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_carousel_image"" src=""https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201216211829/100-…"" style=""object-fit: cover;"">",a > div.ant-row > div.ant-col > img.gfg_home_page_carousel_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/Java-backend-live-thum…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_visit_count_image"" src=""https://media.geeksforgeeks.org/img-practice/Group7622-1669294650.svg"">",div.ant-col > div.ant-row > div > img.gfg_home_page_course_visit_count_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_rating_image"" src=""https://media.geeksforgeeks.org/img-practice/Path4648-1641537423.svg"">",div.ant-col > div.ant-row > div.gfg_home_page_course_card_rating > img.gfg_home_page_course_rating_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_level_image"" src=""https://media.geeksforgeeks.org/img-practice/Levels-1669283463.svg"">",div.ant-col > div.ant-row > div > img.gfg_home_page_course_level_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/devops-live-thumbnail.…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/dsa-self-paced-thumbna…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/Data-Structures-With-P…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/geeks-classes-live-thu…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_course_card_image"" src=""https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbn…"">",div.ant-card > div.ant-card-cover > div.gfg_home_page_course_card_cover > img.gfg_home_page_course_card_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""ant-image-img gfg_home_page_potd_image gfg_home_page_potd_image_small"" src=""https://media.geeksforgeeks.org/img-practice/Asset1-1641910145.svg"">",div.ant-col > div.ant-row > div.ant-image > img.ant-image-img
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_video_image"" src=""https://videocdn.geeksforgeeks.org/geeksforgeeks/HowtoAnswerTellMeAboutYou…"">",div.ant-card > div.ant-card-cover > div > img.gfg_home_page_video_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_video_image"" src=""https://videocdn.geeksforgeeks.org/geeksforgeeks/ThisiswhyyourResumegetsRe…"">",div.ant-card > div.ant-card-cover > div > img.gfg_home_page_video_image
-critical,wcag111,"Fix any of the following:
-  Element does not have an alt attribute
-  aria-label attribute does not exist or is empty
-  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-  Element has no title attribute
-  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img class=""gfg_home_page_video_image"" src=""https://videocdn.geeksforgeeks.org/geeksforgeeks/5DSAProjectsforyourResume…"">",div.ant-card > div.ant-card-cover > div > img.gfg_home_page_video_image
+  Element has insufficient color contrast of 4.23 (foreground color: #a9a5a5, background color: #3c404d, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",<u>,div.cookie-consent > span.cookie-text > a > u,cat.color

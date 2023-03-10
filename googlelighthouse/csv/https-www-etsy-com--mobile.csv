@@ -1,5 +1,5 @@
-type,code,message,context,selector
+type,code,message,context,selector,category
 serious,best-practice,"Fix any of the following:
-  Element has a tabindex greater than 0","<a data-selector=""skip-to-content-marketplace"" class=""global-enhancements-skip-to-content wt-screen-reader-only wt-focusable"" tabindex=""1"" href=""#content"">",body.ui-toolkit > div#gnav-header > header#gnav-header-inner > a.global-enhancements-skip-to-content
+  Element has a tabindex greater than 0","<a data-selector=""skip-to-content-marketplace"" class=""global-enhancements-skip-to-content wt-screen-reader-only wt-focusable"" tabindex=""1"" href=""#content"">",body.ui-toolkit > div#gnav-header > header#gnav-header-inner > a.global-enhancements-skip-to-content,cat.keyboard
 critical,wcag412,"Fix any of the following:
-  ARIA attribute is not allowed: aria-expanded=""false""","<div class=""wt-input-btn-group global-enhancements-search-input-btn-group wt-menu__tri…"" aria-expanded=""false"" data-id=""search-suggestions-trigger"">",div.wt-display-inline-block > form#gnav-search > div.wt-menu > div.wt-input-btn-group
+  ARIA attribute is not allowed: aria-expanded=""false""","<div class=""wt-input-btn-group global-enhancements-search-input-btn-group wt-menu__tri…"" aria-expanded=""false"" data-id=""search-suggestions-trigger"">",div.wt-display-inline-block > form#gnav-search > div.wt-menu > div.wt-input-btn-group,cat.aria

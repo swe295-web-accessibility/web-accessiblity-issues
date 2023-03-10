@@ -1,0 +1,17 @@
+type,code,message,context,selector,category,context_x,context_y
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.18 (foreground color: #ffffff, background color: #2f8d46, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1",<span>,span.ant-input-wrapper > span.ant-input-group-addon > button.ant-btn > span,cat.color,,
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/what-to-wear-to-an-interview-women-and-men"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color,,
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.18 (foreground color: #2f8d46, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<div class=""ant-col"" style=""padding-left: 0px; padding-right: 0px;"">",div.ant-row > div.ant-col > a > div.ant-col,cat.color,,
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1","<button data-gfg-action=""login-modal"">",div.shell-container > div.shell-container_content > div.shell-container_actions > button,cat.color,,
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.17 (foreground color: #ffffff, background color: #308d46, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1","<button data-gfg-action=""register-modal"">",div.shell-container > div.shell-container_content > div.shell-container_actions > button,cat.color,,
+critical,wcag412,"Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button data-gfg-action=""toggleGFGTheme"">",body.blog > div.darkMode-wrap > button,cat.name-role-value,,

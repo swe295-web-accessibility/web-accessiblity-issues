@@ -1,0 +1,11 @@
+type,code,message,context,selector,category,context_x,context_y
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide32"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide32,cat.name-role-value,,
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide34"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide34,cat.name-role-value,,
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide42"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide42,cat.name-role-value,,
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""3"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide43"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide43,cat.name-role-value,,
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide44"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide44,cat.name-role-value,,

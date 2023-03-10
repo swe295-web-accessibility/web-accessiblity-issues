@@ -1,13 +1,17 @@
-type,code,message,context,selector
+type,code,message,context_x,selector,category,context_y
 serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots,cat.structure,"<ul class=""slick-dots"" style=""display: block;"">"
 serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.row > div.feature-carousel-container > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots,cat.structure,"<ul class=""slick-dots"" style="""">"
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide36"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide36,cat.name-role-value,"<div class=""featured-product slick-slide"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide36"" style=""width: 232px;"">"
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide39"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide39,cat.name-role-value,"<div class=""featured-product slick-slide"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide39"" style=""width: 232px;"">"
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide45"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide45,cat.name-role-value,"<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide45"" style=""width: 232px;"">"
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide47"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide47,cat.name-role-value,"<div class=""featured-product slick-slide"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide47"" style=""width: 232px;"">"
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide48"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide48,cat.name-role-value,"<div class=""featured-product slick-slide"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide48"" style=""width: 232px;"">"
+serious,"wcag412,wcag131","Fix all of the following:
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide55"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide55,cat.name-role-value,"<div class=""featured-product slick-slide"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide55"" style=""width: 232px;"">"

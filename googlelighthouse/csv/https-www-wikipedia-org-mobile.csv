@@ -1,3 +1,3 @@
-type,code,message,context,selector
+type,code,message,context,selector,category
 critical,"wcag412,wcag131","Fix all of the following:
-  Form element has explicit <label> that is hidden","<input id=""searchInput"" name=""search"" type=""search"" size=""20"" autofocus=""autofocus"" accesskey=""F"" dir=""auto"" autocomplete=""off"" style=""padding-right: 64px;"">",form#search-form > fieldset > div#search-input > input#searchInput
+  Form element has explicit <label> that is hidden","<input id=""searchInput"" name=""search"" type=""search"" size=""20"" autofocus=""autofocus"" accesskey=""F"" dir=""auto"" autocomplete=""off"" style=""padding-right: 64px;"">",form#search-form > fieldset > div#search-input > input#searchInput,cat.forms

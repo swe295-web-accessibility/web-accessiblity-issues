@@ -1,0 +1,3 @@
+type,code,message,context,selector,category,context_x,context_y
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.68 (foreground color: #ffffff, background color: #309843, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",<p>,div.content > div.copy-container > div.title-container > p,cat.color,,

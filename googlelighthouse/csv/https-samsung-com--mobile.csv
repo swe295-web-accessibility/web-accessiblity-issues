@@ -1,20 +1,18 @@
-type,code,message,context,selector
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 3.45 (foreground color: #2189ff, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<button class=""cookie-bar__desc-read-more-btn"" style=""display: block;"">",div.cookie-bar__wrap > div.cookie-bar__msg-wrap > div.cookie-bar__msg > button.cookie-bar__desc-read-more-btn
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""samsung.com/shop"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/business/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href="" https://attnl.tv/t/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://attnl.tv/p/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a
-serious,wcag143,"Fix any of the following:
-  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",div > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link
+type,code,message,context,selector,category
 serious,wcag412,"Fix all of the following:
   aria-label attribute cannot be used on a div with no valid role attribute.","<div id=""ae_app"" data-nosnippet="""" aria-label=""AudioEye.layoutHelpers.push(function(ele){
-// [PI-13598] - mutation perfor…"">",body.ae-lang-en > div#ae_app
+// [PI-13598] - mutation perfor…"">",body.ae-lang-en > div#ae_app,cat.aria
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 3.45 (foreground color: #2189ff, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<button class=""cookie-bar__desc-read-more-btn"" style=""display: block;"">",div.cookie-bar__wrap > div.cookie-bar__msg-wrap > div.cookie-bar__msg > button.cookie-bar__desc-read-more-btn,cat.color
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a,cat.color
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a class=""disclaimer__show__link"" role=""presentation"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a.disclaimer__show__link,cat.color
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""samsung.com/shop"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a,cat.color
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""/us/business/"">",div.disclaimer__accordian__container > div.disclaimer__row > div.disclaimer__show > a,cat.color
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href="" https://attnl.tv/t/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a,cat.color
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 2.73 (foreground color: #20a2ff, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://attnl.tv/p/QAP"" target=""_blank"" aria-describedby=""audioeye_new_window_message"">",div > div.disclaimer__row > div.disclaimer__show > a,cat.color

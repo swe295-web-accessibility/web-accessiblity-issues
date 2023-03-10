@@ -1,87 +1,27 @@
-type,code,message,context,selector
+type,code,message,context,selector,category
 serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_1_content > div.feature-carousel > ul.slick-dots,cat.structure
 serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_2_content > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.container-fluid > div#Home_Product_Carousel_3_content > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style=""display: block;"">",div.row > div.feature-carousel-container > div.feature-carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots
-serious,wcag131,"Fix all of the following:
-  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Carousel > ul.slick-dots
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide02","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide02"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide02
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide03","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""3"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide03"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide03
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide04","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide04"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide04
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide05","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide05"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide05
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide06","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide06"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide06
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide07","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide07"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide07
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide08","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide08"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide08
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide09","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide09"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide09
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control00","<button type=""button"" id=""slick-slide-control00"" aria-label=""featured content 1 of 5"" aria-current=""true"" tabindex=""0"">",div.feature-carousel > ul.slick-dots > li.slick-active > button#slick-slide-control00
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control01","<button type=""button"" id=""slick-slide-control01"" aria-label=""featured content 2 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control01
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control02","<button type=""button"" id=""slick-slide-control02"" aria-label=""featured content 3 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control02
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control03","<button type=""button"" id=""slick-slide-control03"" aria-label=""featured content 4 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control03
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control04","<button type=""button"" id=""slick-slide-control04"" aria-label=""featured content 5 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control04
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide12","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide12"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide12
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide13","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""3"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide13"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide13
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide14","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide14"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide14
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide15","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide15"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide15
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide16","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide16"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide16
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide17","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide17"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide17
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide18","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide18"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide18
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide19","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide19"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide19
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control10","<button type=""button"" id=""slick-slide-control10"" aria-label=""featured content 1 of 5"" aria-current=""true"" tabindex=""0"">",div.feature-carousel > ul.slick-dots > li.slick-active > button#slick-slide-control10
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control11","<button type=""button"" id=""slick-slide-control11"" aria-label=""featured content 2 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control11
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control12","<button type=""button"" id=""slick-slide-control12"" aria-label=""featured content 3 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control12
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control13","<button type=""button"" id=""slick-slide-control13"" aria-label=""featured content 4 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control13
-serious,wcag411,"Fix any of the following:
-  Document has active elements with the same id attribute: slick-slide-control14","<button type=""button"" id=""slick-slide-control14"" aria-label=""featured content 5 of 5"" aria-current=""false"">",div.feature-carousel > ul.slick-dots > li > button#slick-slide-control14
+  List element has direct children with a role that is not allowed: presentation","<ul class=""slick-dots"" style="""">",div#viewHome-Upper-Carousel > div.container-fluid > div#rm-prodgroup-viewHome-Upper-Carousel > ul.slick-dots,cat.structure
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide02"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide02
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide32"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide32,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide04"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide04
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide34"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide34,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide06"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide06
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""6"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide36"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide36,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide09"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide09
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""9"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide39"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide39,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide12"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide12
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""2"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide42"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide42,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""3"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide13"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide13
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""3"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide43"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide43,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide14"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide14
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""4"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide44"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide44,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide15"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide15
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide45"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide45,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide17"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide17
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""7"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide47"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide47,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide18"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide18
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""8"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide48"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide48,cat.name-role-value
 serious,"wcag412,wcag131","Fix all of the following:
-  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide25"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide25
+  Focusable content should have tabindex='-1' or be removed from the DOM","<div class=""featured-product slick-slide"" style=""width: 155px;"" data-slick-index=""5"" aria-hidden=""true"" tabindex=""-1"" id=""slick-slide55"">",div.feature-carousel > div.slick-list > div.slick-track > div#slick-slide55,cat.name-role-value

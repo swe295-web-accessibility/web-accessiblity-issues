@@ -33,11 +33,10 @@ def get_info_website(url: str):
     # test_api(url, f'./metadata/{file_name}-desktop_meta.json', 'desktop')
     # calculate_overall(f'./metadata/{file_name}-mobile_meta.json', f'./processed/{file_name}-mobile_processed.json')
     # calculate_overall(f'./metadata/{file_name}-desktop_meta.json', f'./processed/{file_name}-desktop_processed.json')
-    # # type,code,message,context,selector
+    # # # type,code,message,context,selector
     # print("Storing results as csv files")
     # json2csv(f'./processed/{file_name}-desktop_processed.json', f'./csv/{file_name}-desktop.csv')
     # json2csv(f'./processed/{file_name}-mobile_processed.json', f'./csv/{file_name}-mobile.csv')
-    # print("Comparing Results")
     compare_mobile_desktop(f'./csv/{file_name}-mobile.csv', f'./csv/{file_name}-desktop.csv', url)
 
 
@@ -47,7 +46,8 @@ def json2csv(file_path: str, csv_file: str):
         "code": [],
         "message": [],
         "context": [],
-        "selector": []
+        "selector": [],
+        "category": []
     }
     problem = json.load(open(file_path, 'r'))['problem']
     for k, v in problem.items():
@@ -57,6 +57,7 @@ def json2csv(file_path: str, csv_file: str):
             except_set = {"ACT", "wcag2a", "wcag2aa"}
             code = ','.join(
                 c for c in tags if not (c.startswith("cat") or c.startswith("section508") or c in except_set))
+            cat = "".join(c for c in tags if c.startswith("cat"))
             items: List = v1['details']['items']
             for it in items:
                 if it.__contains__('node'):
@@ -65,6 +66,7 @@ def json2csv(file_path: str, csv_file: str):
                     df_data['message'].append(it['node']['explanation'])
                     df_data['context'].append(it['node']['snippet'])
                     df_data['selector'].append(it['node']['selector'])
+                    df_data['category'].append(cat)
                 else:
                     ittems = it['subItems']['items']
                     for i in ittems:
@@ -73,6 +75,7 @@ def json2csv(file_path: str, csv_file: str):
                         df_data['message'].append(i['relatedNode']['nodeLabel'])
                         df_data['context'].append(i['relatedNode']['snippet'])
                         df_data['selector'].append(it['relatedNode']['selector'])
+                        df_data['category'].append(cat)
 
     df = pd.DataFrame(df_data)
     df.drop_duplicates(subset=['type', 'code', 'message', 'context'], inplace=True)
@@ -173,9 +176,15 @@ def path2XPath(pth_str: str):
 def compare_mobile_desktop(mobile: str, desktop: str, url: str):
     df1 = pd.read_csv(mobile)
     df2 = pd.read_csv(desktop)
-    df_inter = pd.merge(df1, df2, how='inner', on=['type', 'code', 'message', 'context', 'selector'])
+    df1.drop_duplicates(['type', 'code', 'message', 'selector', 'category'], inplace=True)
+    cat1 = df1['category'].value_counts().to_dict()
+    df2.drop_duplicates(['type', 'code', 'message', 'selector', 'category'], inplace=True)
+    cat2 = df2['category'].value_counts().to_dict()
+    df_inter = pd.merge(df1, df2, how='inner', on=['type', 'code', 'message', 'selector', 'category'])
+    cat_inter = df_inter['category'].value_counts().to_dict()
     df_union = pd.concat([df1, df2], ignore_index=True)
-    df_union.drop_duplicates(['type', 'code', 'message', 'context', 'selector'], inplace=True)
+    df_union.drop_duplicates(['type', 'code', 'message', 'selector', 'category'], inplace=True)
+    cat_union = df_union['category'].value_counts().to_dict()
     print(f"====================================================")
     print(f"|                                                  |")
     print(f"|   Comparing results between Desktop and Mobile   |")
@@ -195,6 +204,16 @@ def compare_mobile_desktop(mobile: str, desktop: str, url: str):
     print(f"The number of the problems that are unique in desktop: {df2.shape[0] - df_inter.shape[0]}")
     report['Number of issues that appear only on Desktop'] = df2.shape[0] - df_inter.shape[0]
     report['Intersection over Union'] = 0 if df_union.shape[0] == 0 else df_inter.shape[0] * 1.0 / df_union.shape[0]
+    report['Category in Mobile'] = cat1
+    report['Category in Desktop'] = cat2
+    report['Category in Intersection'] = cat_inter
+    report['Category in Union'] = cat_union
+    mob = pd.concat([df1, df_inter], ignore_index=True).drop_duplicates(['type', 'code', 'message', 'selector'],
+                                                                        keep=False)
+    desk = pd.concat([df2, df_inter], ignore_index=True).drop_duplicates(['type', 'code', 'message', 'selector'],
+                                                                         keep=False)
+    mob.to_csv(f"./csv/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-mob-unique.csv", index=False)
+    desk.to_csv(f"./csv/{url.replace('://', '-').replace('/', '-').replace('.', '-')}-desk-unique.csv", index=False)
 
 
 def base64_to_image(base64_string: str):
@@ -215,7 +234,11 @@ if __name__ == '__main__':
             "Number of Union issues": 0,
             "Number of issues that appear only on Desktop": 0,
             "Number of issues that appear only on Mobile": 0,
-            "Intersection over Union": 0
+            "Intersection over Union": 0,
+            "Category in Mobile": {},
+            "Category in Desktop": {},
+            "Category in Intersection": {},
+            "Category in Union": {},
         }
         get_info_website(u)
         reports.append(report)

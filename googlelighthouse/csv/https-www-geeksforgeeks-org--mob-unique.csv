@@ -1,0 +1,9 @@
+type,code,message,context,selector,category,context_x,context_y
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.18 (foreground color: #ffffff, background color: #2f8d46, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",<span>,span.ant-input-wrapper > span.ant-input-group-addon > button.ant-btn > span,cat.color,,
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1","<div class=""ant-row gfg_home_page_potd_banner_title"">",div.ant-row > div.ant-col > div.ant-col > div.ant-row,cat.color,,
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.17 (foreground color: #308d46, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://www.geeksforgeeks.org/what-to-wear-to-an-interview-women-and-men"" style=""color: var(--color-gfg);"">",div.ant-card-meta-detail > div.ant-card-meta-description > div.gfg_home_page_article_description > a,cat.color,,
+serious,wcag143,"Fix any of the following:
+  Element has insufficient color contrast of 4.18 (foreground color: #2f8d46, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<div class=""ant-col"" style=""padding-left: 0px; padding-right: 0px;"">",div.ant-row > div.ant-col > a > div.ant-col,cat.color,,

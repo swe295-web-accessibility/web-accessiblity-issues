@@ -1,25 +1,31 @@
-type,code,message,context,selector
+type,code,message,context,selector,category
+critical,wcag412,"Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<button class=""wt-btn wt-btn--transparent wt-btn--icon wt-btn--small wt-video__button"" data-selector=""wt-video-button"">",div.placeholder > div.placeholder-content > div.wt-video > button.wt-btn,cat.name-role-value
+critical,wcag412,"Fix any of the following:
+  ARIA attribute is not allowed: aria-expanded=""false""","<div class=""wt-input-btn-group global-enhancements-search-input-btn-group wt-menu__tri…"" aria-expanded=""false"" data-id=""search-suggestions-trigger"">",div.wt-display-inline-block > form#gnav-search > div.wt-menu > div.wt-input-btn-group,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-10855"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-10855,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-10923"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-10923,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-891"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-891,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-10983"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-10983,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-11049"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-11049,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-66"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-66,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-562"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-562,cat.aria
+critical,wcag131,"Fix any of the following:
+  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link--10"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link--10,cat.aria
 moderate,best-practice,"Fix any of the following:
   Heading order invalid","<h3 class=""wt-text-caption v2-listing-card__title
             wt-text-truncate
-      …"">",a.listing-link > div.v2-listing-card__info > div > h3.wt-text-caption
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-10855"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-10855
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-10923"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-10923
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-891"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-891
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-10983"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-10983
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-11049"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-11049
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-66"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-66
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link-562"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link-562
-critical,wcag131,"Fix any of the following:
-  Required ARIA parents role not present: menu, menubar, group","<span id=""catnav-primary-link--10"" class=""wt-text-black"" role=""menuitem"" aria-haspopup=""true"" tabindex=""0"">",ul.wt-list-unstyled > li.top-nav-item > a.wt-text-link-no-underline > span#catnav-primary-link--10
-critical,wcag412,"Fix any of the following:
-  ARIA attribute is not allowed: aria-expanded=""false""","<div class=""wt-input-btn-group global-enhancements-search-input-btn-group wt-menu__tri…"" aria-expanded=""false"" data-id=""search-suggestions-trigger"">",div.wt-display-inline-block > form#gnav-search > div.wt-menu > div.wt-input-btn-group
+      …"">",a.listing-link > div.v2-listing-card__info > div > h3.wt-text-caption,cat.semantics
 serious,best-practice,"Fix any of the following:
-  Element has a tabindex greater than 0","<a data-selector=""skip-to-content-marketplace"" class=""global-enhancements-skip-to-content wt-screen-reader-only wt-focusable"" tabindex=""1"" href=""#content"">",body.ui-toolkit > div#gnav-header > header#gnav-header-inner > a.global-enhancements-skip-to-content
+  Element has a tabindex greater than 0","<a data-selector=""skip-to-content-marketplace"" class=""global-enhancements-skip-to-content wt-screen-reader-only wt-focusable"" tabindex=""1"" href=""#content"">",body.ui-toolkit > div#gnav-header > header#gnav-header-inner > a.global-enhancements-skip-to-content,cat.keyboard

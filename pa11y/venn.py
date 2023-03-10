@@ -15,11 +15,14 @@ class Issue:
         self.runnerExtras = runnerExtras
     
     def __repr__(self):
-        return "Issue(%s, %s)" % (self.code, self.context)
+        return "Issue(%s, %s, %s)" % (self.typeCode, self.code, self.context)
 
     def __eq__(self, other):
         if isinstance(other, Issue):
-            return ((self.code == other.code) and (self.context == other.context))
+            return ((self.typeCode == other.typeCode) 
+                    and (self.code == other.code) 
+                    and (self.context == other.context)
+                    and (self.selector == other.selector))
         else:
             return False
         
@@ -51,11 +54,10 @@ def plotVennDiagram(n, results):
     axes = [plt.subplot2grid((3,3), c) for c in coordinates]
 
     for ax, sample in zip(axes, samples):
-        # Venn Diagram Set data
-        set1 = set(sample.desktops.issues)
-        set2 = set(sample.mobiles.issues)
-        v = venn2(subsets=[set1, set2], set_labels=('Desktop', 'Mobile'), ax=ax)
 
+        desktopOnly = set(sample.desktops.issues) - set(sample.intersections.issues)
+        mobileOnly = set(sample.mobiles.issues) - set(sample.intersections.issues)        
+        v = venn2(subsets = (len(desktopOnly), len(mobileOnly), len(sample.intersections.issues)), set_labels=('Desktop', 'Mobile'), ax=ax)
         # Design
         v.get_patch_by_id('10').set_color('red')
         v.get_patch_by_id('01').set_color('blue')
@@ -63,9 +65,8 @@ def plotVennDiagram(n, results):
         v.get_patch_by_id('01').set_edgecolor('none')
         v.get_patch_by_id('10').set_alpha(0.4)
         v.get_patch_by_id('01').set_alpha(0.4)
-        v.get_patch_by_id('11').set_color('#e098e1')
-        v.get_patch_by_id('11').set_edgecolor('none')
-        v.get_patch_by_id('11').set_alpha(0.4)
+        v.get_patch_by_id('C').set_color('#e098e1')
+        v.get_patch_by_id('C').set_alpha(0.4)
         ax.title.set_text(f"{sample.url} IoU {round(len(sample.intersections.issues) / len(sample.union.issues), 2)}")
 
     plt.show()
@@ -74,7 +75,7 @@ f = open('pa11yResult.json')
 data = json.load(f)
 
 results = []
-for obj in data['results']:
+for obj in data['results'][1:]:
     res = Result(url = obj["url"], desktops=obj["desktop"], mobiles=obj["mobile"], intersections=obj["intersection"], union=obj["union"])
     results.append(res)
 f.close()

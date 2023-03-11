@@ -1,10 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 03/10/2023
+# @Author  : lethal233
+# @Site    : github.com/lethal233
+# @File    : venn.py
+
 import json
 
 import matplotlib.pyplot as plt
-import numpy as np
 from matplotlib_venn import venn2
 import pandas as pd
-import matplotlib as mpl
+from deprecated.sphinx import deprecated
 
 
 class Issue:
@@ -29,6 +35,11 @@ class Issue:
 
 
 def read_(csv_file: str):
+    """
+    read csv data and transform it into Issue object
+    :param csv_file:
+    :return: a set of Issue objects
+    """
     data = pd.read_csv(csv_file)
     data.drop_duplicates(['type', 'code', 'message', 'selector'], inplace=True)
     issues = []
@@ -39,7 +50,14 @@ def read_(csv_file: str):
     return issues
 
 
+@deprecated(version='1.0', reason="This function is not used")
 def draw_pie():
+    """
+    draw category pie chart of IoU of each website,
+    google lighthouse has a tag: "cat.xxxx",
+    we assume that "xxxx" is the category of this issue
+    :return:
+    """
     with open("./report-gl.json", 'r') as f:
         report = json.load(f)
     for i in report['Web Pages']:
@@ -88,11 +106,14 @@ def draw_pie():
                 axs[j, k].pie(df[j * 2 + k][0], labels=df[j * 2 + k][1], autopct='%.2f%%')
                 axs[j, k].set_title(df[j * 2 + k][2])
         plt.suptitle(f"Categories of Issues in {u}")
-        # plt.show()
         plt.savefig(f'./fig/{u.replace("://", "-").replace("/", "-").replace(".", "-")}.jpg')
 
 
 def draw_venn():
+    """
+    draw the venn diagram of each website in terms of IoU
+    :return:
+    """
     with open("../url_list.json", 'r') as f:
         url_list = json.load(f)
     dfs = []
@@ -127,8 +148,8 @@ def draw_venn():
         finally:
             ax.title.set_text(
                 f"{sample[2]} IoU {round(len(set1.intersection(set2)) / len(set1.union(set2)), 2) if len(set1.union(set2)) != 0 else 0}")
-    plt.show()
+    plt.savefig(f'./fig/venn-gl.jpg')
 
 
 if __name__ == '__main__':
-    draw_pie()
+    draw_venn()
